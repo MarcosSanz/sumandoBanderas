@@ -2,25 +2,33 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 // Rutas
-import { APP_ROUTING } from './app.routes'
+import { APP_ROUTES } from './app.routes';
 
 import { AppComponent } from './app.component';
 import { CronicaComponent } from './componentes/cronica/cronica.component';
-import { PortadaComponent } from './paginas/portada/portada.component';
 import { MenuComponent } from './menu/menu/menu.component';
 import { ErrorComponent } from './paginas/error/error.component';
+import { CarruselComponent } from './componentes/carrusel/carrusel.component';
+import { PaginasComponent } from './paginas/paginas.component';
+import { BerlinComponent } from './paginas/berlin/berlin.component';
+import { Berlin1Component } from './paginas/berlin/berlin1/berlin1.component';
+import { SiciliaComponent } from './paginas/sicilia/sicilia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CronicaComponent,
-    PortadaComponent,
+    PaginasComponent,
     MenuComponent,
-    ErrorComponent
+    ErrorComponent,
+    CarruselComponent,
+    BerlinComponent,
+    SiciliaComponent,
+    Berlin1Component
   ],
   imports: [
     BrowserModule,
-    APP_ROUTING
+    APP_ROUTES
   ],
   providers: [],
   bootstrap: [AppComponent]
