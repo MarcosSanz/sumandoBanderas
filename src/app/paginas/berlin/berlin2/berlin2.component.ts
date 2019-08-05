@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Berlin2Component implements OnInit {
 
+  imagen1 = '../../../assets/imagenes/galeriaBerlin/IMG_2096.JPG';
+  imagen2 = '../../../assets/imagenes/galeriaBerlin/IMG_2025.JPG';
+
   constructor() { }
 
   ngOnInit() {

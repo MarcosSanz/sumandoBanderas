@@ -11,6 +11,7 @@ import { Berlin4Component } from './berlin/berlin4/berlin4.component';
 import { Berlin5Component } from './berlin/berlin5/berlin5.component';
 import { SiciliaComponent } from './sicilia/sicilia.component';
 import { CarruselComponent } from '../componentes/carrusel/carrusel.component';
+import { ModalFotoComponent } from '../componentes/modal-foto/modal-foto.component';
 
 @NgModule({
   declarations: [
@@ -22,10 +23,12 @@ import { CarruselComponent } from '../componentes/carrusel/carrusel.component';
     Berlin4Component,
     Berlin5Component,
     SiciliaComponent,
-    CarruselComponent
+    CarruselComponent,
+    ModalFotoComponent
   ],
   exports: [
     CarruselComponent,
+    ModalFotoComponent
   ],
   imports: [
     PAGINAS_ROUTES
