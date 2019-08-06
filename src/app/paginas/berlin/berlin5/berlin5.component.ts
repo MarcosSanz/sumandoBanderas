@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Berlin5Component implements OnInit {
 
+  anterior = 'Potsdam y Berlín de noche';
+  anteriorDonde = '/berlin-dia-4';
+
   constructor() { }
 
   ngOnInit() {

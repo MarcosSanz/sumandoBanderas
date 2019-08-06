@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Berlin1Component implements OnInit {
 
+  siguiente = 'Treptower Park, East Side Galery, CheckPoint Charlie, Topografia del Terror';
+  siguienteDonde = '/berlin-dia-2';
+
   constructor() { }
 
   ngOnInit() {

@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Berlin4Component implements OnInit {
 
+  siguiente = 'Campo de concentración, Sachsenhausen';
+  siguienteDonde = '/berlin-dia-5';
+  anterior = 'Centro de Berlín, isla de los museos, barrio judío';
+  anteriorDonde = '/berlin-dia-3';
+
   constructor() { }
 
   ngOnInit() {

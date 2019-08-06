@@ -14,7 +14,6 @@ export class ModalFotoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log('imagen modal: ', this.imagenModal);
   }
 
 }

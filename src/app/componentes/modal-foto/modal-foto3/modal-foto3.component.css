@@ -1,0 +1,12 @@
+.rounded-circle {
+  max-width: 150px;
+  height: 150px;
+}
+
+.rounded-circle:hover {
+  filter: saturate(180%);
+}
+
+img {
+  max-width: 100%;
+}
