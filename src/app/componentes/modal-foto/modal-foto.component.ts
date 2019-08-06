@@ -8,11 +8,13 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ModalFotoComponent implements OnInit {
 
   @Input() imagen: string;
+  @Input() titulo: string;
   @Input() imagenModal: string;
 
   constructor() { }
 
   ngOnInit() {
+    console.log('imagen modal: ', this.imagenModal);
   }
 
 }
