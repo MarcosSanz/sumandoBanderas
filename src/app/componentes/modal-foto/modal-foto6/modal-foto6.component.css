@@ -1,6 +1,13 @@
 .rounded-circle {
-  max-width: 150px;
+  width: 150px;
   height: 150px;
+}
+
+@media (max-width: 768px) {
+  .rounded-circle{
+    width: 125px;
+    height: 125px;
+  }
 }
 
 .rounded-circle:hover {

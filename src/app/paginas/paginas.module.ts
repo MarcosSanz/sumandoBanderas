@@ -20,6 +20,8 @@ import { Berlin3Component } from './berlin/berlin3/berlin3.component';
 import { Berlin4Component } from './berlin/berlin4/berlin4.component';
 import { Berlin5Component } from './berlin/berlin5/berlin5.component';
 import { SiciliaComponent } from './sicilia/sicilia.component';
+import { NuevaYorkComponent } from './nueva-york/nueva-york.component';
+import { Ny1Component } from './nueva-york/ny1/ny1.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { SiciliaComponent } from './sicilia/sicilia.component';
     ModalFoto4Component,
     ModalFoto5Component,
     ModalFoto6Component,
-    CardsComponent
+    CardsComponent,
+    NuevaYorkComponent,
+    Ny1Component
   ],
   exports: [
     CarruselComponent

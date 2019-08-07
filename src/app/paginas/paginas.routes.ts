@@ -13,6 +13,11 @@ import { Berlin5Component } from './berlin/berlin5/berlin5.component';
 // Sicilia
 import { SiciliaComponent } from './sicilia/sicilia.component';
 
+// Nueva York y Washington
+import { NuevaYorkComponent } from './nueva-york/nueva-york.component';
+import { Ny1Component } from './nueva-york/ny1/ny1.component';
+
+
 const paginasRoutes: Routes = [
   {
     path: '',
@@ -28,6 +33,10 @@ const paginasRoutes: Routes = [
 
       // Sicilia
       { path: 'sicilia', component: SiciliaComponent },
+
+      // Nueva York y Washington
+      { path: 'nueva-york', component: NuevaYorkComponent },
+      { path: 'ny1', component: Ny1Component },
 
       { path: '', redirectTo: '/portada', pathMatch: 'full' }
     ]
