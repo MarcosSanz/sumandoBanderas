@@ -11,6 +11,7 @@ import { ModalFoto3Component } from '../componentes/modal-foto/modal-foto3/modal
 import { ModalFoto4Component } from '../componentes/modal-foto/modal-foto4/modal-foto4.component';
 import { ModalFoto5Component } from '../componentes/modal-foto/modal-foto5/modal-foto5.component';
 import { ModalFoto6Component } from '../componentes/modal-foto/modal-foto6/modal-foto6.component';
+import { CardsComponent } from '../componentes/cards/cards.component';
 
 import { BerlinComponent } from './berlin/berlin.component';
 import { Berlin1Component } from './berlin/berlin1/berlin1.component';
@@ -38,7 +39,8 @@ import { SiciliaComponent } from './sicilia/sicilia.component';
     ModalFoto3Component,
     ModalFoto4Component,
     ModalFoto5Component,
-    ModalFoto6Component
+    ModalFoto6Component,
+    CardsComponent
   ],
   exports: [
     CarruselComponent

@@ -1,13 +1,48 @@
+<h1 class="text-center">4 días en Berlin</h1>
+
 <app-carrusel 
-titulo1="glotona" 
-titulo2="muro"
-titulo3="muro"
-imagen1='../../../assets/imagenes/galeriaBerlin/IMG_2024.JPG'
-imagen2='../../../assets/imagenes/galeriaBerlin/IMG_2025.JPG'
-imagen3='../../../assets/imagenes/galeriaBerlin/IMG_2072.JPG'>
+  [imagen1]="imagenCarrusel1"
+  [titulo1]="tituloCarrusel1"
+  [imagen2]="imagenCarrusel2"
+  [titulo2]="tituloCarrusel2"
+  [imagen3]="imagenCarrusel3"
+  [titulo3]="tituloCarrusel3"
+  [descripcion3]="descripcionCarrusel3"
+  [imagen4]="imagenCarrusel4"
+  [titulo4]="tituloCarrusel4"
+  [descripcion4]="descripcionCarrusel4"
+  [imagen5]="imagenCarrusel5"
+  [titulo5]="tituloCarrusel5">
 </app-carrusel>
 
-<h1>Portada berlin</h1>
-<a href="#/berlin-dia-1">berlin1</a>
+<div class="container mt-2">
+  <div class="row">
+      <app-cards class="col-sm-4"
+      [tituloCard]="tituloDia1"
+      [imagenCard]="imagenDia1"
+      [enlaceCard]="enlaceDia1">
+    </app-cards>
+    <app-cards class="col-sm-4"
+      [tituloCard]="tituloDia2"
+      [imagenCard]="imagenDia2"
+      [enlaceCard]="enlaceDia2">
+    </app-cards>
+    <app-cards class="col-sm-4"
+      [tituloCard]="tituloDia3"
+      [imagenCard]="imagenDia3"
+      [enlaceCard]="enlaceDia3">
+    </app-cards>
+    <app-cards class="col-sm-4"
+      [tituloCard]="tituloDia4"
+      [imagenCard]="imagenDia4"
+      [enlaceCard]="enlaceDia4">
+    </app-cards>
+    <app-cards class="col-sm-4"
+      [tituloCard]="tituloDia5"
+      [imagenCard]="imagenDia5"
+      [enlaceCard]="enlaceDia5">
+    </app-cards>
+  </div>
+</div>
 
 <router-outlet></router-outlet>

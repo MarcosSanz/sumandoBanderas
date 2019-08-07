@@ -1,13 +1,28 @@
 
 .carousel-item  {
-  max-height: 500px !important;
-  /* max-width: 1000px; */
+  max-height: 400px !important;
 } 
 .carousel-item img {
-  max-height: 500px !important;
-  /* max-width: 1000px; */
+  max-height: 400px !important;
+}
+
+@media (max-width: 768px) {
+  .carousel-item  {
+    max-height: 250px !important;
+  } 
+  .carousel-item img {
+    max-height: 250px !important;
+  }
+}
+
+.panoramica {
+  max-width: 100%;
 }
 
 .pointer {
   cursor: pointer;
+}
+
+.tituloDiario {
+  color: brown;
 }
