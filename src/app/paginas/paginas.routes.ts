@@ -9,7 +9,12 @@ import { Berlin2Component } from './alemania/berlin/berlin2/berlin2.component';
 import { Berlin3Component } from './alemania/berlin/berlin3/berlin3.component';
 import { Berlin4Component } from './alemania/berlin/berlin4/berlin4.component';
 import { Berlin5Component } from './alemania/berlin/berlin5/berlin5.component';
-
+// Roma
+import { RomaComponent } from './italia/roma/roma.component';
+import { Roma1Component } from './italia/roma/roma1/roma1.component';
+import { Roma2Component } from './italia/roma/roma2/roma2.component';
+import { Roma3Component } from './italia/roma/roma3/roma3.component';
+import { Roma4Component } from './italia/roma/roma4/roma4.component';
 // Sicilia
 import { SiciliaComponent } from './italia/sicilia/sicilia.component';
 
@@ -36,6 +41,13 @@ const paginasRoutes: Routes = [
       { path: 'berlin-dia-3', component: Berlin3Component },
       { path: 'berlin-dia-4', component: Berlin4Component },
       { path: 'berlin-dia-5', component: Berlin5Component },
+
+      // Roma
+      { path: 'roma', component: RomaComponent },
+      { path: 'roma-dia-1', component: Roma1Component },
+      { path: 'roma-dia-2', component: Roma2Component },
+      { path: 'roma-dia-3', component: Roma3Component },
+      { path: 'roma-dia-4', component: Roma4Component },
 
       // Sicilia
       { path: 'sicilia', component: SiciliaComponent },

@@ -27,6 +27,11 @@ import { Ny4Component } from './eeuu/nueva-york/ny4/ny4.component';
 import { Ny5Component } from './eeuu/nueva-york/ny5/ny5.component';
 import { Washington1Component } from './eeuu/washington/washington1/washington1.component';
 import { Washington2Component } from './eeuu/washington/washington2/washington2.component';
+import { RomaComponent } from './italia/roma/roma.component';
+import { Roma1Component } from './italia/roma/roma1/roma1.component';
+import { Roma2Component } from './italia/roma/roma2/roma2.component';
+import { Roma3Component } from './italia/roma/roma3/roma3.component';
+import { Roma4Component } from './italia/roma/roma4/roma4.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +59,12 @@ import { Washington2Component } from './eeuu/washington/washington2/washington2.
     Ny4Component,
     Ny5Component,
     Washington1Component,
-    Washington2Component
+    Washington2Component,
+    RomaComponent,
+    Roma1Component,
+    Roma2Component,
+    Roma3Component,
+    Roma4Component
   ],
   exports: [
     CarruselComponent
