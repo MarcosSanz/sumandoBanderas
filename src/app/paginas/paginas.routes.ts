@@ -3,19 +3,19 @@ import { RouterModule, Routes } from '@angular/router';
 import { PaginasComponent } from './paginas.component';
 
 // Berlin
-import { BerlinComponent } from './berlin/berlin.component';
-import { Berlin1Component } from './berlin/berlin1/berlin1.component';
-import { Berlin2Component } from './berlin/berlin2/berlin2.component';
-import { Berlin3Component } from './berlin/berlin3/berlin3.component';
-import { Berlin4Component } from './berlin/berlin4/berlin4.component';
-import { Berlin5Component } from './berlin/berlin5/berlin5.component';
+import { BerlinComponent } from './alemania/berlin/berlin.component';
+import { Berlin1Component } from './alemania/berlin/berlin1/berlin1.component';
+import { Berlin2Component } from './alemania/berlin/berlin2/berlin2.component';
+import { Berlin3Component } from './alemania/berlin/berlin3/berlin3.component';
+import { Berlin4Component } from './alemania/berlin/berlin4/berlin4.component';
+import { Berlin5Component } from './alemania/berlin/berlin5/berlin5.component';
 
 // Sicilia
-import { SiciliaComponent } from './sicilia/sicilia.component';
+import { SiciliaComponent } from './italia/sicilia/sicilia.component';
 
 // Nueva York y Washington
-import { NuevaYorkComponent } from './nueva-york/nueva-york.component';
-import { Ny1Component } from './nueva-york/ny1/ny1.component';
+import { NuevaYorkComponent } from './eeuu/nueva-york/nueva-york.component';
+import { Ny1Component } from './eeuu/nueva-york/ny1/ny1.component';
 
 
 const paginasRoutes: Routes = [

@@ -21,25 +21,25 @@ export class NuevaYorkComponent implements OnInit {
   imagenCarrusel5 = '../../../assets/imagenes/galeriaNy/portada5.JPG';
 
   // Tarjetas de cada dia
-  tituloDia1 = 'Datos del viaje';
-  imagenDia1 = '../../../assets/imagenes/galeriaNy/IMG_2284.JPG';
-  enlaceDia1 = '/berlin-dia-1';
+  tituloDia1 = 'Día 1 - Ellis Island, Liberty Island & Lower Town';
+  imagenDia1 = '../../../assets/imagenes/galeriaNy/portadadia1.JPG';
+  enlaceDia1 = '/ny1';
 
-  tituloDia2 = 'Día 1 - Treptower Park, East Side Galery, CheckPoint Charlie, Topografia del Terror';
-  imagenDia2 = '../../../assets/imagenes/galeriaNy/IMG_2063.JPG';
-  enlaceDia2 = '/berlin-dia-2';
+  tituloDia2 = 'Día 2 - Central Park y Museo de Historia Natural';
+  imagenDia2 = '../../../assets/imagenes/galeriaNy/portadadia2.JPG';
+  enlaceDia2 = '/ny2';
 
-  tituloDia3 = 'Día 2 - Centro de Berlín, isla de los museos, barrio judío';
-  imagenDia3 = '../../../assets/imagenes/galeriaNy/IMG_2171.JPG';
-  enlaceDia3 = '/berlin-dia-3';
+  tituloDia3 = 'Día 3 - Times Square, Estacion Central y MOMA';
+  imagenDia3 = '../../../assets/imagenes/galeriaNy/portadadia3.JPG';
+  enlaceDia3 = '/ny3';
 
-  tituloDia4 = 'Día 3 - Potsdam y Berlín de noche';
-  imagenDia4 = '../../../assets/imagenes/galeriaNy/IMG_2295.JPG';
-  enlaceDia4 = '/berlin-dia-4';
+  tituloDia4 = 'Día 4 - Flatirion Building, Empire State, Top of the Rock';
+  imagenDia4 = '../../../assets/imagenes/galeriaNy/portadadia4.JPG';
+  enlaceDia4 = '/ny4';
 
-  tituloDia5 = 'Día 4 - Campo de concentración, Sachsenhausen';
-  imagenDia5 = '../../../assets/imagenes/galeriaNy/IMG_2337.JPG';
-  enlaceDia5 = '/berlin-dia-5';
+  tituloDia5 = 'Día 5 - Harlem, Bronx y DUMBO';
+  imagenDia5 = '../../../assets/imagenes/galeriaNy/portadadia5.JPG';
+  enlaceDia5 = '/ny5';
 
   constructor() { }
 
