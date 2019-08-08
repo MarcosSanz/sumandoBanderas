@@ -9,6 +9,8 @@ export class PaginaSiguienteComponent implements OnInit {
 
   @Input() siguiente: string;
   @Input() siguienteDonde: string;
+  @Input() anterior: string;
+  @Input() anteriorDonde: string;
 
   constructor() { }
 

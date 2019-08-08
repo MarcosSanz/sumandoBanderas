@@ -128,10 +128,11 @@
       </div>
     </div>
 
-  
-  <div class="container">
-    <div class="row">
-      <app-pagina-anterior [anterior]="anterior" [anteriorDonde]="anteriorDonde"></app-pagina-anterior>
-      <app-pagina-siguiente [siguiente]="siguiente" [siguienteDonde]="siguienteDonde"></app-pagina-siguiente>
-    </div>
-  </div>
+<app-pagina-siguiente 
+  [siguiente]="siguiente" 
+  [siguienteDonde]="siguienteDonde" 
+  [anterior]="anterior" 
+  [anteriorDonde]="anteriorDonde">
+</app-pagina-siguiente>
+
+ 

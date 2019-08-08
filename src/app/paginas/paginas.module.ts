@@ -3,7 +3,6 @@ import { PAGINAS_ROUTES } from './paginas.routes';
 
 import { PaginasComponent } from './paginas.component';
 import { PaginaSiguienteComponent } from '../componentes/pagina-siguiente/pagina-siguiente.component';
-import { PaginaAnteriorComponent } from '../componentes/pagina-anterior/pagina-anterior.component';
 import { CarruselComponent } from '../componentes/carrusel/carrusel.component';
 import { ModalFotoComponent } from '../componentes/modal-foto/modal-foto/modal-foto.component';
 import { ModalFoto2Component } from '../componentes/modal-foto/modal-foto2/modal-foto2.component';
@@ -33,7 +32,6 @@ import { Washington2Component } from './eeuu/washington/washington2/washington2.
   declarations: [
     PaginasComponent,
     PaginaSiguienteComponent,
-    PaginaAnteriorComponent,
     BerlinComponent,
     Berlin1Component,
     Berlin2Component,

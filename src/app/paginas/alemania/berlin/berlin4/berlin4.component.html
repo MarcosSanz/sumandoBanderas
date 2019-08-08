@@ -79,13 +79,9 @@
     </div>
   </div>
 
-<div class="container">
-  <div class="row justify-content-between">
-      <div class="col-7">
-      <app-pagina-anterior [anterior]="anterior" [anteriorDonde]="anteriorDonde"></app-pagina-anterior>
-    </div>
-    <div class="col-5">
-      <app-pagina-siguiente [siguiente]="siguiente" [siguienteDonde]="siguienteDonde"></app-pagina-siguiente>
-    </div>
-  </div>
-</div>
+<app-pagina-siguiente 
+  [siguiente]="siguiente"
+  [siguienteDonde]="siguienteDonde"
+  [anterior]="anterior" 
+  [anteriorDonde]="anteriorDonde">
+</app-pagina-siguiente>
