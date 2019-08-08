@@ -23,7 +23,7 @@ export class Ny5Component implements OnInit {
   titulo2 = 'Teatro Apollo';
   titulo3 = 'The Bronx';
   titulo4 = 'The Bronx';
-  titulo5 = 'zona 0';
+  titulo5 = 'Zona 0, Lower Manhattan';
   titulo6 = 'Dumbo';
 
   anterior = 'Puente de Brooklyn, Flatirion Building, Empire State, Top of the Rock';

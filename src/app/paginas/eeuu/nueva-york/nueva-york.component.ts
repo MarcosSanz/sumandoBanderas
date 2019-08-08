@@ -41,6 +41,14 @@ export class NuevaYorkComponent implements OnInit {
   imagenDia5 = '../../../assets/imagenes/galeriaNy/portadadia5.JPG';
   enlaceDia5 = '/ny5';
 
+  tituloDia6 = 'Día 6 - Cementerio de Arlington y National Mall, Washington';
+  imagenDia6 = '../../../assets/imagenes/galeriaNy/portadadia6.JPG';
+  enlaceDia6 = '/was1';
+
+  tituloDia7 = 'Día 7 - National Mall y Museos de Washington';
+  imagenDia7 = '../../../assets/imagenes/galeriaNy/portadadia7.JPG';
+  enlaceDia7 = '/was2';
+
   constructor() { }
 
   ngOnInit() {

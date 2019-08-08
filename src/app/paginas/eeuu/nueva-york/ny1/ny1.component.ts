@@ -11,13 +11,13 @@ export class Ny1Component implements OnInit {
   imagen2 = '../../../assets/imagenes/galeriaNy/4.JPG';
   imagen3 = '../../../assets/imagenes/galeriaNy/7.JPG';
   imagen4 = '../../../assets/imagenes/galeriaNy/IMG_0573.JPG';
-  imagen5 = '../../../assets/imagenes/galeriaNy/3.JPG';
+  imagen5 = '../../../assets/imagenes/galeriaNy/3.jpg';
   imagen6 = '../../../assets/imagenes/galeriaNy/IMG_0613.JPG';
   imagenModal1 = '../../../assets/imagenes/galeriaNy/foto3.JPG';
   imagenModal2 = '../../../assets/imagenes/galeriaNy/4.JPG';
   imagenModal3 = '../../../assets/imagenes/galeriaNy/7.JPG';
   imagenModal4 = '../../../assets/imagenes/galeriaNy/IMG_0573.JPG';
-  imagenModal5 = '../../../assets/imagenes/galeriaNy/3.JPG';
+  imagenModal5 = '../../../assets/imagenes/galeriaNy/3.jpg';
   imagenModal6 = '../../../assets/imagenes/galeriaNy/IMG_0613.JPG';
   titulo1 = 'Isla de Ellis';
   titulo2 = 'Wall Street';

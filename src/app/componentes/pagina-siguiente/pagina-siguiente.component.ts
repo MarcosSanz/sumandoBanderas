@@ -11,10 +11,12 @@ export class PaginaSiguienteComponent implements OnInit {
   @Input() siguienteDonde: string;
   @Input() anterior: string;
   @Input() anteriorDonde: string;
+  validarSiguiente: boolean;
 
   constructor() { }
 
   ngOnInit() {
+    this.validarSiguiente = true;
   }
 
 }

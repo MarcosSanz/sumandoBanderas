@@ -26,6 +26,8 @@ export class Washington2Component implements OnInit {
   titulo5 = 'Martin Luther King Meorial';
   titulo6 = 'White House';
 
+  siguiente = 'Portada del viaje';
+  siguienteDonde = '/nueva-york';
   anterior = 'Cementerio de Arlington y National Mall';
   anteriorDonde = '/was1';
 

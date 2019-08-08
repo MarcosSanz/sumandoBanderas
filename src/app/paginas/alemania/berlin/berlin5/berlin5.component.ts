@@ -26,6 +26,8 @@ export class Berlin5Component implements OnInit {
   titulo5 = 'Traje soldado del campo';
   titulo6 = 'Entrada al campo';
 
+  siguiente = 'Portada del viaje';
+  siguienteDonde = '/berlin';
   anterior = 'Potsdam y Berlín de noche';
   anteriorDonde = '/berlin-dia-4';
 

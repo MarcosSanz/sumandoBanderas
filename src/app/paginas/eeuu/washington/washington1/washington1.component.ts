@@ -20,7 +20,7 @@ export class Washington1Component implements OnInit {
   imagenModal5 = '../../../assets/imagenes/galeriaNy/IMG_1096.JPG';
   imagenModal6 = '../../../assets/imagenes/galeriaNy/IMG_1074.JPG';
   titulo1 = 'Washington';
-  titulo2 = 'Memorial a cuerpo de Marines';
+  titulo2 = 'Memorial al cuerpo de Marines U.S.';
   titulo3 = 'Barack Obama, helicóptero presidencial';
   titulo4 = 'Washington';
   titulo5 = 'Lincoln Memorial';
