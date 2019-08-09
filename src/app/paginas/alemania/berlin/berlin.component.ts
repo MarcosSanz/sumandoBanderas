@@ -42,6 +42,14 @@ export class BerlinComponent implements OnInit {
   imagenDia5 = '../../../assets/imagenes/galeriaBerlin/IMG_2337.JPG';
   enlaceDia5 = '/berlin-dia-5';
 
+  // Cuentas
+  vuelos = '204,00 €';
+  hoteles = '141,00 €';
+  comidas = '126,90 €';
+  entradas = '95,00 €';
+  transportes = '34,15 €';
+  suma = '601,05 €';
+
   constructor() { }
 
   ngOnInit() {

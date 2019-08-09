@@ -49,6 +49,14 @@ export class NuevaYorkComponent implements OnInit {
   imagenDia7 = '../../../assets/imagenes/galeriaNy/portadadia7.JPG';
   enlaceDia7 = '/was2';
 
+   // Cuentas
+   vuelos = '810,00 €';
+   hoteles = '418,00 €';
+   comidas = '456,00 €';
+   entradas = '118,00 €';
+   transportes = '214,00 €';
+   suma = '1.875,00 €';
+
   constructor() { }
 
   ngOnInit() {

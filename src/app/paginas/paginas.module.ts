@@ -11,6 +11,7 @@ import { ModalFoto4Component } from '../componentes/modal-foto/modal-foto4/modal
 import { ModalFoto5Component } from '../componentes/modal-foto/modal-foto5/modal-foto5.component';
 import { ModalFoto6Component } from '../componentes/modal-foto/modal-foto6/modal-foto6.component';
 import { CardsComponent } from '../componentes/cards/cards.component';
+import { GastosComponent } from '../componentes/gastos/gastos.component';
 
 import { BerlinComponent } from './alemania/berlin/berlin.component';
 import { Berlin1Component } from './alemania/berlin/berlin1/berlin1.component';
@@ -52,6 +53,7 @@ import { Roma4Component } from './italia/roma/roma4/roma4.component';
     ModalFoto5Component,
     ModalFoto6Component,
     CardsComponent,
+    GastosComponent,
     NuevaYorkComponent,
     Ny1Component,
     Ny2Component,
