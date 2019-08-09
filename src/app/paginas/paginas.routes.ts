@@ -17,7 +17,6 @@ import { Roma3Component } from './italia/roma/roma3/roma3.component';
 import { Roma4Component } from './italia/roma/roma4/roma4.component';
 // Sicilia
 import { SiciliaComponent } from './italia/sicilia/sicilia.component';
-
 // Nueva York y Washington
 import { NuevaYorkComponent } from './eeuu/nueva-york/nueva-york.component';
 import { Ny1Component } from './eeuu/nueva-york/ny1/ny1.component';
@@ -27,6 +26,12 @@ import { Ny4Component } from './eeuu/nueva-york/ny4/ny4.component';
 import { Ny5Component } from './eeuu/nueva-york/ny5/ny5.component';
 import { Washington1Component } from './eeuu/washington/washington1/washington1.component';
 import { Washington2Component } from './eeuu/washington/washington2/washington2.component';
+// Rumania
+import { RumaniaComponent } from './rumania/rumania.component';
+import { Rumania1Component } from './rumania/rumania1/rumania1.component';
+import { Rumania2Component } from './rumania/rumania2/rumania2.component';
+import { Rumania3Component } from './rumania/rumania3/rumania3.component';
+import { Rumania4Component } from './rumania/rumania4/rumania4.component';
 
 
 const paginasRoutes: Routes = [
@@ -61,6 +66,13 @@ const paginasRoutes: Routes = [
       { path: 'ny5', component: Ny5Component },
       { path: 'was1', component: Washington1Component },
       { path: 'was2', component: Washington2Component },
+
+      // Rumania
+      { path: 'rumania', component: RumaniaComponent },
+      { path: 'rumania-datos-viaje', component: Rumania1Component },
+      { path: 'rumania-dia-1', component: Rumania2Component },
+      { path: 'rumania-dia-2', component: Rumania3Component },
+      { path: 'rumania-dia-3', component: Rumania4Component },
 
       { path: '', redirectTo: '/portada', pathMatch: 'full' }
     ]

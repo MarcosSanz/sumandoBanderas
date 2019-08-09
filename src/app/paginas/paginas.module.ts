@@ -10,6 +10,12 @@ import { ModalFoto3Component } from '../componentes/modal-foto/modal-foto3/modal
 import { ModalFoto4Component } from '../componentes/modal-foto/modal-foto4/modal-foto4.component';
 import { ModalFoto5Component } from '../componentes/modal-foto/modal-foto5/modal-foto5.component';
 import { ModalFoto6Component } from '../componentes/modal-foto/modal-foto6/modal-foto6.component';
+import { ModalFoto7Component } from '../componentes/modal-foto/modal-foto7/modal-foto7.component';
+import { ModalFoto8Component } from '../componentes/modal-foto/modal-foto8/modal-foto8.component';
+import { ModalFoto9Component } from '../componentes/modal-foto/modal-foto9/modal-foto9.component';
+import { ModalFoto10Component } from '../componentes/modal-foto/modal-foto10/modal-foto10.component';
+import { ModalFoto11Component } from '../componentes/modal-foto/modal-foto11/modal-foto11.component';
+import { ModalFoto12Component } from '../componentes/modal-foto/modal-foto12/modal-foto12.component';
 import { CardsComponent } from '../componentes/cards/cards.component';
 import { GastosComponent } from '../componentes/gastos/gastos.component';
 
@@ -33,6 +39,11 @@ import { Roma1Component } from './italia/roma/roma1/roma1.component';
 import { Roma2Component } from './italia/roma/roma2/roma2.component';
 import { Roma3Component } from './italia/roma/roma3/roma3.component';
 import { Roma4Component } from './italia/roma/roma4/roma4.component';
+import { RumaniaComponent } from './rumania/rumania.component';
+import { Rumania1Component } from './rumania/rumania1/rumania1.component';
+import { Rumania2Component } from './rumania/rumania2/rumania2.component';
+import { Rumania3Component } from './rumania/rumania3/rumania3.component';
+import { Rumania4Component } from './rumania/rumania4/rumania4.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +63,12 @@ import { Roma4Component } from './italia/roma/roma4/roma4.component';
     ModalFoto4Component,
     ModalFoto5Component,
     ModalFoto6Component,
+    ModalFoto7Component,
+    ModalFoto8Component,
+    ModalFoto9Component,
+    ModalFoto10Component,
+    ModalFoto11Component,
+    ModalFoto12Component,
     CardsComponent,
     GastosComponent,
     NuevaYorkComponent,
@@ -66,7 +83,12 @@ import { Roma4Component } from './italia/roma/roma4/roma4.component';
     Roma1Component,
     Roma2Component,
     Roma3Component,
-    Roma4Component
+    Roma4Component,
+    RumaniaComponent,
+    Rumania1Component,
+    Rumania2Component,
+    Rumania3Component,
+    Rumania4Component
   ],
   exports: [
     CarruselComponent
