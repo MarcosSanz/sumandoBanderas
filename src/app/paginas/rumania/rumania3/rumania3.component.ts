@@ -24,7 +24,7 @@ export class Rumania3Component implements OnInit {
   titulo3 = 'Interior Monasterio de Curtea de Arges';
   titulo4 = 'Subida al Castillo de Vald Tepes';
   titulo5 = 'Subida al Castillo de Vald Tepes';
-  titulo6 = 'KSubida al Castillo de Vald Tepes';
+  titulo6 = 'Subida al Castillo de Vald Tepes';
   // segundas imagenes
   imagen7 = '../../../assets/imagenes/galeriaRumania/rum12.jpg';
   imagen8 = '../../../assets/imagenes/galeriaRumania/rum4.jpg';
@@ -45,7 +45,7 @@ export class Rumania3Component implements OnInit {
   titulo11 = 'Lago Vidraru';
   titulo12 = 'Vistas del lago Vidraru desde nuestra terraza';
 
-  siguiente = 'Transfăgărășan, Făgăraș y Brasov';
+  siguiente = 'Transfăgărășan, Făgăraș y Braşov';
   siguienteDonde = '/rumania-dia-3';
   anterior = 'Llegada a Bucarest, por los pelos';
   anteriorDonde = '/rumania-dia-1';

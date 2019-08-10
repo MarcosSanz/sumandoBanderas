@@ -32,6 +32,7 @@ import { Rumania1Component } from './rumania/rumania1/rumania1.component';
 import { Rumania2Component } from './rumania/rumania2/rumania2.component';
 import { Rumania3Component } from './rumania/rumania3/rumania3.component';
 import { Rumania4Component } from './rumania/rumania4/rumania4.component';
+import { Rumania5Component } from './rumania/rumania5/rumania5.component';
 
 
 const paginasRoutes: Routes = [
@@ -73,6 +74,7 @@ const paginasRoutes: Routes = [
       { path: 'rumania-dia-1', component: Rumania2Component },
       { path: 'rumania-dia-2', component: Rumania3Component },
       { path: 'rumania-dia-3', component: Rumania4Component },
+      { path: 'rumania-dia-4', component: Rumania5Component },
 
       { path: '', redirectTo: '/portada', pathMatch: 'full' }
     ]
