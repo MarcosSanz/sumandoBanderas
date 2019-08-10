@@ -26,3 +26,14 @@
 .tituloDiario {
   color: brown;
 }
+
+.video {
+  width: 560px;
+  height: 315px;
+}
+@media (max-width: 768px) {
+  .video {
+    width: 375px;
+    height: 250px;
+  }
+}
