@@ -22,11 +22,9 @@ export class Rumania4Component implements OnInit {
   titulo1 = 'Cascada Caprâ';
   titulo2 = 'Lago Valea';
   titulo3 = 'Transfăgărășan';
-  // titulo4 = 'Subida al Castillo de Vald Tepes';
-  // titulo5 = 'Subida al Castillo de Vald Tepes';
   titulo6 = 'Plaza Braşov';
 
-  siguiente = 'Transfăgărășan, Făgăraș y Braşov';
+  siguiente = 'Braşov, Castillo de Bran, Prejmer, Hărman';
   siguienteDonde = '/rumania-dia-4';
   anterior = 'Curtea de Arges, Castillo Vlad Tepes y Transfăgărășan';
   anteriorDonde = '/rumania-dia-2';

@@ -45,9 +45,9 @@ export class Rumania5Component implements OnInit {
   titulo11 = 'Iglesia fortificada de Hărman';
   titulo12 = 'Iglesia fortificada de Prejmer';
 
-  siguiente = 'Transfăgărășan, Făgăraș y Braşov';
+  siguiente = 'Castillo Peleș, Castillo Pelisor, Sinaia y Sighișoara';
   siguienteDonde = '/rumania-dia-5';
-  anterior = 'Curtea de Arges, Castillo Vlad Tepes y Transfăgărășan';
+  anterior = 'Transfăgărășan, Făgăraș y Braşov';
   anteriorDonde = '/rumania-dia-3';
 
   constructor() { }
