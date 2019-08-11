@@ -47,7 +47,7 @@ export class Rumania3Component implements OnInit {
 
   siguiente = 'Transfăgărășan, Făgăraș y Braşov';
   siguienteDonde = '/rumania-dia-3';
-  anterior = 'Llegada a Bucarest, por los pelos';
+  anterior = 'Llegada a Bucureşti, por los pelos';
   anteriorDonde = '/rumania-dia-1';
 
   constructor() { }

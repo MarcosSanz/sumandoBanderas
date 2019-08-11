@@ -28,7 +28,7 @@ export class Rumania8Component implements OnInit {
 
   siguiente = 'Cluj-Napoca, Aiud y Alba Iulia';
   siguienteDonde = '/rumania-dia-8';
-  anterior = 'Iglesia Fortificada de Valea Viilor, Mediaş, Iglesia Fortificada de Biertan y Sighişoara';
+  anterior = 'Iglesia de Valea Viilor, Mediaş, Iglesia de Biertan y Sighişoara';
   anteriorDonde = '/rumania-dia-6';
 
   constructor() { }

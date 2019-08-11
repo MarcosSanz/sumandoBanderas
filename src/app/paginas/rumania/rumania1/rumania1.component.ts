@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Rumania1Component implements OnInit {
 
-  siguiente = 'Llegada a Bucarest, por los pelos';
+  siguiente = 'Llegada a Bucureşti, por los pelos';
   siguienteDonde = '/rumania-dia-1';
   anterior = 'Portada del viaje';
   anteriorDonde = '/rumania';
