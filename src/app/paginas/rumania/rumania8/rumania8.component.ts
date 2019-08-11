@@ -26,7 +26,7 @@ export class Rumania8Component implements OnInit {
   titulo5 = 'Baia Mare';
   titulo6 = 'Baia Mare';
 
-  siguiente = 'Cluj-Napoca, Aiud y Alba Iulia ';
+  siguiente = 'Cluj-Napoca, Aiud y Alba Iulia';
   siguienteDonde = '/rumania-dia-8';
   anterior = 'Iglesia Fortificada de Valea Viilor, Mediaş, Iglesia Fortificada de Biertan y Sighişoara';
   anteriorDonde = '/rumania-dia-6';

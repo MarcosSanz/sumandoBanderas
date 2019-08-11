@@ -48,6 +48,7 @@ import { Rumania5Component } from './rumania/rumania5/rumania5.component';
 import { Rumania6Component } from './rumania/rumania6/rumania6.component';
 import { Rumania7Component } from './rumania/rumania7/rumania7.component';
 import { Rumania8Component } from './rumania/rumania8/rumania8.component';
+import { Rumania9Component } from './rumania/rumania9/rumania9.component';
 
 @NgModule({
   declarations: [
@@ -96,7 +97,8 @@ import { Rumania8Component } from './rumania/rumania8/rumania8.component';
     Rumania5Component,
     Rumania6Component,
     Rumania7Component,
-    Rumania8Component
+    Rumania8Component,
+    Rumania9Component
   ],
   exports: [
     CarruselComponent
