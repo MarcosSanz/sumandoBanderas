@@ -26,7 +26,7 @@ export class Rumania7Component implements OnInit {
   titulo5 = 'Vistas desde la torre del reloj, Sighișoara';
   titulo6 = 'Cementerio de Sighișoara';
 
-  siguiente = 'Maramureş y Baia Mare';
+  siguiente = 'Maramureş, Cementerio Alegre y Baia Mare';
   siguienteDonde = '/rumania-dia-7';
   anterior = 'Castillo Peleș, Castillo Pelisor, Sinaia y Sighișoara';
   anteriorDonde = '/rumania-dia-5';
