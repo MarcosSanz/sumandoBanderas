@@ -41,6 +41,7 @@ import { Rumania10Component } from './rumania/rumania10/rumania10.component';
 import { Rumania11Component } from './rumania/rumania11/rumania11.component';
 import { BulgariaComponent, Bulgaria1Component } from './bulgaria/bulgaria1/bulgaria1.component';
 import { Bulgaria2Component } from './bulgaria/bulgaria2/bulgaria2.component';
+import { Bulgaria3Component } from './bulgaria/bulgaria3/bulgaria3.component';
 
 
 const paginasRoutes: Routes = [
@@ -91,6 +92,7 @@ const paginasRoutes: Routes = [
       { path: 'rumania-dia-10', component: Rumania11Component },
       { path: 'bulgaria-dia-1', component: Bulgaria1Component },
       { path: 'bulgaria-dia-2', component: Bulgaria2Component },
+      { path: 'bulgaria-dia-3', component: Bulgaria3Component },
 
       { path: '', redirectTo: '/portada', pathMatch: 'full' }
     ]

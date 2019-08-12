@@ -9,7 +9,7 @@ export class RumaniaComponent implements OnInit {
 
   // Carrusel de la portada
   tituloCarrusel1 = 'Sofia, Bulgaria';
-  imagenCarrusel1 = '../../../assets/imagenes/galeriaRumania/portadadia1.jpg';
+  imagenCarrusel1 = '../../../assets/imagenes/galeriaRumania/bul-2-7.jpg';
   tituloCarrusel2 = 'Transfăgărășan, Rumania';
   imagenCarrusel2 = '../../../assets/imagenes/galeriaRumania/rum-4-4.jpg';
   tituloCarrusel3 = 'Castillo Pelisor, Rumania';
@@ -64,13 +64,17 @@ export class RumaniaComponent implements OnInit {
   imagenDia11 = '../../../assets/imagenes/galeriaRumania/rum-11-5.jpg';
   enlaceDia11 = '/rumania-dia-10';
 
-  tituloBulgaria = 'Frontera y Sofia por la noche';
+  tituloBulgaria = 'Día 11 - Frontera y Sofia por la noche';
   imagenBulgaria = '../../../assets/imagenes/galeriaRumania/bulgariadia0.jpg';
   enlaceBulgaria = '/bulgaria-dia-1';
 
-  tituloBulgaria2 = 'Sofia';
-  imagenBulgaria2 = '../../../assets/imagenes/galeriaRumania/bulgariadia0.jpg';
+  tituloBulgaria2 = 'Día 12 - Sofia';
+  imagenBulgaria2 = '../../../assets/imagenes/galeriaRumania/bul-2-7.jpg';
   enlaceBulgaria2 = '/bulgaria-dia-2';
+
+  tituloBulgaria3 = 'Día 13 - Monasterio de Rila y Sofía';
+  imagenBulgaria3 = '../../../assets/imagenes/galeriaRumania/bulportada.jpg';
+  enlaceBulgaria3 = '/bulgaria-dia-3';
 
    // Cuentas
    vuelos = '159,86 €';
