@@ -38,6 +38,9 @@ import { Rumania7Component } from './rumania/rumania7/rumania7.component';
 import { Rumania8Component } from './rumania/rumania8/rumania8.component';
 import { Rumania9Component } from './rumania/rumania9/rumania9.component';
 import { Rumania10Component } from './rumania/rumania10/rumania10.component';
+import { Rumania11Component } from './rumania/rumania11/rumania11.component';
+import { BulgariaComponent, Bulgaria1Component } from './bulgaria/bulgaria1/bulgaria1.component';
+import { Bulgaria2Component } from './bulgaria/bulgaria2/bulgaria2.component';
 
 
 const paginasRoutes: Routes = [
@@ -85,6 +88,9 @@ const paginasRoutes: Routes = [
       { path: 'rumania-dia-7', component: Rumania8Component },
       { path: 'rumania-dia-8', component: Rumania9Component },
       { path: 'rumania-dia-9', component: Rumania10Component },
+      { path: 'rumania-dia-10', component: Rumania11Component },
+      { path: 'bulgaria-dia-1', component: Bulgaria1Component },
+      { path: 'bulgaria-dia-2', component: Bulgaria2Component },
 
       { path: '', redirectTo: '/portada', pathMatch: 'full' }
     ]
