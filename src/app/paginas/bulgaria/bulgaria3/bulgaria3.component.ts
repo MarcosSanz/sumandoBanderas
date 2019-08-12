@@ -26,7 +26,7 @@ export class Bulgaria3Component implements OnInit {
   titulo5 = 'Regional History Museum';
   titulo6 = 'Catedral San Aleksandar Nevski';
 
-  siguiente = 'Monasterio de Rila y Sofía';
+  siguiente = 'Monasterio Bachkovo, Fuerte de Assen, Plovdiv y Veliko Tarnovo';
   siguienteDonde = '/bulgaria-dia-4';
   anterior = 'Sofía';
   anteriorDonde = '/bulgaria-dia-2';

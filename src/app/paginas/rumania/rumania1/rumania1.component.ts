@@ -10,7 +10,7 @@ export class Rumania1Component implements OnInit {
   siguiente = 'Llegada a Bucureşti, por los pelos';
   siguienteDonde = '/rumania-dia-1';
   anterior = 'Portada del viaje';
-  anteriorDonde = '/rumania';
+  anteriorDonde = '/rumania-y-bulgaria';
 
   constructor() { }
 
