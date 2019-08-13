@@ -1,3 +1,9 @@
 .anchoGastos {
   max-width: 60%;
 }
+
+@media (max-width: 768px) {
+  .anchoGastos {
+    max-width: 100%;
+  }
+}

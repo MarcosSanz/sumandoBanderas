@@ -44,6 +44,7 @@ import { Bulgaria2Component } from './bulgaria/bulgaria2/bulgaria2.component';
 import { Bulgaria3Component } from './bulgaria/bulgaria3/bulgaria3.component';
 import { Bulgaria4Component } from './bulgaria/bulgaria4/bulgaria4.component';
 import { Bulgaria5Component } from './bulgaria/bulgaria5/bulgaria5.component';
+import { PrincipalComponent } from './principal/principal.component';
 
 
 const paginasRoutes: Routes = [
@@ -98,6 +99,8 @@ const paginasRoutes: Routes = [
       { path: 'bulgaria-dia-3', component: Bulgaria3Component },
       { path: 'bulgaria-dia-4', component: Bulgaria4Component },
       { path: 'bulgaria-dia-5', component: Bulgaria5Component },
+
+      { path: 'portada', component: PrincipalComponent },
 
       { path: '', redirectTo: '/portada', pathMatch: 'full' }
     ]
