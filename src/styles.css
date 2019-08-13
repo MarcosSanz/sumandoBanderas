@@ -37,3 +37,11 @@
     height: 250px;
   }
 }
+
+.imagenPortada {
+  max-height: 400px;
+}
+
+.carruselPortada {
+  width: 50%;
+}

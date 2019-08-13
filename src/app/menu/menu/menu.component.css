@@ -1,3 +1,16 @@
 .logoSB {
-  height: 50px;
+  max-height: 150px;
+  position: absolute;
+  margin-top: -20px;
+}
+
+@media (max-width: 768px) {
+  .logoSB {
+    max-height: 75px;
+  }
+}
+
+.banderasMenu {
+  max-height: 20px;
+  max-width: 30px;
 }
