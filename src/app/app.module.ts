@@ -12,6 +12,7 @@ import { CronicaComponent } from './componentes/cronica/cronica.component';
 import { MenuComponent } from './menu/menu/menu.component';
 import { ErrorComponent } from './paginas/error/error.component';
 import { PrincipalComponent } from './paginas/principal/principal.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PrincipalComponent } from './paginas/principal/principal.component';
     CronicaComponent,
     MenuComponent,
     ErrorComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

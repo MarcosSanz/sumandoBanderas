@@ -56,6 +56,7 @@ import { Bulgaria2Component } from './bulgaria/bulgaria2/bulgaria2.component';
 import { Bulgaria3Component } from './bulgaria/bulgaria3/bulgaria3.component';
 import { Bulgaria4Component } from './bulgaria/bulgaria4/bulgaria4.component';
 import { Bulgaria5Component } from './bulgaria/bulgaria5/bulgaria5.component';
+import { ExtremaduraComponent } from './extremadura/extremadura.component';
 
 @NgModule({
   declarations: [
@@ -112,10 +113,12 @@ import { Bulgaria5Component } from './bulgaria/bulgaria5/bulgaria5.component';
     Bulgaria2Component,
     Bulgaria3Component,
     Bulgaria4Component,
-    Bulgaria5Component
+    Bulgaria5Component,
+    ExtremaduraComponent
   ],
   exports: [
-    CarruselComponent
+    CarruselComponent,
+    CardsComponent,
   ],
   imports: [
     PAGINAS_ROUTES
