@@ -50,6 +50,7 @@ import { ExtremaduraComponent } from './extremadura/extremadura.component';
 import { Extremadura1Component } from './extremadura/extremadura1/extremadura1.component';
 import { Extremadura2Component } from './extremadura/extremadura2/extremadura2.component';
 import { Extremadura3Component } from './extremadura/extremadura3/extremadura3.component';
+import { MazarronComponent } from './mazarron/mazarron.component';
 
 
 const paginasRoutes: Routes = [
@@ -57,11 +58,14 @@ const paginasRoutes: Routes = [
     path: '',
     component: PaginasComponent,
     children: [
-      // Berlin
+      // Extremadura
       { path: 'extremadura', component: ExtremaduraComponent, },
       { path: 'extremadura-dia-1', component: Extremadura1Component, },
       { path: 'extremadura-dia-2', component: Extremadura2Component, },
       { path: 'extremadura-dia-3', component: Extremadura3Component, },
+
+      // Mazarron y Cartagena
+      { path: 'mazarron', component: MazarronComponent, },
 
       // Berlin
       { path: 'berlin', component: BerlinComponent, },
