@@ -24,7 +24,7 @@
 }
 
 .tituloDiario {
-  color: brown;
+  color: #780101;
 }
 
 .video {
@@ -39,7 +39,7 @@
 }
 
 .imagenPortada {
-  max-height: 400px;
+  max-height: 450px;
 }
 
 .carruselPortada {
@@ -50,4 +50,18 @@
   .navbar-nav {
     padding-top: 2rem;
   }
+}
+
+.btn-outline-dark {
+  color: #780101;
+  border-color: #780101;
+}
+
+.btn-outline-dark:hover {
+  /* color: #780101; */
+  background-color: #780101;
+}
+
+.nav-link {
+  color: #780101 !important;
 }

@@ -9,20 +9,20 @@ export class NuevaYorkComponent implements OnInit {
 
   // Carrusel de la portada
   tituloCarrusel1 = 'Skyline de la Gran Manzana';
-  imagenCarrusel1 = '../../../assets/imagenes/galeriaNy/portada1.JPG';
+  imagenCarrusel1 = '../../../assets/imagenes/galeriaNy/foto1.png';
   tituloCarrusel2 = 'Estatua de la Libertad';
   imagenCarrusel2 = '../../../assets/imagenes/galeriaNy/portada2.JPG';
   tituloCarrusel3 = 'Flatirion building';
   imagenCarrusel3 = '../../../assets/imagenes/galeriaNy/portada3.JPG';
   tituloCarrusel4 = 'Atardecer desde las alturas';
   imagenCarrusel4 = '../../../assets/imagenes/galeriaNy/portada4.JPG';
-  tituloCarrusel5 = 'Capitolio';
+  tituloCarrusel5 = 'White House';
   descripcionCarrusel5 = 'Washington';
   imagenCarrusel5 = '../../../assets/imagenes/galeriaNy/portada5.JPG';
 
   // Tarjetas de cada dia
   tituloDia1 = 'Día 1 - Ellis Island, Liberty Island & Lower Town';
-  imagenDia1 = '../../../assets/imagenes/galeriaNy/portadadia1.JPG';
+  imagenDia1 = '../../../assets/imagenes/galeriaNy/IMG_0532.JPG';
   enlaceDia1 = '/ny1';
 
   tituloDia2 = 'Día 2 - Central Park y Museo de Historia Natural';
