@@ -20,7 +20,7 @@ export class Berlin2Component implements OnInit {
   imagenModal5 = '../../../assets/imagenes/galeriaBerlin/IMG_2046.JPG';
   imagenModal6 = '../../../assets/imagenes/galeriaBerlin/IMG_2073.JPG';
   titulo1 = 'Treptower Park';
-  titulo2 = 'Muro de Berlin';
+  titulo2 = 'Muro de Berlín';
   titulo3 = 'Memorial al holocausto';
   titulo4 = 'Charlie point';
   titulo5 = 'Monumento a los caídos soviéticos de Tiergarten';

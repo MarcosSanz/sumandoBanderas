@@ -28,7 +28,7 @@ export class Ny2Component implements OnInit {
 
   anterior = 'Ellis Island, Liberty Island & Lower Town';
   anteriorDonde = '/ny1';
-  siguiente = 'Times Square, Estacion Central y MOMA';
+  siguiente = 'Times Square, Estación Central y MOMA';
   siguienteDonde = '/ny3';
 
   constructor() { }

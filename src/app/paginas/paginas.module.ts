@@ -57,6 +57,9 @@ import { Bulgaria3Component } from './bulgaria/bulgaria3/bulgaria3.component';
 import { Bulgaria4Component } from './bulgaria/bulgaria4/bulgaria4.component';
 import { Bulgaria5Component } from './bulgaria/bulgaria5/bulgaria5.component';
 import { ExtremaduraComponent } from './extremadura/extremadura.component';
+import { Extremadura1Component } from './extremadura/extremadura1/extremadura1.component';
+import { Extremadura2Component } from './extremadura/extremadura2/extremadura2.component';
+import { Extremadura3Component } from './extremadura/extremadura3/extremadura3.component';
 
 @NgModule({
   declarations: [
@@ -114,7 +117,10 @@ import { ExtremaduraComponent } from './extremadura/extremadura.component';
     Bulgaria3Component,
     Bulgaria4Component,
     Bulgaria5Component,
-    ExtremaduraComponent
+    ExtremaduraComponent,
+    Extremadura1Component,
+    Extremadura2Component,
+    Extremadura3Component
   ],
   exports: [
     CarruselComponent,

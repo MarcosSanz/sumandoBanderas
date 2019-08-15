@@ -20,10 +20,10 @@ export class Berlin3Component implements OnInit {
   imagenModal5 = '../../../assets/imagenes/galeriaBerlin/IMG_2194.JPG';
   imagenModal6 = '../../../assets/imagenes/galeriaBerlin/IMG_2164.JPG';
   titulo1 = 'Ayuntamiento';
-  titulo2 = 'Vistas de Berlin desde la Catedral';
+  titulo2 = 'Vistas de Berlín desde la Catedral';
   titulo3 = 'Zona alternativa';
   titulo4 = 'Monumento a Marx y Engels';
-  titulo5 = 'Catedral de Berlin';
+  titulo5 = 'Catedral de Berlín';
   titulo6 = 'KulturBrauerei';
 
   siguiente = 'Potsdam y Berlín de noche';

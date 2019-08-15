@@ -10,7 +10,7 @@ export class BerlinComponent implements OnInit {
   // Carrusel de la portada
   tituloCarrusel1 = 'Reichstag';
   imagenCarrusel1 = '../../../assets/imagenes/galeriaBerlin/portada1.JPG';
-  tituloCarrusel2 = 'Muro de Berlin';
+  tituloCarrusel2 = 'Muro deíBerlin';
   imagenCarrusel2 = '../../../assets/imagenes/galeriaBerlin/portada2.JPG';
   tituloCarrusel3 = 'Potsdam';
   descripcionCarrusel3 = 'Palacio de Orangerieschloss';
@@ -18,7 +18,7 @@ export class BerlinComponent implements OnInit {
   tituloCarrusel4 = 'Campo de concentración de Sachsenhausen';
   descripcionCarrusel4 = 'Memorial a los caídos en el campo de Sachsenhausen';
   imagenCarrusel4 = '../../../assets/imagenes/galeriaBerlin/portada4.JPG';
-  tituloCarrusel5 = 'Catedral de Berlin';
+  tituloCarrusel5 = 'Catedral de Berlín';
   imagenCarrusel5 = '../../../assets/imagenes/galeriaBerlin/portada5.JPG';
 
   // Tarjetas de cada dia

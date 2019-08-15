@@ -29,7 +29,7 @@ export class NuevaYorkComponent implements OnInit {
   imagenDia2 = '../../../assets/imagenes/galeriaNy/portadadia2.JPG';
   enlaceDia2 = '/ny2';
 
-  tituloDia3 = 'Día 3 - Times Square, Estacion Central y MOMA';
+  tituloDia3 = 'Día 3 - Times Square, Estación Central y MOMA';
   imagenDia3 = '../../../assets/imagenes/galeriaNy/portadadia3.JPG';
   enlaceDia3 = '/ny3';
 

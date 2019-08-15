@@ -26,7 +26,7 @@ export class Ny4Component implements OnInit {
   titulo5 = 'Flatirion Building';
   titulo6 = 'Puente de Brooklyn';
 
-  anterior = 'Times Square, Estacion Central y MOMA';
+  anterior = 'Times Square, Estación Central y MOMA';
   anteriorDonde = '/ny3';
   siguiente = 'Harlem, Bronx y DUMBO';
   siguienteDonde = '/ny5';

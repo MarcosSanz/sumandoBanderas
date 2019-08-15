@@ -1,6 +1,7 @@
 import { RouterModule, Routes } from '@angular/router';
 
 import { PaginasComponent } from './paginas.component';
+import { PrincipalComponent } from './principal/principal.component';
 
 // Berlin
 import { BerlinComponent } from './alemania/berlin/berlin.component';
@@ -44,7 +45,11 @@ import { Bulgaria2Component } from './bulgaria/bulgaria2/bulgaria2.component';
 import { Bulgaria3Component } from './bulgaria/bulgaria3/bulgaria3.component';
 import { Bulgaria4Component } from './bulgaria/bulgaria4/bulgaria4.component';
 import { Bulgaria5Component } from './bulgaria/bulgaria5/bulgaria5.component';
-import { PrincipalComponent } from './principal/principal.component';
+// Extremadura
+import { ExtremaduraComponent } from './extremadura/extremadura.component';
+import { Extremadura1Component } from './extremadura/extremadura1/extremadura1.component';
+import { Extremadura2Component } from './extremadura/extremadura2/extremadura2.component';
+import { Extremadura3Component } from './extremadura/extremadura3/extremadura3.component';
 
 
 const paginasRoutes: Routes = [
@@ -52,6 +57,12 @@ const paginasRoutes: Routes = [
     path: '',
     component: PaginasComponent,
     children: [
+      // Berlin
+      { path: 'extremadura', component: ExtremaduraComponent, },
+      { path: 'extremadura-dia-1', component: Extremadura1Component, },
+      { path: 'extremadura-dia-2', component: Extremadura2Component, },
+      { path: 'extremadura-dia-3', component: Extremadura3Component, },
+
       // Berlin
       { path: 'berlin', component: BerlinComponent, },
       { path: 'berlin-dia-1', component: Berlin1Component },
