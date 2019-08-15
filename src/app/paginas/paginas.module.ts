@@ -61,6 +61,10 @@ import { Extremadura1Component } from './extremadura/extremadura1/extremadura1.c
 import { Extremadura2Component } from './extremadura/extremadura2/extremadura2.component';
 import { Extremadura3Component } from './extremadura/extremadura3/extremadura3.component';
 import { MazarronComponent } from './mazarron/mazarron.component';
+import { LeonComponent } from './leon/leon.component';
+import { AsturiasComponent } from './asturias/asturias.component';
+import { CantabriaComponent } from './cantabria/cantabria.component';
+import { AranjuezComponent } from './aranjuez/aranjuez.component';
 
 @NgModule({
   declarations: [
@@ -122,7 +126,11 @@ import { MazarronComponent } from './mazarron/mazarron.component';
     Extremadura1Component,
     Extremadura2Component,
     Extremadura3Component,
-    MazarronComponent
+    MazarronComponent,
+    LeonComponent,
+    AsturiasComponent,
+    CantabriaComponent,
+    AranjuezComponent
   ],
   exports: [
     CarruselComponent,

@@ -51,6 +51,10 @@ import { Extremadura1Component } from './extremadura/extremadura1/extremadura1.c
 import { Extremadura2Component } from './extremadura/extremadura2/extremadura2.component';
 import { Extremadura3Component } from './extremadura/extremadura3/extremadura3.component';
 import { MazarronComponent } from './mazarron/mazarron.component';
+import { LeonComponent } from './leon/leon.component';
+import { AsturiasComponent } from './asturias/asturias.component';
+import { CantabriaComponent } from './cantabria/cantabria.component';
+import { AranjuezComponent } from './aranjuez/aranjuez.component';
 
 
 const paginasRoutes: Routes = [
@@ -63,9 +67,16 @@ const paginasRoutes: Routes = [
       { path: 'extremadura-dia-1', component: Extremadura1Component, },
       { path: 'extremadura-dia-2', component: Extremadura2Component, },
       { path: 'extremadura-dia-3', component: Extremadura3Component, },
-
       // Mazarron y Cartagena
       { path: 'mazarron', component: MazarronComponent, },
+      // Leon
+      { path: 'leon', component: LeonComponent, },
+      // Asturias
+      { path: 'asturias', component: AsturiasComponent, },
+      // Cantabria
+      { path: 'cantabria', component: CantabriaComponent, },
+      // Aranjuez
+      { path: 'aranjuez', component: AranjuezComponent, },
 
       // Berlin
       { path: 'berlin', component: BerlinComponent, },
