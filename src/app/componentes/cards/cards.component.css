@@ -5,11 +5,3 @@
 .imagenCards {
   max-height: 210px;
 }
-
-.btn-sumando {
-  background: #810000;
-}
-
-.btn-sumando:hover {
-  background: #4E0101;
-}
