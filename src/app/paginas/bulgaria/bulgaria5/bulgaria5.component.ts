@@ -10,7 +10,7 @@ export class Bulgaria5Component implements OnInit {
   siguiente = 'Portada del viaje';
   siguienteDonde = '/rumania-y-bulgaria';
   anterior = 'Monasterio Bachkovo, Fuerte de Assen, Plovdiv y Veliko Tarnovo';
-  anteriorDonde = '/bulgaria-dia-2';
+  anteriorDonde = '/bulgaria-dia-4';
 
   constructor() { }
 

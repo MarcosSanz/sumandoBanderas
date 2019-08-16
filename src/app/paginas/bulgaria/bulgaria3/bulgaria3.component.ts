@@ -19,12 +19,12 @@ export class Bulgaria3Component implements OnInit {
   imagenModal4 = '../../../assets/imagenes/galeriaRumania/bul-3-4.jpg';
   imagenModal5 = '../../../assets/imagenes/galeriaRumania/bul-3-5.jpg';
   imagenModal6 = '../../../assets/imagenes/galeriaRumania/bul-3-6.jpg';
-  titulo1 = 'Catedral de Sveta-Nedelya';
-  titulo2 = 'Mezquita Banya Bashi';
-  titulo3 = 'Iglesia de Sveta Petka Samardzhiiska';
-  titulo4 = 'Iglesia de Hagia Sofía';
-  titulo5 = 'Regional History Museum';
-  titulo6 = 'Catedral San Aleksandar Nevski';
+  titulo1 = 'Entrada Monasterio de Rila';
+  titulo2 = 'Monasterio de Rila';
+  titulo3 = 'Monasterio de Rila';
+  titulo4 = 'Monasterio de Rila';
+  titulo5 = 'Otoño en el Monasterio de Rila';
+  titulo6 = 'Monasterio de Rila';
 
   siguiente = 'Monasterio Bachkovo, Fuerte de Assen, Plovdiv y Veliko Tarnovo';
   siguienteDonde = '/bulgaria-dia-4';

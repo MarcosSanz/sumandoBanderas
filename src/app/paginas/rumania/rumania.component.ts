@@ -77,20 +77,20 @@ export class RumaniaComponent implements OnInit {
   enlaceBulgaria3 = '/bulgaria-dia-3';
 
   tituloBulgaria4 = 'Día 14 - Monasterio Bachkovo, Fuerte de Assen, Plovdiv y Veliko Tarnovo';
-  imagenBulgaria4 = '../../../assets/imagenes/galeriaRumania/bulportada.jpg';
+  imagenBulgaria4 = '../../../assets/imagenes/galeriaRumania/bul-4-6.jpg';
   enlaceBulgaria4 = '/bulgaria-dia-4';
 
   tituloBulgaria5 = 'Día 15 - Monasterio de la Transfiguración, Nicopolis ad Istrum y Bucureşti';
-  imagenBulgaria5 = '../../../assets/imagenes/galeriaRumania/bulportada.jpg';
+  imagenBulgaria5 = '../../../assets/imagenes/galeriaRumania/bul-5-5.jpg';
   enlaceBulgaria5 = '/bulgaria-dia-5';
 
    // Cuentas
-   vuelos = '159,86 €';
-   hoteles = '508,82 €';
-   comidas = '401,91 €';
-   entradas = '95,88 €';
-   transportes = '511,32 €';
-   suma = '1.852,86 €';
+   vuelos = '159,86€';
+   hoteles = '508,82€';
+   comidas = '401,91€';
+   entradas = '95,88€';
+   transportes = '511,32€';
+   suma = '1.852,86€';
 
   constructor() { }
 

@@ -3,6 +3,7 @@
   max-height: 400px !important;
 } 
 .carousel-item img {
+  object-fit: scale-down;
   max-height: 400px !important;
 }
 
@@ -14,6 +15,11 @@
     max-height: 250px !important;
   }
 }
+
+.fondoCarrusel {
+  background: #780101 !important;
+}
+
 
 .panoramica {
   max-width: 100%;
