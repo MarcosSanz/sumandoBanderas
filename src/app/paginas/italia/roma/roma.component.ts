@@ -9,7 +9,7 @@ export class RomaComponent implements OnInit {
 
   // Carrusel de la portada
   tituloCarrusel1 = 'Castel Sant´Angelo';
-  imagenCarrusel1 = '../../../assets/imagenes/galeriaRoma/portada1.JPG';
+  imagenCarrusel1 = '../../../assets/imagenes/galeriaRoma/IMG_2302.JPG';
   tituloCarrusel2 = 'Arco de Constantino';
   imagenCarrusel2 = '../../../assets/imagenes/galeriaRoma/portada2.JPG';
   tituloCarrusel3 = 'Coliseo';
@@ -29,12 +29,12 @@ export class RomaComponent implements OnInit {
   imagenDia2 = '../../../assets/imagenes/galeriaRoma/IMG_2177.JPG';
   enlaceDia2 = '/roma-dia-2';
 
-  tituloDia3 = 'Día 2 - Plaza Spagna, plaza del Popolo, Ciudad del Vaticano, Trastevere';
+  tituloDia3 = 'Día 2 - Plaza Spagna, plaza del Popolo, C.Vaticano, Trastevere';
   imagenDia3 = '../../../assets/imagenes/galeriaRoma/IMG_2269.JPG';
   enlaceDia3 = '/roma-dia-3';
 
-  tituloDia4 = 'Día 3 - Termas Diocleciano, Sta. Maria Mayor, S. Pietro in Vincoli';
-  imagenDia4 = '../../../assets/imagenes/galeriaRoma/IMG_2801.JPG';
+  tituloDia4 = 'Día 3 - Termas Diocleciano, Sta.Maria Mayor, Pietro in Vincoli';
+  imagenDia4 = '../../../assets/imagenes/galeriaRoma/IMG_2805.JPG';
   enlaceDia4 = '/roma-dia-4';
 
   constructor() { }
