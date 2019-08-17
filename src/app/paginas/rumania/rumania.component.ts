@@ -10,11 +10,11 @@ export class RumaniaComponent implements OnInit {
   // Carrusel de la portada
   tituloCarrusel1 = 'Sofia, Bulgaria';
   imagenCarrusel1 = '../../../assets/imagenes/galeriaRumania/bul-2-7.jpg';
-  tituloCarrusel2 = 'Transfăgărășan, Rumania';
+  tituloCarrusel2 = 'Transfăgărășan, Rumanía';
   imagenCarrusel2 = '../../../assets/imagenes/galeriaRumania/rum-4-4.jpg';
-  tituloCarrusel3 = 'Castillo Pelisor, Rumania';
+  tituloCarrusel3 = 'Castillo Pelisor, Rumanía';
   imagenCarrusel3 = '../../../assets/imagenes/galeriaRumania/rum-6-4.jpg';
-  tituloCarrusel4 = 'Cementerio Alegre, Rumania';
+  tituloCarrusel4 = 'Cementerio Alegre, Rumanía';
   imagenCarrusel4 = '../../../assets/imagenes/galeriaRumania/rum-8-5.jpg';
   tituloCarrusel5 = 'Monasterio de Rila, Bulgaria';
   imagenCarrusel5 = '../../../assets/imagenes/galeriaRumania/portada1.jpg';

@@ -10,7 +10,7 @@ export class ModalFoto9Component implements OnInit {
   @Input() imagen: string;
   @Input() titulo: string;
   @Input() imagenModal: string;
-  
+
   constructor() { }
 
   ngOnInit() {

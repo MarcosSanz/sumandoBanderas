@@ -16,7 +16,7 @@ export class PrincipalComponent implements OnInit {
   imagenDia2 = '../../../assets/imagenes/galeriaNy/IMG_5859.JPG';
   enlaceDia2 = '/was1';
 
-  tituloDia3 = 'Rumania en 10 días';
+  tituloDia3 = 'Rumanía en 10 días';
   imagenDia3 = '../../../assets/imagenes/galeriaRumania/rum15.jpg';
   enlaceDia3 = '/rumania-y-bulgaria';
 

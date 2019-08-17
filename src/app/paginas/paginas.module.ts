@@ -65,6 +65,7 @@ import { LeonComponent } from './leon/leon.component';
 import { AsturiasComponent } from './asturias/asturias.component';
 import { CantabriaComponent } from './cantabria/cantabria.component';
 import { AranjuezComponent } from './aranjuez/aranjuez.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -137,6 +138,7 @@ import { AranjuezComponent } from './aranjuez/aranjuez.component';
     CardsComponent,
   ],
   imports: [
+    CommonModule,
     PAGINAS_ROUTES
   ]
 })

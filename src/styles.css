@@ -72,11 +72,11 @@
   background: #4E0101;
 }
 
-.skeleton {
+.skeleton slower {
   background-repeat: no-repeat;
   background-image: 
     radial-gradient(circle 16px, white 99%, transparent 0),
-    linear-gradient(white 20px, transparent 0),
+    linear-gradient(#4E0101 20px, transparent 0),
     linear-gradient(#780101 100%, transparent 0);
     background-size:
     32px 32px,  /* avatar */

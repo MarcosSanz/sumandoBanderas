@@ -27,7 +27,7 @@ import { Ny4Component } from './eeuu/nueva-york/ny4/ny4.component';
 import { Ny5Component } from './eeuu/nueva-york/ny5/ny5.component';
 import { Washington1Component } from './eeuu/washington/washington1/washington1.component';
 import { Washington2Component } from './eeuu/washington/washington2/washington2.component';
-// Rumania
+// Rumanía
 import { RumaniaComponent } from './rumania/rumania.component';
 import { Rumania1Component } from './rumania/rumania1/rumania1.component';
 import { Rumania2Component } from './rumania/rumania2/rumania2.component';
@@ -106,7 +106,7 @@ const paginasRoutes: Routes = [
       { path: 'was1', component: Washington1Component },
       { path: 'was2', component: Washington2Component },
 
-      // Rumania
+      // Rumanía
       { path: 'rumania-y-bulgaria', component: RumaniaComponent },
       { path: 'rumania-datos-viaje', component: Rumania1Component },
       { path: 'rumania-dia-1', component: Rumania2Component },
