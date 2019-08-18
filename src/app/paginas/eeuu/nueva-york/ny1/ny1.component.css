@@ -4,7 +4,8 @@
 }
 @media (max-width: 768px) {
   .NYImagen1 {
-    width: 53%;
+    width: 100%;
+    height: auto;
   }
 }
 

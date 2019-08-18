@@ -10,7 +10,7 @@ export class BerlinComponent implements OnInit {
   // Carrusel de la portada
   tituloCarrusel1 = 'Reichstag';
   imagenCarrusel1 = '../../../assets/imagenes/galeriaBerlin/portada1.JPG';
-  tituloCarrusel2 = 'Muro deíBerlin';
+  tituloCarrusel2 = 'Muro de Berlín';
   imagenCarrusel2 = '../../../assets/imagenes/galeriaBerlin/portada2.JPG';
   tituloCarrusel3 = 'Potsdam';
   descripcionCarrusel3 = 'Palacio de Orangerieschloss';
