@@ -55,6 +55,8 @@ import { LeonComponent } from './leon/leon.component';
 import { AsturiasComponent } from './asturias/asturias.component';
 import { CantabriaComponent } from './cantabria/cantabria.component';
 import { AranjuezComponent } from './aranjuez/aranjuez.component';
+import { SiciliaDatosViajeComponent } from './italia/sicilia/sicilia-datos-viaje/sicilia-datos-viaje.component';
+import { Sicilia1Component } from './italia/sicilia/sicilia1/sicilia1.component';
 
 
 const paginasRoutes: Routes = [
@@ -95,6 +97,8 @@ const paginasRoutes: Routes = [
 
       // Sicilia
       { path: 'sicilia', component: SiciliaComponent },
+      { path: 'sicilia-datos-viaje', component: SiciliaDatosViajeComponent },
+      { path: 'sicilia-dia-1y2', component: Sicilia1Component },
 
       // Nueva York y Washington
       { path: 'nueva-york', component: NuevaYorkComponent },
