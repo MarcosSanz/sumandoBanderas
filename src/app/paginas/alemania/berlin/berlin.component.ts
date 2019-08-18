@@ -43,12 +43,12 @@ export class BerlinComponent implements OnInit {
   enlaceDia5 = '/berlin-dia-5';
 
   // Cuentas
-  vuelos = '204,00 €';
-  hoteles = '141,00 €';
-  comidas = '126,90 €';
-  entradas = '95,00 €';
-  transportes = '34,15 €';
-  suma = '601,05 €';
+  vuelos = '204,00€';
+  hoteles = '141,00€';
+  comidas = '126,90€';
+  entradas = '95,00€';
+  transportes = '34,15€';
+  suma = '601,05€';
 
   constructor() { }
 

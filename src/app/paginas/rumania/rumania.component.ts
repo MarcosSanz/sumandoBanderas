@@ -17,7 +17,7 @@ export class RumaniaComponent implements OnInit {
   tituloCarrusel4 = 'Cementerio Alegre, Rumanía';
   imagenCarrusel4 = '../../../assets/imagenes/galeriaRumania/rum-8-5.jpg';
   tituloCarrusel5 = 'Monasterio de Rila, Bulgaria';
-  imagenCarrusel5 = '../../../assets/imagenes/galeriaRumania/portada1.jpg';
+  imagenCarrusel5 = '../../../assets/imagenes/galeriaRumania/bul-3-2.jpg';
 
   // Tarjetas de cada dia
   tituloDia1 = 'Datos del viaje';

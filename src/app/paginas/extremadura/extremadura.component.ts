@@ -18,7 +18,7 @@ export class ExtremaduraComponent implements OnInit {
   imagenCarrusel3 = '../../../assets/imagenes/galeriaExtremadura/IMG_2974.JPG';
   descripcion3 = 'Teatro romano';
   tituloCarrusel4 = 'Cáceres';
-  imagenCarrusel4 = '../../../assets/imagenes/galeriaExtremadura/IMG_3015.JPG';
+  imagenCarrusel4 = '../../../assets/imagenes/galeriaExtremadura/IMG_3033.JPG';
   tituloCarrusel5 = 'Cáceres';
   imagenCarrusel5 = '../../../assets/imagenes/galeriaExtremadura/IMG_3055.JPG';
 
