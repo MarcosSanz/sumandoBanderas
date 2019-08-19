@@ -57,6 +57,7 @@ import { CantabriaComponent } from './cantabria/cantabria.component';
 import { AranjuezComponent } from './aranjuez/aranjuez.component';
 import { SiciliaDatosViajeComponent } from './italia/sicilia/sicilia-datos-viaje/sicilia-datos-viaje.component';
 import { Sicilia1Component } from './italia/sicilia/sicilia1/sicilia1.component';
+import { ConocenosComponent } from './conocenos/conocenos.component';
 
 
 const paginasRoutes: Routes = [
@@ -130,6 +131,7 @@ const paginasRoutes: Routes = [
       { path: 'bulgaria-dia-4', component: Bulgaria4Component },
       { path: 'bulgaria-dia-5', component: Bulgaria5Component },
 
+      { path: 'conocenos', component: ConocenosComponent },
       { path: 'portada', component: PrincipalComponent },
 
       { path: '', redirectTo: '/portada', pathMatch: 'full' }

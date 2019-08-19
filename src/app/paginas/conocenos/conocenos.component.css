@@ -1,0 +1,15 @@
+.rounded-circle {
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 768px) {
+  .rounded-circle{
+    width: 125px;
+    height: 125px;
+  }
+}
+
+.conocenos {
+  max-height: 400px;
+}

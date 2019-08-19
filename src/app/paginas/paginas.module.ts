@@ -68,6 +68,7 @@ import { AranjuezComponent } from './aranjuez/aranjuez.component';
 import { CommonModule } from '@angular/common';
 import { SiciliaDatosViajeComponent } from './italia/sicilia/sicilia-datos-viaje/sicilia-datos-viaje.component';
 import { Sicilia1Component } from './italia/sicilia/sicilia1/sicilia1.component';
+import { ConocenosComponent } from './conocenos/conocenos.component';
 
 @NgModule({
   declarations: [
@@ -135,7 +136,8 @@ import { Sicilia1Component } from './italia/sicilia/sicilia1/sicilia1.component'
     CantabriaComponent,
     AranjuezComponent,
     SiciliaDatosViajeComponent,
-    Sicilia1Component
+    Sicilia1Component,
+    ConocenosComponent
   ],
   exports: [
     CarruselComponent,
