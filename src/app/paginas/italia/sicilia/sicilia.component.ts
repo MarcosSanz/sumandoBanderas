@@ -24,7 +24,7 @@ export class SiciliaComponent implements OnInit {
 
   // Tarjetas de cada dia
   tituloDia1 = 'Datos del viaje';
-  imagenDia1 = '../../../assets/imagenes/galeriaSicilia/IMG_0180.JPG';
+  imagenDia1 = '../../../assets/imagenes/galeriaSicilia/sicilia-turismo.jpg';
   enlaceDia1 = '/sicilia-datos-viaje';
 
   tituloDia2 = 'Día 1 y 2 - Palermo';
@@ -33,35 +33,35 @@ export class SiciliaComponent implements OnInit {
 
   tituloDia4 = 'Día 3 - Corleone, Templo de Segesta, Erice y Trapani';
   imagenDia4 = '../../../assets/imagenes/galeriaSicilia/IMG-0113.jpg';
-  enlaceDia4 = '/sicilia-dia-3';
+  enlaceDia4 = '';
 
   tituloDia5 = 'Día 4 - Selinunte, Villa Romana dei Casale y Agrigento';
   imagenDia5 = '../../../assets/imagenes/galeriaSicilia/IMG-0165.jpg';
-  enlaceDia5 = '/sicilia-dia-4';
+  enlaceDia5 = '';
 
   tituloDia6 = 'Día 5 - Valle de los Templos y Noto';
   imagenDia6 = '../../../assets/imagenes/galeriaSicilia/IMG-0042.jpg';
-  enlaceDia6 = '/sicilia-dia-5';
+  enlaceDia6 = '';
 
   tituloDia7 = 'Día 6 - Siracusa';
   imagenDia7 = '../../../assets/imagenes/galeriaSicilia/IMG-0351.jpg';
-  enlaceDia7 = '/sicilia-dia-6';
+  enlaceDia7 = '';
 
   tituloDia8 = 'Día 7 - Siracusa y Catania';
   imagenDia8 = '../../../assets/imagenes/galeriaSicilia/IMG_0232.jpg';
-  enlaceDia8 = '/sicilia-dia-7';
+  enlaceDia8 = '';
 
   tituloDia9 = 'Día 8 - Ruta del Padrino, Taormina y Catania';
   imagenDia9 = '../../../assets/imagenes/galeriaSicilia/IMG-0200.jpg';
-  enlaceDia9 = '/sicilia-dia-8';
+  enlaceDia9 = '';
 
   tituloDia10 = 'Día 9 - Enna';
   imagenDia10 = '../../../assets/imagenes/galeriaSicilia/IMG_0551.JPG';
-  enlaceDia10 = '/sicilia-dia-9';
+  enlaceDia10 = '';
 
   tituloDia11 = 'Día 10 - Cefalú y Monasterio de Monreale';
   imagenDia11 = '../../../assets/imagenes/galeriaSicilia/IMG_0564.JPG';
-  enlaceDia11 = '/sicilia-dia-10';
+  enlaceDia11 = '';
 
    // Cuentas
    vuelos = '188,00€';

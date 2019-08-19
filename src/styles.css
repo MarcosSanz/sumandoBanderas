@@ -19,10 +19,6 @@
   background: #780101 !important;
 }
 
-.panoramica {
-  max-width: 100%;
-}
-
 .pointer {
   cursor: pointer;
 }
@@ -42,8 +38,17 @@
   }
 }
 
+.panoramica {
+  max-width: 100%;
+}
+
 .imagenPortada {
   max-height: 450px;
+}
+
+.imagen6 {
+  width: 100%;
+  max-height: 315px;
 }
 
 .carruselPortada {
@@ -87,3 +92,13 @@
     24px 200px, /* title */
     0 0;        /* card bg */
 }
+
+/* .posicionamiento {
+  z-index: 1 !important;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 100 !important;
+  width: 100%
+} */

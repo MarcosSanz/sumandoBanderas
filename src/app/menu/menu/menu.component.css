@@ -14,3 +14,7 @@
   max-height: 20px;
   max-width: 30px;
 }
+
+.navbar-nav .dropdown-menu {
+  position: static;
+}
