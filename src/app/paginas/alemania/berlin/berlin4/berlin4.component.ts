@@ -26,9 +26,9 @@ export class Berlin4Component implements OnInit {
   titulo5 = 'Puerta de Brandemburgo';
   titulo6 = 'Reichstag';
 
-  siguiente = 'Campo de concentración, Sachsenhausen';
+  siguiente = 'Campo de Concentración, Sachsenhausen';
   siguienteDonde = '/berlin-dia-5';
-  anterior = 'Centro de Berlín, isla de los museos, barrio judío';
+  anterior = 'Centro de Berlín, Isla de los Museos, Barrio Judío';
   anteriorDonde = '/berlin-dia-3';
 
   constructor() { }
