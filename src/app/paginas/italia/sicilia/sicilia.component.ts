@@ -33,7 +33,7 @@ export class SiciliaComponent implements OnInit {
 
   tituloDia4 = 'Día 3 - Corleone, Templo de Segesta, Erice y Trapani';
   imagenDia4 = '../../../assets/imagenes/galeriaSicilia/IMG-0113.jpg';
-  enlaceDia4 = '';
+  enlaceDia4 = '/sicilia-dia-3';
 
   tituloDia5 = 'Día 4 - Selinunte, Villa Romana dei Casale y Agrigento';
   imagenDia5 = '../../../assets/imagenes/galeriaSicilia/IMG-0165.jpg';

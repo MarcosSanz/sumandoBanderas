@@ -58,6 +58,7 @@ import { AranjuezComponent } from './aranjuez/aranjuez.component';
 import { SiciliaDatosViajeComponent } from './italia/sicilia/sicilia-datos-viaje/sicilia-datos-viaje.component';
 import { Sicilia1Component } from './italia/sicilia/sicilia1/sicilia1.component';
 import { ConocenosComponent } from './conocenos/conocenos.component';
+import { Sicilia3Component } from './italia/sicilia/sicilia3/sicilia3.component';
 
 
 const paginasRoutes: Routes = [
@@ -100,6 +101,7 @@ const paginasRoutes: Routes = [
       { path: 'sicilia', component: SiciliaComponent },
       { path: 'sicilia-datos-viaje', component: SiciliaDatosViajeComponent },
       { path: 'sicilia-dia-1y2', component: Sicilia1Component },
+      { path: 'sicilia-dia-3', component: Sicilia3Component },
 
       // Nueva York y Washington
       { path: 'nueva-york', component: NuevaYorkComponent },

@@ -27,9 +27,9 @@ export class Sicilia1Component implements OnInit {
   titulo6 = 'Calles de Palermo';
 
   siguiente = 'Corleone, Templo de Segesta, Erice y Trapani';
-  siguienteDonde = '';
+  siguienteDonde = '/sicilia-dia-3';
   anterior = 'Datos del viaje';
-  anteriorDonde = '/sicilia-dia-1y2';
+  anteriorDonde = '/sicilia-datos-viaje';
 
   constructor() { }
 
