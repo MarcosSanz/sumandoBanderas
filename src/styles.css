@@ -1,3 +1,9 @@
+.mt-6 {
+  margin-top: 3.5rem;
+}
+.mt-7 {
+  margin-top: 5rem;
+}
 
 .carousel-item  {
   max-height: 400px !important;
