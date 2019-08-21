@@ -70,6 +70,8 @@ import { SiciliaDatosViajeComponent } from './italia/sicilia/sicilia-datos-viaje
 import { Sicilia1Component } from './italia/sicilia/sicilia1/sicilia1.component';
 import { ConocenosComponent } from './conocenos/conocenos.component';
 import { Sicilia3Component } from './italia/sicilia/sicilia3/sicilia3.component';
+import { Sicilia4Component } from './italia/sicilia/sicilia4/sicilia4.component';
+import { Sicilia5Component } from './italia/sicilia/sicilia5/sicilia5.component';
 
 @NgModule({
   declarations: [
@@ -139,7 +141,9 @@ import { Sicilia3Component } from './italia/sicilia/sicilia3/sicilia3.component'
     SiciliaDatosViajeComponent,
     Sicilia1Component,
     ConocenosComponent,
-    Sicilia3Component
+    Sicilia3Component,
+    Sicilia4Component,
+    Sicilia5Component
   ],
   exports: [
     CarruselComponent,

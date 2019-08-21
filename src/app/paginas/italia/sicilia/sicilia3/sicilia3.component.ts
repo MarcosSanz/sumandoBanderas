@@ -26,9 +26,9 @@ export class Sicilia3Component implements OnInit {
   titulo5 = 'Erice';
   titulo6 = 'Teatro de Segesta';
 
-  siguiente = 'Selinunte, Villa Romana dei Casale, Agrigento';
-  siguienteDonde = '/sicilia';
-  anterior = 'Corleone, Templo de Segesta, Erice y Trapani';
+  siguiente = 'Selinunte, Scala dei Turchi, Agrigento';
+  siguienteDonde = '/sicilia-dia-4';
+  anterior = 'Palermo';
   anteriorDonde = '/sicilia-dia-1y2';
 
   constructor() { }

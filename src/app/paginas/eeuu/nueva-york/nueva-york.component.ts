@@ -18,7 +18,7 @@ export class NuevaYorkComponent implements OnInit {
   imagenCarrusel4 = '../../../assets/imagenes/galeriaNy/portada4.JPG';
   tituloCarrusel5 = 'White House';
   descripcionCarrusel5 = 'Washington';
-  imagenCarrusel5 = '../../../assets/imagenes/galeriaNy/portada5.JPG';
+  imagenCarrusel5 = '../../../assets/imagenes/galeriaNy/IMG_5859.JPG';
 
   // Tarjetas de cada dia
   tituloDia1 = 'Día 1 - Ellis Island, Liberty Island & Lower Town';

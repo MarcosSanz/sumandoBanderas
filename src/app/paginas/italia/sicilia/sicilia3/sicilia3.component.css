@@ -1,9 +1,9 @@
 .imagenPalermo {
-  width: auto;
+  width: 100%;
   max-height: 315px;
 }
 
-.panoramica {
+.imagenPalermo2 {
+  width: auto;
   max-height: 315px;
-  width: 100%;
 }

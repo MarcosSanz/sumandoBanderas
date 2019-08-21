@@ -35,13 +35,13 @@ export class SiciliaComponent implements OnInit {
   imagenDia4 = '../../../assets/imagenes/galeriaSicilia/IMG-0113.jpg';
   enlaceDia4 = '/sicilia-dia-3';
 
-  tituloDia5 = 'Día 4 - Selinunte, Villa Romana dei Casale y Agrigento';
+  tituloDia5 = 'Día 4 - Selinunte, Scala dei Turchi y Agrigento';
   imagenDia5 = '../../../assets/imagenes/galeriaSicilia/IMG-0165.jpg';
-  enlaceDia5 = '';
+  enlaceDia5 = '/sicilia-dia-4';
 
-  tituloDia6 = 'Día 5 - Valle de los Templos y Noto';
+  tituloDia6 = 'Día 5 - Valle de los Templos, Villa romana del Casale, y Noto';
   imagenDia6 = '../../../assets/imagenes/galeriaSicilia/IMG-0042.jpg';
-  enlaceDia6 = '';
+  enlaceDia6 = '/sicilia-dia-5';
 
   tituloDia7 = 'Día 6 - Siracusa';
   imagenDia7 = '../../../assets/imagenes/galeriaSicilia/IMG-0351.jpg';
