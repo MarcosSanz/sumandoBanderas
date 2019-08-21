@@ -72,6 +72,7 @@ import { ConocenosComponent } from './conocenos/conocenos.component';
 import { Sicilia3Component } from './italia/sicilia/sicilia3/sicilia3.component';
 import { Sicilia4Component } from './italia/sicilia/sicilia4/sicilia4.component';
 import { Sicilia5Component } from './italia/sicilia/sicilia5/sicilia5.component';
+import { Sicilia6Component } from './italia/sicilia/sicilia6/sicilia6.component';
 
 @NgModule({
   declarations: [
@@ -143,7 +144,8 @@ import { Sicilia5Component } from './italia/sicilia/sicilia5/sicilia5.component'
     ConocenosComponent,
     Sicilia3Component,
     Sicilia4Component,
-    Sicilia5Component
+    Sicilia5Component,
+    Sicilia6Component
   ],
   exports: [
     CarruselComponent,

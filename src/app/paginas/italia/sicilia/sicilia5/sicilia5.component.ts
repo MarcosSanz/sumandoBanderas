@@ -26,7 +26,7 @@ export class Sicilia5Component implements OnInit {
   titulo5 = 'Catedral de San Nicoló, Noto';
   titulo6 = 'Palacio Ducezio';
 
-  siguiente = 'Siracusa';
+  siguiente = 'Necropoli di Pantalica y Siracusa';
   siguienteDonde = '/sicilia';
   anterior = 'Selinunte, Scala dei Turchi, Agrigento';
   anteriorDonde = '/sicilia-dia-4';

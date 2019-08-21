@@ -43,25 +43,25 @@ export class SiciliaComponent implements OnInit {
   imagenDia6 = '../../../assets/imagenes/galeriaSicilia/IMG-0042.jpg';
   enlaceDia6 = '/sicilia-dia-5';
 
-  tituloDia7 = 'Día 6 - Siracusa';
+  tituloDia7 = 'Día 6 - Necropoli di Pantalica y Siracusa';
   imagenDia7 = '../../../assets/imagenes/galeriaSicilia/IMG-0351.jpg';
-  enlaceDia7 = '';
+  enlaceDia7 = '/sicilia-dia-6';
 
   tituloDia8 = 'Día 7 - Siracusa y Catania';
   imagenDia8 = '../../../assets/imagenes/galeriaSicilia/IMG_0232.jpg';
-  enlaceDia8 = '';
+  enlaceDia8 = '/sicilia-dia-7';
 
   tituloDia9 = 'Día 8 - Ruta del Padrino, Taormina y Catania';
   imagenDia9 = '../../../assets/imagenes/galeriaSicilia/IMG-0200.jpg';
-  enlaceDia9 = '';
+  enlaceDia9 = '/sicilia-dia-8';
 
   tituloDia10 = 'Día 9 - Enna';
   imagenDia10 = '../../../assets/imagenes/galeriaSicilia/IMG_0551.JPG';
-  enlaceDia10 = '';
+  enlaceDia10 = '/sicilia-dia-9';
 
   tituloDia11 = 'Día 10 - Cefalú y Monasterio de Monreale';
   imagenDia11 = '../../../assets/imagenes/galeriaSicilia/IMG_0564.JPG';
-  enlaceDia11 = '';
+  enlaceDia11 = '/sicilia-dia-10';
 
    // Cuentas
    vuelos = '188,00€';
