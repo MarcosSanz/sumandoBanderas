@@ -62,6 +62,10 @@ import { Sicilia3Component } from './italia/sicilia/sicilia3/sicilia3.component'
 import { Sicilia4Component } from './italia/sicilia/sicilia4/sicilia4.component';
 import { Sicilia5Component } from './italia/sicilia/sicilia5/sicilia5.component';
 import { Sicilia6Component } from './italia/sicilia/sicilia6/sicilia6.component';
+import { Sicilia7Component } from './italia/sicilia/sicilia7/sicilia7.component';
+import { Sicilia8Component } from './italia/sicilia/sicilia8/sicilia8.component';
+import { Sicilia9Component } from './italia/sicilia/sicilia9/sicilia9.component';
+import { Sicilia10Component } from './italia/sicilia/sicilia10/sicilia10.component';
 
 
 const paginasRoutes: Routes = [
@@ -108,6 +112,10 @@ const paginasRoutes: Routes = [
       { path: 'sicilia-dia-4', component: Sicilia4Component },
       { path: 'sicilia-dia-5', component: Sicilia5Component },
       { path: 'sicilia-dia-6', component: Sicilia6Component },
+      { path: 'sicilia-dia-7', component: Sicilia7Component },
+      { path: 'sicilia-dia-8', component: Sicilia8Component },
+      { path: 'sicilia-dia-9', component: Sicilia9Component },
+      { path: 'sicilia-dia-10', component: Sicilia10Component },
 
       // Nueva York y Washington
       { path: 'nueva-york', component: NuevaYorkComponent },

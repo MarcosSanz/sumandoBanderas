@@ -27,7 +27,7 @@ export class Sicilia6Component implements OnInit {
   titulo6 = 'Duomo di Siracusa';
 
   siguiente = 'Siracusa y Catania';
-  siguienteDonde = '/sicilia';
+  siguienteDonde = '/sicilia-dia-7';
   anterior = 'Valle de los Templos, Villa romana del Casale, Piazza Armerina y Noto';
   anteriorDonde = '/sicilia-dia-5';
 

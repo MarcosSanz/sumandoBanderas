@@ -27,7 +27,7 @@ export class Sicilia5Component implements OnInit {
   titulo6 = 'Palacio Ducezio';
 
   siguiente = 'Necropoli di Pantalica y Siracusa';
-  siguienteDonde = '/sicilia';
+  siguienteDonde = '/sicilia-dia-6';
   anterior = 'Selinunte, Scala dei Turchi, Agrigento';
   anteriorDonde = '/sicilia-dia-4';
 

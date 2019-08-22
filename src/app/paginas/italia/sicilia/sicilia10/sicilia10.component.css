@@ -1,0 +1,10 @@
+.imagenSicilia10 {
+  width: auto;
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .imagenSicilia10 {
+    width: 100%;
+  }
+}

@@ -48,7 +48,7 @@ export class SiciliaComponent implements OnInit {
   enlaceDia7 = '/sicilia-dia-6';
 
   tituloDia8 = 'Día 7 - Siracusa y Catania';
-  imagenDia8 = '../../../assets/imagenes/galeriaSicilia/IMG_0232.jpg';
+  imagenDia8 = '../../../assets/imagenes/galeriaSicilia/IMG-0232.jpg';
   enlaceDia8 = '/sicilia-dia-7';
 
   tituloDia9 = 'Día 8 - Ruta del Padrino, Taormina y Catania';

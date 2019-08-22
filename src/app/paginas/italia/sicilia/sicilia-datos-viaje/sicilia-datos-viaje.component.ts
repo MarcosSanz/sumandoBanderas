@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SiciliaDatosViajeComponent implements OnInit {
 
-  siguiente = 'Llegada a Palermo';
+  siguiente = 'Palermo';
   siguienteDonde = '/sicilia-dia-1y2';
   anterior = 'Portada del viaje';
   anteriorDonde = '/sicilia';
