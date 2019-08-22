@@ -77,6 +77,7 @@ import { Sicilia7Component } from './italia/sicilia/sicilia7/sicilia7.component'
 import { Sicilia8Component } from './italia/sicilia/sicilia8/sicilia8.component';
 import { Sicilia9Component } from './italia/sicilia/sicilia9/sicilia9.component';
 import { Sicilia10Component } from './italia/sicilia/sicilia10/sicilia10.component';
+import { Sicilia11Component } from './italia/sicilia/sicilia11/sicilia11.component';
 
 @NgModule({
   declarations: [
@@ -153,7 +154,8 @@ import { Sicilia10Component } from './italia/sicilia/sicilia10/sicilia10.compone
     Sicilia7Component,
     Sicilia8Component,
     Sicilia9Component,
-    Sicilia10Component
+    Sicilia10Component,
+    Sicilia11Component
   ],
   exports: [
     CarruselComponent,

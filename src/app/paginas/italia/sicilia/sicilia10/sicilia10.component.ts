@@ -26,8 +26,8 @@ export class Sicilia10Component implements OnInit {
   titulo5 = 'Vistas desde el Teatro griego de Taormina';
   titulo6 = 'Mercado de Taormina';
 
-  siguiente = 'Portada del viaje';
-  siguienteDonde = '/sicilia';
+  siguiente = 'Monasterio de Monreale';
+  siguienteDonde = '/sicilia-dia-11';
   anterior = 'Enna';
   anteriorDonde = '/sicilia-dia-9';
 

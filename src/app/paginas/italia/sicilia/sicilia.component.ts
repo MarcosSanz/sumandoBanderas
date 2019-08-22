@@ -10,7 +10,7 @@ export class SiciliaComponent implements OnInit {
   // Carrusel de la portada
   tituloCarrusel1 = 'Agrigento';
   imagenCarrusel1 = '../../../assets/imagenes/galeriaSicilia/IMG-0315.jpg';
-  descripcion1 = 'Valle de los Reyes';
+  descripcion1 = 'Valle de los Templos';
   tituloCarrusel2 = 'Siracusa';
   imagenCarrusel2 = '../../../assets/imagenes/galeriaSicilia/IMG-0044.jpg';
   descripcion2 = 'Teatro Griego';
@@ -55,13 +55,17 @@ export class SiciliaComponent implements OnInit {
   imagenDia9 = '../../../assets/imagenes/galeriaSicilia/IMG-0200.jpg';
   enlaceDia9 = '/sicilia-dia-8';
 
-  tituloDia10 = 'Día 9 - Enna';
+  tituloDia10 = 'Día 9 - Enna y Palermo';
   imagenDia10 = '../../../assets/imagenes/galeriaSicilia/IMG_0551.JPG';
   enlaceDia10 = '/sicilia-dia-9';
 
-  tituloDia11 = 'Día 10 - Cefalú y Monasterio de Monreale';
+  tituloDia11 = 'Día 10 - Cefalú y Palermo';
   imagenDia11 = '../../../assets/imagenes/galeriaSicilia/IMG_0564.JPG';
   enlaceDia11 = '/sicilia-dia-10';
+
+  tituloDia12 = 'Día 11 - Monasterio de Monreale';
+  imagenDia12 = '../../../assets/imagenes/galeriaSicilia/D246_48_382_1200.jpg';
+  enlaceDia12 = '/sicilia-dia-11';
 
    // Cuentas
    vuelos = '188,00€';

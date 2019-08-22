@@ -26,7 +26,7 @@ export class Sicilia8Component implements OnInit {
   titulo5 = 'Vistas desde el Teatro griego de Taormina';
   titulo6 = 'Mercado de Taormina';
 
-  siguiente = 'Enna';
+  siguiente = 'Enna y Palermo';
   siguienteDonde = '/sicilia-dia-9';
   anterior = 'Siracusa y Catania';
   anteriorDonde = '/sicilia-dia-7';

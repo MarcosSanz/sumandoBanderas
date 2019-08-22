@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Sicilia9Component implements OnInit {
 
-  siguiente = 'Cefalú y Monasterio de Monreale';
+  siguiente = 'Cefalú y Palermo';
   siguienteDonde = '/sicilia-dia-10';
   anterior = 'Ruta del padrino, Taormina y Catania';
   anteriorDonde = '/sicilia-dia-8';

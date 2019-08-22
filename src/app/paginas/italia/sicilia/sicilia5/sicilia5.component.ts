@@ -19,9 +19,9 @@ export class Sicilia5Component implements OnInit {
   imagenModal4 = '../../../assets/imagenes/galeriaSicilia/IMG-0094.jpg';
   imagenModal5 = '../../../assets/imagenes/galeriaSicilia/IMG-0367.jpg';
   imagenModal6 = '../../../assets/imagenes/galeriaSicilia/IMG-0356.jpg';
-  titulo1 = 'Valle de los Reyes, Agrigento';
-  titulo2 = 'Valle de los Reyes, Agrigento';
-  titulo3 = 'Valle de los Reyes, Agrigento';
+  titulo1 = 'Valle de los Templos, Agrigento';
+  titulo2 = 'Valle de los Templos, Agrigento';
+  titulo3 = 'Valle de los Templos, Agrigento';
   titulo4 = 'Piazza Armerina';
   titulo5 = 'Catedral de San Nicoló, Noto';
   titulo6 = 'Palacio Ducezio';
