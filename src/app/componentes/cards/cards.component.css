@@ -3,8 +3,9 @@
 }
 
 .imagenCards {
-  max-height: 210px;
+  height: 210px;
   width: auto;
+  max-width: 308px;
 }
 
 .fondoImagen {

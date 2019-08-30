@@ -18,7 +18,7 @@ export class RomaComponent implements OnInit {
   descripcionCarrusel4 = 'Catedral de San Pedro';
   imagenCarrusel4 = '../../../assets/imagenes/galeriaRoma/portada4.JPG';
   tituloCarrusel5 = 'Fontana di Trevi';
-  imagenCarrusel5 = '../../../assets/imagenes/galeriaRoma/portada5.JPG';
+  imagenCarrusel5 = '../../../assets/imagenes/galeriaRoma/IMG_2186.JPG';
 
   // Tarjetas de cada dia
   tituloDia1 = 'Preparativos y llegada';
