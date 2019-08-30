@@ -1,7 +1,9 @@
 <div class="card mb-1">
   <div class="card-body altoCards text-center">
     <h5 class="card-title text-justify">{{ tituloCard }}</h5>
-    <img src="{{ imagenCard }}" class="card-img-top imagenCards slower">
+    <div class="fondoImagen">
+      <img src="{{ imagenCard }}" class="card-img-top imagenCards slower">
+    </div>
     <a [routerLink]="[enlaceCard]" class="btn btn-secondary btn-sumando btn-lg btn-block mt-1">Léelo</a>
   </div>
 </div>

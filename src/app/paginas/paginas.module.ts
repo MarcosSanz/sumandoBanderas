@@ -78,6 +78,13 @@ import { Sicilia8Component } from './italia/sicilia/sicilia8/sicilia8.component'
 import { Sicilia9Component } from './italia/sicilia/sicilia9/sicilia9.component';
 import { Sicilia10Component } from './italia/sicilia/sicilia10/sicilia10.component';
 import { Sicilia11Component } from './italia/sicilia/sicilia11/sicilia11.component';
+import { EstocolmoComponent } from './estocolmo/estocolmo.component';
+import { Estocolmo1Component } from './estocolmo/estocolmo1/estocolmo1.component';
+import { Estocolmo2Component } from './estocolmo/estocolmo2/estocolmo2.component';
+import { Estocolmo3Component } from './estocolmo/estocolmo3/estocolmo3.component';
+import { Estocolmo4Component } from './estocolmo/estocolmo4/estocolmo4.component';
+import { Estocolmo5Component } from './estocolmo/estocolmo5/estocolmo5.component';
+import { EstocolmoDatosViajeComponent } from './estocolmo/estocolmo-datos-viaje/estocolmo-datos-viaje.component';
 
 @NgModule({
   declarations: [
@@ -155,7 +162,14 @@ import { Sicilia11Component } from './italia/sicilia/sicilia11/sicilia11.compone
     Sicilia8Component,
     Sicilia9Component,
     Sicilia10Component,
-    Sicilia11Component
+    Sicilia11Component,
+    EstocolmoComponent,
+    Estocolmo1Component,
+    Estocolmo2Component,
+    Estocolmo3Component,
+    Estocolmo4Component,
+    Estocolmo5Component,
+    EstocolmoDatosViajeComponent
   ],
   exports: [
     CarruselComponent,

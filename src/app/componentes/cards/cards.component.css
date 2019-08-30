@@ -4,4 +4,9 @@
 
 .imagenCards {
   max-height: 210px;
+  width: auto;
+}
+
+.fondoImagen {
+  background: #f5e2e2;
 }

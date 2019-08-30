@@ -67,6 +67,13 @@ import { Sicilia8Component } from './italia/sicilia/sicilia8/sicilia8.component'
 import { Sicilia9Component } from './italia/sicilia/sicilia9/sicilia9.component';
 import { Sicilia10Component } from './italia/sicilia/sicilia10/sicilia10.component';
 import { Sicilia11Component } from './italia/sicilia/sicilia11/sicilia11.component';
+import { EstocolmoComponent } from './estocolmo/estocolmo.component';
+import { Estocolmo1Component } from './estocolmo/estocolmo1/estocolmo1.component';
+import { EstocolmoDatosViajeComponent } from './estocolmo/estocolmo-datos-viaje/estocolmo-datos-viaje.component';
+import { Estocolmo2Component } from './estocolmo/estocolmo2/estocolmo2.component';
+import { Estocolmo3Component } from './estocolmo/estocolmo3/estocolmo3.component';
+import { Estocolmo4Component } from './estocolmo/estocolmo4/estocolmo4.component';
+import { Estocolmo5Component } from './estocolmo/estocolmo5/estocolmo5.component';
 
 
 const paginasRoutes: Routes = [
@@ -148,6 +155,15 @@ const paginasRoutes: Routes = [
       { path: 'bulgaria-dia-3', component: Bulgaria3Component },
       { path: 'bulgaria-dia-4', component: Bulgaria4Component },
       { path: 'bulgaria-dia-5', component: Bulgaria5Component },
+
+      // Estocolmo
+      { path: 'estocolmo', component: EstocolmoComponent },
+      { path: 'estocolmo-datos-viaje', component: EstocolmoDatosViajeComponent },
+      { path: 'estocolmo-dia-1', component: Estocolmo1Component },
+      { path: 'estocolmo-dia-2', component: Estocolmo2Component },
+      { path: 'estocolmo-dia-3', component: Estocolmo3Component },
+      { path: 'estocolmo-dia-4', component: Estocolmo4Component },
+      { path: 'estocolmo-dia-5', component: Estocolmo5Component },
 
       { path: 'conocenos', component: ConocenosComponent },
       { path: 'portada', component: PrincipalComponent },
