@@ -8,6 +8,13 @@
   max-width: 308px;
 }
 
+@media (max-width: 768px) {
+  .imagenCards {
+    height: auto;
+    width: 100%;
+  }
+}
+
 .fondoImagen {
   background: #f5e2e2;
 }
