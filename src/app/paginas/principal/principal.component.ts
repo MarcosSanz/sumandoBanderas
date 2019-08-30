@@ -36,6 +36,10 @@ export class PrincipalComponent implements OnInit {
   imagenDia7 = '../../../assets/imagenes/galeriaSicilia/IMG-0113.jpg';
   enlaceDia7 = '/sicilia';
 
+  tituloDia8 = 'Estocolmo en 5 días';
+  imagenDia8 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7153.JPG';
+  enlaceDia8 = '/estocolmo';
+
   constructor() { }
 
   ngOnInit() {

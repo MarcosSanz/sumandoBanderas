@@ -22,7 +22,7 @@ export class Estocolmo2Component implements OnInit {
   titulo1 = 'Cruz de Ansgar';
   titulo2 = 'Recreación poblado vikingo en Birka';
   titulo3 = 'Recreación poblado vikingo en Birka';
-  titulo4 = 'Iglesia de ';
+  titulo4 = 'Iglesia de Riddarholmskyrkan';
   titulo5 = 'Stortorget';
   titulo6 = 'Gamla Stan';
 

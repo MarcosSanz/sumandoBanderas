@@ -20,10 +20,10 @@ export class Estocolmo1Component implements OnInit {
   imagenModal5 = '../../../assets/imagenes/galeriaEstocolmo/estocdia1.JPG';
   imagenModal6 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6955.JPG';
   titulo1 = 'Mercado de Hötorget';
-  titulo2 = 'Palaco Real';
+  titulo2 = 'Palacio Real';
   titulo3 = 'Academia Sueca, casa del Nobel';
   titulo4 = 'Catedral de San Nicolás';
-  titulo5 = 'Östra riksdagshuset';
+  titulo5 = 'Östra Riksdagshuset';
   titulo6 = 'National Museum';
 
   siguiente = 'Birka';
