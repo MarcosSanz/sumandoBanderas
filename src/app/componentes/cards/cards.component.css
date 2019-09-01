@@ -16,6 +16,12 @@
   }
 }
 
+@media (max-width: 400px) {
+  .imagenCards {
+    width: auto;
+  }
+}
+
 .fondoImagen {
   background: #f5e2e2;
 }
