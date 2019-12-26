@@ -8,11 +8,21 @@
   max-width: 265px;
 }
 
+@media (max-width: 1370px) {
+  .imagenCards {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   .imagenCards {
     max-height: 170px;
     height: auto;
     width: 100%;
+  }
+
+  .altoCards {
+    height: auto;
   }
 }
 

@@ -74,6 +74,15 @@ import { Estocolmo2Component } from './estocolmo/estocolmo2/estocolmo2.component
 import { Estocolmo3Component } from './estocolmo/estocolmo3/estocolmo3.component';
 import { Estocolmo4Component } from './estocolmo/estocolmo4/estocolmo4.component';
 import { Estocolmo5Component } from './estocolmo/estocolmo5/estocolmo5.component';
+import { PortugalComponent } from './portugal/portugal.component';
+import { Portugal1Component } from './portugal/portugal1/portugal1.component';
+import { Portugal2Component } from './portugal/portugal2/portugal2.component';
+import { Portugal3Component } from './portugal/portugal3/portugal3.component';
+import { Portugal4Component } from './portugal/portugal4/portugal4.component';
+import { Portugal5Component } from './portugal/portugal5/portugal5.component';
+import { Portugal6Component } from './portugal/portugal6/portugal6.component';
+import { Portugal7Component } from './portugal/portugal7/portugal7.component';
+import { PortugalDatosViajeComponent } from './portugal/portugal-datos-viaje/portugal-datos-viaje.component';
 
 
 const paginasRoutes: Routes = [
@@ -164,6 +173,17 @@ const paginasRoutes: Routes = [
       { path: 'estocolmo-dia-3', component: Estocolmo3Component },
       { path: 'estocolmo-dia-4', component: Estocolmo4Component },
       { path: 'estocolmo-dia-5', component: Estocolmo5Component },
+
+      // Portugal
+      { path: 'portugal', component: PortugalComponent },
+      { path: 'portugal-datos-viaje', component: PortugalDatosViajeComponent },
+      { path: 'portugal-dia-1', component: Portugal1Component },
+      { path: 'portugal-dia-2', component: Portugal2Component },
+      { path: 'portugal-dia-3', component: Portugal3Component },
+      { path: 'portugal-dia-4', component: Portugal4Component },
+      { path: 'portugal-dia-5', component: Portugal5Component },
+      { path: 'portugal-dia-6', component: Portugal6Component },
+      { path: 'portugal-dia-7', component: Portugal7Component },
 
       { path: 'conocenos', component: ConocenosComponent },
       { path: 'portada', component: PrincipalComponent },

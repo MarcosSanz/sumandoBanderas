@@ -85,6 +85,15 @@ import { Estocolmo3Component } from './estocolmo/estocolmo3/estocolmo3.component
 import { Estocolmo4Component } from './estocolmo/estocolmo4/estocolmo4.component';
 import { Estocolmo5Component } from './estocolmo/estocolmo5/estocolmo5.component';
 import { EstocolmoDatosViajeComponent } from './estocolmo/estocolmo-datos-viaje/estocolmo-datos-viaje.component';
+import { PortugalComponent } from './portugal/portugal.component';
+import { Portugal1Component } from './portugal/portugal1/portugal1.component';
+import { Portugal2Component } from './portugal/portugal2/portugal2.component';
+import { Portugal3Component } from './portugal/portugal3/portugal3.component';
+import { Portugal4Component } from './portugal/portugal4/portugal4.component';
+import { Portugal5Component } from './portugal/portugal5/portugal5.component';
+import { Portugal6Component } from './portugal/portugal6/portugal6.component';
+import { Portugal7Component } from './portugal/portugal7/portugal7.component';
+import { PortugalDatosViajeComponent } from './portugal/portugal-datos-viaje/portugal-datos-viaje.component';
 
 @NgModule({
   declarations: [
@@ -169,7 +178,16 @@ import { EstocolmoDatosViajeComponent } from './estocolmo/estocolmo-datos-viaje/
     Estocolmo3Component,
     Estocolmo4Component,
     Estocolmo5Component,
-    EstocolmoDatosViajeComponent
+    EstocolmoDatosViajeComponent,
+    PortugalComponent,
+    PortugalDatosViajeComponent,
+    Portugal1Component,
+    Portugal2Component,
+    Portugal3Component,
+    Portugal4Component,
+    Portugal5Component,
+    Portugal6Component,
+    Portugal7Component
   ],
   exports: [
     CarruselComponent,
