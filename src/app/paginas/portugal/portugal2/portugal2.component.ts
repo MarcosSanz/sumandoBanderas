@@ -11,20 +11,20 @@ export class Portugal2Component implements OnInit {
   imagen2 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-3.jpg';
   imagen3 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-5.jpg';
   imagen4 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-6.jpg';
-  imagen5 = '../../../assets/imagenes/galeriaPortugal/.jpg';
-  imagen6 = '../../../assets/imagenes/galeriaPortugal/.jpg';
+  imagen5 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-4.jpg';
+  imagen6 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-8.jpg';
   imagenModal1 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-2.jpg';
   imagenModal2 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-3.jpg';
   imagenModal3 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-5.jpg';
   imagenModal4 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-6.jpg';
-  imagenModal5 = '../../../assets/imagenes/galeriaPortugal/.jpg';
-  imagenModal6 = '../../../assets/imagenes/galeriaPortugal/.jpg';
+  imagenModal5 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-4.jpg';
+  imagenModal6 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-8.jpg';
   titulo1 = 'Oporto desde Gaia';
   titulo2 = 'Oporto desde Gaia';
   titulo3 = 'Oporto desde Gaia';
   titulo4 = 'Gaia desde Oporto';
-  titulo5 = '';
-  titulo6 = '';
+  titulo5 = 'Bairro da Ribeira';
+  titulo6 = 'Sé de Oporto';
 
   siguiente = 'Aveiro, Monasterio de Batalha y Nazaré';
   siguienteDonde = '/portugal-dia-3';
