@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-portugal2',
   templateUrl: './portugal2.component.html',
   styleUrls: ['./portugal2.component.css']
 })
-export class Portugal2Component implements OnInit {
+export class Portugal2Component {
 
   imagen1 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-2.jpg';
   imagen2 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-3.jpg';
@@ -32,8 +32,5 @@ export class Portugal2Component implements OnInit {
   anteriorDonde = '/portugal-dia-1';
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

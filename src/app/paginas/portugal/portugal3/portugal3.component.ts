@@ -1,30 +1,48 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-portugal3',
   templateUrl: './portugal3.component.html',
   styleUrls: ['./portugal3.component.css']
 })
-export class Portugal3Component implements OnInit {
+export class Portugal3Component {
 
-  imagen1 = '../../../assets/imagenes/galeriaPortugal/bragança.jpg';
-  imagen2 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-2.jpg';
-  imagen3 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-3.jpg';
-  imagen4 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-9.jpg';
-  imagen5 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-10.jpg';
-  imagen6 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-4.jpg';
-  imagenModal1 = '../../../assets/imagenes/galeriaPortugal/bragança.jpg';
-  imagenModal2 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-2.jpg';
-  imagenModal3 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-3.jpg';
-  imagenModal4 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-9.jpg';
-  imagenModal5 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-10.jpg';
-  imagenModal6 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-4.jpg';
-  titulo1 = 'Bragança';
-  titulo2 = 'Vistas desde el Puente Luis I';
-  titulo3 = 'Vistas desde Gaia';
-  titulo4 = 'Vistas de Oporto, desde Gaia';
-  titulo5 = 'Estación de Sao Bento';
-  titulo6 = 'Vistas nocturnas de Oporto';
+  imagen1 = '../../../assets/imagenes/galeriaPortugal/aveiro-1.jpg';
+  imagen2 = '../../../assets/imagenes/galeriaPortugal/aveiro-2.jpg';
+  imagen3 = '../../../assets/imagenes/galeriaPortugal/aveiro-3.jpg';
+  imagen4 = '../../../assets/imagenes/galeriaPortugal/aveiro-4.jpg';
+  imagen5 = '../../../assets/imagenes/galeriaPortugal/aveiro-5.jpg';
+  imagen6 = '../../../assets/imagenes/galeriaPortugal/batalha-2.jpg';
+  imagen7 = '../../../assets/imagenes/galeriaPortugal/batalha-1.jpg';
+  imagen8 = '../../../assets/imagenes/galeriaPortugal/nazaré-1.jpg';
+  imagen9 = '../../../assets/imagenes/galeriaPortugal/nazare-9.jpg';
+  imagen10 = '../../../assets/imagenes/galeriaPortugal/nazare-3.jpg';
+  imagen11 = '../../../assets/imagenes/galeriaPortugal/nazare-4.JPG';
+  imagen12 = '../../../assets/imagenes/galeriaPortugal/nazare-2.JPG';
+  imagenModal1 = '../../../assets/imagenes/galeriaPortugal/aveiro-1.jpg';
+  imagenModal2 = '../../../assets/imagenes/galeriaPortugal/aveiro-2.jpg';
+  imagenModal3 = '../../../assets/imagenes/galeriaPortugal/aveiro-3.jpg';
+  imagenModal4 = '../../../assets/imagenes/galeriaPortugal/aveiro-4.jpg';
+  imagenModal5 = '../../../assets/imagenes/galeriaPortugal/aveiro-5.jpg';
+  imagenModal6 = '../../../assets/imagenes/galeriaPortugal/batalha-2.jpg';
+  imagenModal7 = '../../../assets/imagenes/galeriaPortugal/batalha-1.jpg';
+  imagenModal8 = '../../../assets/imagenes/galeriaPortugal/nazaré-1.jpg';
+  imagenModal9 = '../../../assets/imagenes/galeriaPortugal/nazare-9.jpg';
+  imagenModal10 = '../../../assets/imagenes/galeriaPortugal/nazare-3.jpg';
+  imagenModal11 = '../../../assets/imagenes/galeriaPortugal/nazare-4.JPG';
+  imagenModal12 = '../../../assets/imagenes/galeriaPortugal/nazare-2.JPG';
+  titulo1 = 'Aveiro';
+  titulo2 = 'Sé de Aveiro';
+  titulo3 = 'Pintorescas casas de las playas de Aveiro';
+  titulo4 = 'Pintorescas casas de las playas de Aveiro';
+  titulo5 = 'Faro de Aveiro';
+  titulo6 = 'Monasterio de Batalha';
+  titulo7 = 'Monasterio de Batalha';
+  titulo8 = 'Nazaré';
+  titulo9 = 'Vistas del Atlántico';
+  titulo10 = 'Faro de Nazaré';
+  titulo11 = 'Vistas del Atlántico';
+  titulo12 = 'Nazaré';
 
   siguiente = 'Óbidos, Sintra y Lisboa';
   siguienteDonde = '/portugal-dia-4';
@@ -32,8 +50,5 @@ export class Portugal3Component implements OnInit {
   anteriorDonde = '/portugal-dia-2';
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }
