@@ -23,11 +23,11 @@ export class PortugalComponent implements OnInit {
 
   // Tarjetas de cada dia
   tituloDia1 = 'Datos del viaje';
-  imagenDia1 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-9.jpg';
+  imagenDia1 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-2-2.jpg';
   enlaceDia1 = '/portugal-datos-viaje';
 
   tituloDia2 = 'Día 1 - Brangança y Oporto';
-  imagenDia2 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-11.jpg';
+  imagenDia2 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-3.jpg';
   enlaceDia2 = '/portugal-dia-1';
 
   tituloDia3 = 'Día 2 - Oporto';
@@ -43,11 +43,11 @@ export class PortugalComponent implements OnInit {
   enlaceDia5 = '/portugal-dia-4';
 
   tituloDia6 = 'Día 5 - Belém y Lisboa';
-  imagenDia6 = '../../../assets/imagenes/galeriaPortugal/IMG-7817.JPG';
+  imagenDia6 = '../../../assets/imagenes/galeriaPortugal/lisboa-dia-2.JPG';
   enlaceDia6 = '/portugal-dia-5';
 
   tituloDia7 = 'Día 6 - Cascais y Lisboa';
-  imagenDia7 = '../../../assets/imagenes/galeriaPortugal/IMG-7817.JPG';
+  imagenDia7 = '../../../assets/imagenes/galeriaPortugal/cascais.jpg';
   enlaceDia7 = '/portugal-dia-6';
 
    // Cuentas
