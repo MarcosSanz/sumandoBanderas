@@ -94,6 +94,19 @@ import { Portugal5Component } from './portugal/portugal5/portugal5.component';
 import { Portugal6Component } from './portugal/portugal6/portugal6.component';
 import { Portugal7Component } from './portugal/portugal7/portugal7.component';
 import { PortugalDatosViajeComponent } from './portugal/portugal-datos-viaje/portugal-datos-viaje.component';
+import { RoadTripComponent } from './eeuu/road-trip-2020/road-trip.component';
+import { RoadTripDatosComponent } from './eeuu/road-trip-2020/road-trip-datos/road-trip-datos.component';
+import { RoadTrip1Component } from './eeuu/road-trip-2020/road-trip1/road-trip1.component';
+import { RoadTrip2Component } from './eeuu/road-trip-2020/road-trip2/road-trip2.component';
+import { RoadTrip3Component } from './eeuu/road-trip-2020/road-trip3/road-trip3.component';
+import { RoadTrip4Component } from './eeuu/road-trip-2020/road-trip4/road-trip4.component';
+import { RoadTrip5Component } from './eeuu/road-trip-2020/road-trip5/road-trip5.component';
+import { RoadTrip6Component } from './eeuu/road-trip-2020/road-trip6/road-trip6.component';
+import { RoadTrip7Component } from './eeuu/road-trip-2020/road-trip7/road-trip7.component';
+import { RoadTrip8Component } from './eeuu/road-trip-2020/road-trip8/road-trip8.component';
+import { RoadTrip9Component } from './eeuu/road-trip-2020/road-trip9/road-trip9.component';
+import { RoadTrip10Component } from './eeuu/road-trip-2020/road-trip10/road-trip10.component';
+
 
 @NgModule({
   declarations: [
@@ -187,7 +200,19 @@ import { PortugalDatosViajeComponent } from './portugal/portugal-datos-viaje/por
     Portugal4Component,
     Portugal5Component,
     Portugal6Component,
-    Portugal7Component
+    Portugal7Component,
+    RoadTripComponent,
+    RoadTripDatosComponent,
+    RoadTrip1Component,
+    RoadTrip2Component,
+    RoadTrip3Component,
+    RoadTrip4Component,
+    RoadTrip5Component,
+    RoadTrip6Component,
+    RoadTrip7Component,
+    RoadTrip8Component,
+    RoadTrip9Component,
+    RoadTrip10Component
   ],
   exports: [
     CarruselComponent,
