@@ -44,7 +44,7 @@ export class RoadTrip4Component {
     titulo11 = 'Vistas del Atlántico';
     titulo12 = 'Nazaré';
 
-    siguiente = 'Washington';
+    siguiente = 'Arlington y New York';
     siguienteDonde = '/roadtrip-eeuu-dia-5';
     anterior = 'Philadelphia y Outlet';
     anteriorDonde = '/roadtrip-eeuu-dia-3';
