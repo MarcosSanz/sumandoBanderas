@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class RoadTripComponent {
 
     // Carrusel de la portada
-  tituloCarrusel1 = 'Sintra';
-  imagenCarrusel1 = '../../../assets/imagenes/galeriaEEUU/sintra-2.jpeg';
-  descripcion1 = 'Palacio da pena';
+  tituloCarrusel1 = 'Boston';
+  imagenCarrusel1 = '../../../assets/imagenes/galeriaEEUU/dia2-17.jpeg';
+  descripcion1 = 'Massachusetts State House';
   tituloCarrusel2 = 'Oporto';
   imagenCarrusel2 = '../../../assets/imagenes/galeriaEEUU/oporto-dia-1-1.jpeg';
   descripcion2 = 'Puente Luis I';
