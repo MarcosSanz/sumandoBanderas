@@ -11,9 +11,9 @@ export class RoadTripComponent {
   tituloCarrusel1 = 'Boston';
   imagenCarrusel1 = '../../../assets/imagenes/galeriaEEUU/dia2-17.jpeg';
   descripcion1 = 'Massachusetts State House';
-  tituloCarrusel2 = 'Oporto';
-  imagenCarrusel2 = '../../../assets/imagenes/galeriaEEUU/oporto-dia-1-1.jpeg';
-  descripcion2 = 'Puente Luis I';
+  tituloCarrusel2 = 'Philadelphia';
+  imagenCarrusel2 = '../../../assets/imagenes/galeriaEEUU/dia3-6.jpeg';
+  descripcion2 = 'Parque Love';
   tituloCarrusel3 = 'Óbidos';
   imagenCarrusel3 = '../../../assets/imagenes/galeriaEEUU/obidos-dia-1.jpeg';
   tituloCarrusel4 = 'Aveiro';
