@@ -14,8 +14,9 @@ export class RoadTripComponent {
   tituloCarrusel2 = 'Philadelphia';
   imagenCarrusel2 = '../../../assets/imagenes/galeriaEEUU/dia3-6.jpeg';
   descripcion2 = 'Parque Love';
-  tituloCarrusel3 = 'Óbidos';
-  imagenCarrusel3 = '../../../assets/imagenes/galeriaEEUU/obidos-dia-1.jpeg';
+  tituloCarrusel3 = 'Washington D.C.';
+  imagenCarrusel3 = '../../../assets/imagenes/galeriaEEUU/dia6-5.jpeg';
+  descripcion3 = 'Capitolio';
   tituloCarrusel4 = 'Aveiro';
   imagenCarrusel4 = '../../../assets/imagenes/galeriaEEUU/aveiro-1.jpeg';
   tituloCarrusel5 = 'Monasterio de Batalha';
@@ -47,23 +48,23 @@ export class RoadTripComponent {
   enlaceDia6 = '/roadtrip-eeuu-dia-5';
 
   tituloDia7 = 'Día 6 - Arlington y New York';
-  imagenDia7 = '../../../assets/imagenes/galeriaEEUU/dia6-1.jpeg';
+  imagenDia7 = '../../../assets/imagenes/galeriaEEUU/dia7-1.jpeg';
   enlaceDia7 = '/roadtrip-eeuu-dia-6';
 
   tituloDia8 = 'Día 7 - New York';
-  imagenDia8 = '../../../assets/imagenes/galeriaEEUU/dia7-1.jpeg';
+  imagenDia8 = '../../../assets/imagenes/galeriaEEUU/dia8-1.jpeg';
   enlaceDia8 = '/roadtrip-eeuu-dia-7';
 
   tituloDia9 = 'Día 8 - New York';
-  imagenDia9 = '../../../assets/imagenes/galeriaEEUU/dia8-1.jpeg';
+  imagenDia9 = '../../../assets/imagenes/galeriaEEUU/dia9-1.jpeg';
   enlaceDia9 = '/roadtrip-eeuu-dia-8';
 
   tituloDia10 = 'Día 9 - New York';
-  imagenDia10 = '../../../assets/imagenes/galeriaEEUU/dia9-1.jpeg';
+  imagenDia10 = '../../../assets/imagenes/galeriaEEUU/dia10-1.jpeg';
   enlaceDia10 = '/roadtrip-eeuu-dia-9';
 
   tituloDia11 = 'Día 10 - New York';
-  imagenDia11 = '../../../assets/imagenes/galeriaEEUU/dia10-1.jpeg';
+  imagenDia11 = '../../../assets/imagenes/galeriaEEUU/dia11-1.jpeg';
   enlaceDia11 = '/roadtrip-eeuu-dia-10';
 
     // Cuentas
