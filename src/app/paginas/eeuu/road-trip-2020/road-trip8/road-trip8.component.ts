@@ -44,7 +44,7 @@ export class RoadTrip8Component {
     titulo11 = 'Vistas del Atlántico';
     titulo12 = 'Nazaré';
 
-    siguiente = 'Wall Street, Museo Historia Natural, Central Park';
+    siguiente = 'Wall Street, Museo Hª Natural, Central Park';
     siguienteDonde = '/roadtrip-eeuu-dia-9';
     anterior = 'Times Square, Empire State, Gran Central Terminal';
     anteriorDonde = '/roadtrip-eeuu-dia-7';

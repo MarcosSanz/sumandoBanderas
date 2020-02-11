@@ -51,19 +51,19 @@ export class RoadTripComponent {
   imagenDia7 = '../../../assets/imagenes/galeriaEEUU/dia7-1.jpeg';
   enlaceDia7 = '/roadtrip-eeuu-dia-6';
 
-  tituloDia8 = 'Día 7 - New York';
+  tituloDia8 = 'Día 7 - Times Square, Empire State, Gran Central Terminal';
   imagenDia8 = '../../../assets/imagenes/galeriaEEUU/dia8-1.jpeg';
   enlaceDia8 = '/roadtrip-eeuu-dia-7';
 
-  tituloDia9 = 'Día 8 - New York';
+  tituloDia9 = 'Día 8 - E.Libertad, I.Ellis, Puente Brooklyn, Chinatown, Little Italy, MoMa';
   imagenDia9 = '../../../assets/imagenes/galeriaEEUU/dia9-1.jpeg';
   enlaceDia9 = '/roadtrip-eeuu-dia-8';
 
-  tituloDia10 = 'Día 9 - New York';
+  tituloDia10 = 'Día 9 - Wall Street, Museo Hª Natural y Central Park';
   imagenDia10 = '../../../assets/imagenes/galeriaEEUU/dia10-1.jpeg';
   enlaceDia10 = '/roadtrip-eeuu-dia-9';
 
-  tituloDia11 = 'Día 10 - New York';
+  tituloDia11 = 'Día 10 - Harlem';
   imagenDia11 = '../../../assets/imagenes/galeriaEEUU/dia11-1.jpeg';
   enlaceDia11 = '/roadtrip-eeuu-dia-10';
 
