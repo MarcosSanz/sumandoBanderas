@@ -1,30 +1,30 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-portugal4',
   templateUrl: './portugal4.component.html',
   styleUrls: ['./portugal4.component.css']
 })
-export class Portugal4Component implements OnInit {
+export class Portugal4Component {
 
-  imagen1 = '../../../assets/imagenes/galeriaPortugal/bragança.jpg';
-  imagen2 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-2.jpg';
-  imagen3 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-3.jpg';
-  imagen4 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-9.jpg';
-  imagen5 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-10.jpg';
-  imagen6 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-4.jpg';
-  imagenModal1 = '../../../assets/imagenes/galeriaPortugal/bragança.jpg';
-  imagenModal2 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-2.jpg';
-  imagenModal3 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-3.jpg';
-  imagenModal4 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-9.jpg';
-  imagenModal5 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-10.jpg';
-  imagenModal6 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-4.jpg';
-  titulo1 = 'Bragança';
-  titulo2 = 'Vistas desde el Puente Luis I';
-  titulo3 = 'Vistas desde Gaia';
-  titulo4 = 'Vistas de Oporto, desde Gaia';
-  titulo5 = 'Estación de Sao Bento';
-  titulo6 = 'Vistas nocturnas de Oporto';
+  imagen1 = '../../../assets/imagenes/galeriaPortugal/sintra-11.jpg';
+  imagen2 = '../../../assets/imagenes/galeriaPortugal/sintra-5.jpg';
+  imagen3 = '../../../assets/imagenes/galeriaPortugal/sintra-9.jpg';
+  imagen4 = '../../../assets/imagenes/galeriaPortugal/sintra-3.jpg';
+  imagen5 = '../../../assets/imagenes/galeriaPortugal/sintra-8.jpg';
+  imagen6 = '../../../assets/imagenes/galeriaPortugal/sintra-10.jpg';
+  imagenModal1 = '../../../assets/imagenes/galeriaPortugal/sintra-11.jpg';
+  imagenModal2 = '../../../assets/imagenes/galeriaPortugal/sintra-5.jpg';
+  imagenModal3 = '../../../assets/imagenes/galeriaPortugal/sintra-9.jpg';
+  imagenModal4 = '../../../assets/imagenes/galeriaPortugal/sintra-3.jpg';
+  imagenModal5 = '../../../assets/imagenes/galeriaPortugal/sintra-8.jpg';
+  imagenModal6 = '../../../assets/imagenes/galeriaPortugal/sintra-10.jpg';
+  titulo1 = 'Castillo Óbidos';
+  titulo2 = 'Óbidos';
+  titulo3 = 'Palacio da pena';
+  titulo4 = 'Palacio da pena';
+  titulo5 = 'Palacio da Regaladeira';
+  titulo6 = 'Jardines palacio da pena';
 
   siguiente = 'Belém y Lisboa';
   siguienteDonde = '/portugal-dia-5';
@@ -32,8 +32,5 @@ export class Portugal4Component implements OnInit {
   anteriorDonde = '/portugal-dia-3';
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

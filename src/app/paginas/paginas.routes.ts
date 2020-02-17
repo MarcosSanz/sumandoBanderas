@@ -81,7 +81,6 @@ import { Portugal3Component } from './portugal/portugal3/portugal3.component';
 import { Portugal4Component } from './portugal/portugal4/portugal4.component';
 import { Portugal5Component } from './portugal/portugal5/portugal5.component';
 import { Portugal6Component } from './portugal/portugal6/portugal6.component';
-import { Portugal7Component } from './portugal/portugal7/portugal7.component';
 import { PortugalDatosViajeComponent } from './portugal/portugal-datos-viaje/portugal-datos-viaje.component';
 import { RoadTripComponent } from './eeuu/road-trip-2020/road-trip.component';
 import { RoadTripDatosComponent } from './eeuu/road-trip-2020/road-trip-datos/road-trip-datos.component';
@@ -195,7 +194,6 @@ const paginasRoutes: Routes = [
       { path: 'portugal-dia-4', component: Portugal4Component },
       { path: 'portugal-dia-5', component: Portugal5Component },
       { path: 'portugal-dia-6', component: Portugal6Component },
-      { path: 'portugal-dia-7', component: Portugal7Component },
 
     //   RoadTrip por EEUU
     { path: 'roadtrip-eeuu', component: RoadTripComponent },
