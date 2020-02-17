@@ -7,24 +7,24 @@ import { Component } from '@angular/core';
 })
 export class RoadTrip10Component {
 
-    imagen1 = '../../../assets/imagenes/galeriaEEUU/dia9-4.jpeg';
-    imagen2 = '../../../assets/imagenes/galeriaEEUU/dia9-16.jpeg';
-    imagen3 = '../../../assets/imagenes/galeriaEEUU/dia9-6.jpeg';
-    imagen4 = '../../../assets/imagenes/galeriaEEUU/dia9-7.jpeg';
-    imagen5 = '../../../assets/imagenes/galeriaEEUU/dia9-8.jpeg';
-    imagen6 = '../../../assets/imagenes/galeriaEEUU/dia9-9.jpeg';
-    imagenModal1 = '../../../assets/imagenes/galeriaEEUU/dia9-4.jpeg';
-    imagenModal2 = '../../../assets/imagenes/galeriaEEUU/dia9-16.jpeg';
-    imagenModal3 = '../../../assets/imagenes/galeriaEEUU/dia9-6.jpeg';
-    imagenModal4 = '../../../assets/imagenes/galeriaEEUU/dia9-7.jpeg';
-    imagenModal5 = '../../../assets/imagenes/galeriaEEUU/dia9-8.jpeg';
-    imagenModal6 = '../../../assets/imagenes/galeriaEEUU/dia9-9.jpeg';
-    titulo1 = 'Washington';
-    titulo2 = 'Jefferson Memorial';
-    titulo3 = 'White House';
-    titulo4 = 'Lincoln Memorial';
-    titulo5 = 'Abraham Lincoln';
-    titulo6 = 'Monasterio de dia9';
+    imagen1 = '../../../assets/imagenes/galeriaEEUU/dia11-1.jpeg';
+    imagen2 = '../../../assets/imagenes/galeriaEEUU/dia11-2.jpeg';
+    imagen3 = '../../../assets/imagenes/galeriaEEUU/dia11-3.jpeg';
+    imagen4 = '../../../assets/imagenes/galeriaEEUU/dia11-4.jpeg';
+    imagen5 = '../../../assets/imagenes/galeriaEEUU/dia11-5.jpeg';
+    imagen6 = '../../../assets/imagenes/galeriaEEUU/dia11-6.jpeg';
+    imagenModal1 = '../../../assets/imagenes/galeriaEEUU/dia11-1.jpeg';
+    imagenModal2 = '../../../assets/imagenes/galeriaEEUU/dia11-2.jpeg';
+    imagenModal3 = '../../../assets/imagenes/galeriaEEUU/dia11-3.jpeg';
+    imagenModal4 = '../../../assets/imagenes/galeriaEEUU/dia11-4.jpeg';
+    imagenModal5 = '../../../assets/imagenes/galeriaEEUU/dia11-5.jpeg';
+    imagenModal6 = '../../../assets/imagenes/galeriaEEUU/dia11-6.jpeg';
+    titulo1 = 'Teatro Apollo, Harlem';
+    titulo2 = 'New York';
+    titulo3 = 'Harlem';
+    titulo4 = 'Harlem';
+    titulo5 = 'Harlem';
+    titulo6 = 'Sylvia´s Harlem';
 
     siguiente = 'Portada del viaje';
     siguienteDonde = '/roadtrip-eeuu';
