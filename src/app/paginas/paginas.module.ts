@@ -92,7 +92,6 @@ import { Portugal3Component } from './portugal/portugal3/portugal3.component';
 import { Portugal4Component } from './portugal/portugal4/portugal4.component';
 import { Portugal5Component } from './portugal/portugal5/portugal5.component';
 import { Portugal6Component } from './portugal/portugal6/portugal6.component';
-import { Portugal7Component } from './portugal/portugal7/portugal7.component';
 import { PortugalDatosViajeComponent } from './portugal/portugal-datos-viaje/portugal-datos-viaje.component';
 
 @NgModule({
@@ -186,8 +185,7 @@ import { PortugalDatosViajeComponent } from './portugal/portugal-datos-viaje/por
     Portugal3Component,
     Portugal4Component,
     Portugal5Component,
-    Portugal6Component,
-    Portugal7Component
+    Portugal6Component
   ],
   exports: [
     CarruselComponent,
