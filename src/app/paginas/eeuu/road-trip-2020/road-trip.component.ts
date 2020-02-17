@@ -17,10 +17,10 @@ export class RoadTripComponent {
   tituloCarrusel3 = 'Washington D.C.';
   imagenCarrusel3 = '../../../assets/imagenes/galeriaEEUU/dia6-5.jpeg';
   descripcion3 = 'Capitolio';
-  tituloCarrusel4 = 'Aveiro';
-  imagenCarrusel4 = '../../../assets/imagenes/galeriaEEUU/aveiro-1.jpeg';
-  tituloCarrusel5 = 'Monasterio de Batalha';
-  imagenCarrusel5 = '../../../assets/imagenes/galeriaEEUU/.jpeg';
+  tituloCarrusel4 = 'Nueva York';
+  imagenCarrusel4 = '../../../assets/imagenes/galeriaEEUU/dia7-3.jpg';
+  tituloCarrusel5 = 'Brooklyn';
+  imagenCarrusel5 = '../../../assets/imagenes/galeriaEEUU/dia9-5.jpeg';
 
     // Tarjetas de cada dia
   tituloDia1 = 'Datos del viaje';
