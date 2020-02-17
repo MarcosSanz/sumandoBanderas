@@ -1,116 +1,127 @@
 <div class="container-fluid">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand" routerLink="/portada">
-      <img class="logoSB animated fadeIn slower" src="../../../assets/imagenes/banderas.png" alt="Sumando Banderas"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" data-toggle="collapse" data-target="#navbarSupportedContent" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle pointer" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              América
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" routerLink="/nueva-york">
-                <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/us.png"></i>
-                Nueva York (2016)
-              </a>
-              <a class="dropdown-item" routerLink="/was1">
-                <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/us.png"></i>
-                Washington (2016)
-              </a>
-            </div>
-          </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle pointer" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Europa
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" routerLink="/portugal">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/pt.png"></i>
-              Portugal (2019 Octubre)
-            </a>
-            <a class="dropdown-item" routerLink="/estocolmo">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/se.png"></i>
-              Estocolmo (2019 Agosto)
-            </a>
-            <a class="dropdown-item disabled">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/pt.png"></i>
-              Tavira (2019 Junio)
-            </a>
-            <a class="dropdown-item" routerLink="/bulgaria-dia-1">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/bg.png"></i>
-              Bulgaria (2018 Octubre)
-            </a>
-            <a class="dropdown-item" routerLink="/rumania-y-bulgaria">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/ro.png"></i>
-              Rumanía (2018 Octubre)
-            </a>
-            <a class="dropdown-item" routerLink="/sicilia">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/it.png"></i>
-              Sicilia (2017 Octubre)
-            </a>
-            <a class="dropdown-item" routerLink="/berlin">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/de.png"></i>
-              Berlín (2017 Febrero)
-            </a>
-            <a class="dropdown-item disabled">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/de.png"></i>
-              Hamburgo (2016 Mayo)
-            </a>
-            <a class="dropdown-item" routerLink="/roma">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/it.png"></i>
-              Roma (2016 Abril)
-            </a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle pointer" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              España
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item disabled">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/anda.jpg"></i>
-              La Antilla (2019)
-            </a>
-            <a class="dropdown-item" routerLink="/mazarron">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/mur.png"></i>
-              Cartagena & Mazarrón (2017)
-            </a>
-            <a class="dropdown-item" routerLink="/leon">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/CYL.jpg"></i>
-              León (2016)
-            </a>
-            <a class="dropdown-item" routerLink="/asturias">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/ast.png"></i>
-              Asturias (2016)
-            </a>
-            <a class="dropdown-item" routerLink="/cantabria">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/cantabria.jpg"></i>
-              Cantabria (2016)
-            </a>
-            <a class="dropdown-item" routerLink="/aranjuez">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/mad.png"></i>
-              Aranjuez (2017)
-            </a>
-            <a class="dropdown-item" routerLink="/extremadura">
-              <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/extr.png"></i>
-              Extremadura (2017)
-            </a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a routerLink="/conocenos" class="nav-link pointer" id="navbarDropdown" role="button" data-toggle="collapse" aria-haspopup="true" aria-expanded="false">
-            Conócenos
-          </a>
-        </li>
-      </ul>
-      <!-- <form class="form-inline my-2 my-lg-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" routerLink="/portada">
+            <img class="logoSB animated fadeIn slower" src="../../../assets/imagenes/banderas.png"
+                alt="Sumando Banderas"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" data-toggle="collapse" data-target="#navbarSupportedContent"
+            id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pointer" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        América
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" routerLink="/roadtrip-eeuu">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/us.png"></i>
+                            RoadTrip costa nordeste (2020)
+                        </a>
+                        <a class="dropdown-item" routerLink="/nueva-york">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/us.png"></i>
+                            Nueva York (2016)
+                        </a>
+                        <a class="dropdown-item" routerLink="/was1">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/us.png"></i>
+                            Washington (2016)
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pointer" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Europa
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" routerLink="/portugal">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/pt.png"></i>
+                            Portugal (2019 Octubre)
+                        </a>
+                        <a class="dropdown-item" routerLink="/estocolmo">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/se.png"></i>
+                            Estocolmo (2019 Agosto)
+                        </a>
+                        <a class="dropdown-item disabled">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/pt.png"></i>
+                            Tavira (2019 Junio)
+                        </a>
+                        <a class="dropdown-item" routerLink="/bulgaria-dia-1">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/bg.png"></i>
+                            Bulgaria (2018 Octubre)
+                        </a>
+                        <a class="dropdown-item" routerLink="/rumania-y-bulgaria">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/ro.png"></i>
+                            Rumanía (2018 Octubre)
+                        </a>
+                        <a class="dropdown-item" routerLink="/sicilia">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/it.png"></i>
+                            Sicilia (2017 Octubre)
+                        </a>
+                        <a class="dropdown-item" routerLink="/berlin">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/de.png"></i>
+                            Berlín (2017 Febrero)
+                        </a>
+                        <a class="dropdown-item disabled">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/de.png"></i>
+                            Hamburgo (2016 Mayo)
+                        </a>
+                        <a class="dropdown-item" routerLink="/roma">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/it.png"></i>
+                            Roma (2016 Abril)
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pointer" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        España
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item disabled">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/anda.jpg"></i>
+                            La Antilla (2019)
+                        </a>
+                        <a class="dropdown-item" routerLink="/mazarron">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/mur.png"></i>
+                            Cartagena & Mazarrón (2017)
+                        </a>
+                        <a class="dropdown-item" routerLink="/leon">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/CYL.jpg"></i>
+                            León (2016)
+                        </a>
+                        <a class="dropdown-item" routerLink="/asturias">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/ast.png"></i>
+                            Asturias (2016)
+                        </a>
+                        <a class="dropdown-item" routerLink="/cantabria">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/cantabria.jpg"></i>
+                            Cantabria (2016)
+                        </a>
+                        <a class="dropdown-item" routerLink="/aranjuez">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/mad.png"></i>
+                            Aranjuez (2017)
+                        </a>
+                        <a class="dropdown-item" routerLink="/extremadura">
+                            <i><img class="banderasMenu ml-2" src="../../../assets/imagenes/banderas/extr.png"></i>
+                            Extremadura (2017)
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="/conocenos" class="nav-link pointer" id="navbarDropdown" role="button"
+                        data-toggle="collapse" aria-haspopup="true" aria-expanded="false">
+                        Conócenos
+                    </a>
+                </li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form> -->
-    </div>
-  </nav>
+        </div>
+    </nav>
 </div>

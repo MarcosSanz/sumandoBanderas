@@ -82,6 +82,18 @@ import { Portugal4Component } from './portugal/portugal4/portugal4.component';
 import { Portugal5Component } from './portugal/portugal5/portugal5.component';
 import { Portugal6Component } from './portugal/portugal6/portugal6.component';
 import { PortugalDatosViajeComponent } from './portugal/portugal-datos-viaje/portugal-datos-viaje.component';
+import { RoadTripComponent } from './eeuu/road-trip-2020/road-trip.component';
+import { RoadTripDatosComponent } from './eeuu/road-trip-2020/road-trip-datos/road-trip-datos.component';
+import { RoadTrip1Component } from './eeuu/road-trip-2020/road-trip1/road-trip1.component';
+import { RoadTrip2Component } from './eeuu/road-trip-2020/road-trip2/road-trip2.component';
+import { RoadTrip3Component } from './eeuu/road-trip-2020/road-trip3/road-trip3.component';
+import { RoadTrip4Component } from './eeuu/road-trip-2020/road-trip4/road-trip4.component';
+import { RoadTrip5Component } from './eeuu/road-trip-2020/road-trip5/road-trip5.component';
+import { RoadTrip6Component } from './eeuu/road-trip-2020/road-trip6/road-trip6.component';
+import { RoadTrip7Component } from './eeuu/road-trip-2020/road-trip7/road-trip7.component';
+import { RoadTrip8Component } from './eeuu/road-trip-2020/road-trip8/road-trip8.component';
+import { RoadTrip9Component } from './eeuu/road-trip-2020/road-trip9/road-trip9.component';
+import { RoadTrip10Component } from './eeuu/road-trip-2020/road-trip10/road-trip10.component';
 
 
 const paginasRoutes: Routes = [
@@ -182,6 +194,20 @@ const paginasRoutes: Routes = [
       { path: 'portugal-dia-4', component: Portugal4Component },
       { path: 'portugal-dia-5', component: Portugal5Component },
       { path: 'portugal-dia-6', component: Portugal6Component },
+
+    //   RoadTrip por EEUU
+    { path: 'roadtrip-eeuu', component: RoadTripComponent },
+      { path: 'roadtrip-eeuu-datos-viaje', component: RoadTripDatosComponent },
+      { path: 'roadtrip-eeuu-dia-1', component: RoadTrip1Component },
+      { path: 'roadtrip-eeuu-dia-2', component: RoadTrip2Component },
+      { path: 'roadtrip-eeuu-dia-3', component: RoadTrip3Component },
+      { path: 'roadtrip-eeuu-dia-4', component: RoadTrip4Component },
+      { path: 'roadtrip-eeuu-dia-5', component: RoadTrip5Component },
+      { path: 'roadtrip-eeuu-dia-6', component: RoadTrip6Component },
+      { path: 'roadtrip-eeuu-dia-7', component: RoadTrip7Component },
+      { path: 'roadtrip-eeuu-dia-8', component: RoadTrip8Component },
+      { path: 'roadtrip-eeuu-dia-9', component: RoadTrip9Component },
+      { path: 'roadtrip-eeuu-dia-10', component: RoadTrip10Component },
 
       { path: 'conocenos', component: ConocenosComponent },
       { path: 'portada', component: PrincipalComponent },
