@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-principal',
   templateUrl: './principal.component.html',
   styleUrls: ['./principal.component.css']
 })
-export class PrincipalComponent implements OnInit {
+export class PrincipalComponent {
 
   // Tarjetas de cada dia
   tituloDia1 = 'Nueva York en 5 días';
@@ -44,9 +44,9 @@ export class PrincipalComponent implements OnInit {
   imagenDia9 = '../../../assets/imagenes/galeriaPortugal/oporto-dia-1-1.jpg';
   enlaceDia9 = '/portugal';
 
+  tituloDia10 = 'EEUU en 10 días';
+  imagenDia10 = '../../../assets/imagenes/galeriaEEUU/dia9-1.jpeg';
+  enlaceDia10 = '/roadtrip-eeuu';
+
   constructor() { }
-
-  ngOnInit() {
-  }
-
 }
