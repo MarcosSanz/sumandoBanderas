@@ -90,3 +90,6 @@
   background-color: #f3dfdf;
 }
 
+.row {
+    justify-content: center;
+}
