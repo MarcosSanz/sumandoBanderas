@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sumandoBanderasAngular"
+    }
+  },
+  "defaultProject": "sumandoBanderasAngular",
+  "cli": {
+    "analytics": false
+  }
 }
