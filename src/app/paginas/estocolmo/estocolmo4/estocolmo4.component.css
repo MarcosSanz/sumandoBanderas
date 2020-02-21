@@ -1,9 +1,4 @@
 .estocolmo4 {
   max-height: 315px;
-  width: 100%;
-}
-
-.estocolmo4Comidas {
-  max-height: 215px;
-  width: auto;
+  max-width: 100%;
 }

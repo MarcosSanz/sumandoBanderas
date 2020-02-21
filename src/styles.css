@@ -93,3 +93,8 @@
 .row {
     justify-content: center;
 }
+
+.imgcronica {
+    max-height: 315px;
+    max-width: 100%;
+}

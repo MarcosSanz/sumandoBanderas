@@ -1,13 +1,4 @@
 .estocolmo2 {
   max-height: 315px;
-}
-
-.martin {
-  width: 100%;
-}
-
-@media (max-width: 768px) {
-  .martin {
-    width: auto;
-  }
+  max-width: 100%;
 }

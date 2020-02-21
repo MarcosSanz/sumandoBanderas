@@ -1,4 +1,4 @@
 .imagenSicilia7 {
-  width: auto;
-  height: 300px;
+    max-height: 300px;
+    max-width: 100%;
 }
