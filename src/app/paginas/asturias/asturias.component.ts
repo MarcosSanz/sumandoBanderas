@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-asturias',
   templateUrl: './asturias.component.html',
   styleUrls: ['./asturias.component.css']
 })
-export class AsturiasComponent implements OnInit {
+export class AsturiasComponent {
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

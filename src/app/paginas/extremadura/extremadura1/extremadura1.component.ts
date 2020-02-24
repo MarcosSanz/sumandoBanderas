@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-extremadura1',
   templateUrl: './extremadura1.component.html',
   styleUrls: ['./extremadura1.component.css']
 })
-export class Extremadura1Component implements OnInit {
+export class Extremadura1Component {
 
   siguiente = 'Mérida';
   siguienteDonde = '/extremadura-dia-2';
@@ -13,8 +13,5 @@ export class Extremadura1Component implements OnInit {
   anteriorDonde = '/extremadura';
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

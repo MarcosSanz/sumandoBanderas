@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-rumania',
   templateUrl: './rumania.component.html',
   styleUrls: ['./rumania.component.css']
 })
-export class RumaniaComponent implements OnInit {
+export class RumaniaComponent {
 
   // Carrusel de la portada
   tituloCarrusel1 = 'Sofia, Bulgaria';
@@ -93,8 +93,5 @@ export class RumaniaComponent implements OnInit {
    suma = '1.852,86€';
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

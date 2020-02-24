@@ -1,11 +1,11 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-carrusel',
   templateUrl: './carrusel.component.html',
   styleUrls: ['./carrusel.component.css']
 })
-export class CarruselComponent implements OnInit {
+export class CarruselComponent {
 
   @Input() titulo1: string;
   @Input() titulo2: string;
@@ -24,8 +24,5 @@ export class CarruselComponent implements OnInit {
   @Input() imagen5: string;
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

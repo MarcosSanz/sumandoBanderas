@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-extremadura',
   templateUrl: './extremadura.component.html',
   styleUrls: ['./extremadura.component.css']
 })
-export class ExtremaduraComponent implements OnInit {
+export class ExtremaduraComponent {
 
   // Carrusel de la portada
   tituloCarrusel1 = 'Trujillo';
@@ -36,8 +36,4 @@ export class ExtremaduraComponent implements OnInit {
   enlaceDia3 = '/extremadura-dia-3';
 
   constructor() { }
-
-  ngOnInit() {
-  }
-
 }

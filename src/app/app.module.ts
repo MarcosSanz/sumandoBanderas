@@ -8,7 +8,6 @@ import { APP_ROUTES } from './app.routes';
 import { PaginasModule } from './paginas/paginas.module';
 
 import { AppComponent } from './app.component';
-import { CronicaComponent } from './componentes/cronica/cronica.component';
 import { MenuComponent } from './menu/menu/menu.component';
 import { ErrorComponent } from './paginas/error/error.component';
 import { PrincipalComponent } from './paginas/principal/principal.component';
@@ -17,7 +16,6 @@ import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CronicaComponent,
     MenuComponent,
     ErrorComponent,
     PrincipalComponent,

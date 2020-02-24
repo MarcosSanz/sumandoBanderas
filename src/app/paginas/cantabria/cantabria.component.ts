@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-cantabria',
   templateUrl: './cantabria.component.html',
   styleUrls: ['./cantabria.component.css']
 })
-export class CantabriaComponent implements OnInit {
+export class CantabriaComponent {
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

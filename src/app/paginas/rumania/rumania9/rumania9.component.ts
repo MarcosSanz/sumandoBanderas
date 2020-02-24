@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-rumania9',
   templateUrl: './rumania9.component.html',
   styleUrls: ['./rumania9.component.css']
 })
-export class Rumania9Component implements OnInit {
+export class Rumania9Component {
 
   imagen1 = '../../../assets/imagenes/galeriaRumania/rum-9-1.jpg';
   imagen2 = '../../../assets/imagenes/galeriaRumania/rum-9-2.jpg';
@@ -32,8 +32,4 @@ export class Rumania9Component implements OnInit {
   anteriorDonde = '/rumania-dia-7';
 
   constructor() { }
-
-  ngOnInit() {
-  }
-
 }

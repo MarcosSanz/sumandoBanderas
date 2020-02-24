@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-portugal-datos-viaje',
   templateUrl: './portugal-datos-viaje.component.html',
   styleUrls: ['./portugal-datos-viaje.component.css']
 })
-export class PortugalDatosViajeComponent implements OnInit {
+export class PortugalDatosViajeComponent {
 
   siguiente = 'Brangança y Oporto';
   siguienteDonde = '/portugal-dia-1';
@@ -13,8 +13,5 @@ export class PortugalDatosViajeComponent implements OnInit {
   anteriorDonde = '/portugal';
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

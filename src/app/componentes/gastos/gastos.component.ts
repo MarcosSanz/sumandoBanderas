@@ -1,11 +1,11 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-gastos',
   templateUrl: './gastos.component.html',
   styleUrls: ['./gastos.component.css']
 })
-export class GastosComponent implements OnInit {
+export class GastosComponent {
 
   @Input() vuelos: string;
   @Input() hoteles: string;
@@ -15,8 +15,5 @@ export class GastosComponent implements OnInit {
   @Input() suma: string;
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

@@ -51,7 +51,6 @@ import { Extremadura1Component } from './extremadura/extremadura1/extremadura1.c
 import { Extremadura2Component } from './extremadura/extremadura2/extremadura2.component';
 import { Extremadura3Component } from './extremadura/extremadura3/extremadura3.component';
 import { MazarronComponent } from './mazarron/mazarron.component';
-import { LeonComponent } from './leon/leon.component';
 import { AsturiasComponent } from './asturias/asturias.component';
 import { CantabriaComponent } from './cantabria/cantabria.component';
 import { AranjuezComponent } from './aranjuez/aranjuez.component';
@@ -94,6 +93,8 @@ import { RoadTrip7Component } from './eeuu/road-trip-2020/road-trip7/road-trip7.
 import { RoadTrip8Component } from './eeuu/road-trip-2020/road-trip8/road-trip8.component';
 import { RoadTrip9Component } from './eeuu/road-trip-2020/road-trip9/road-trip9.component';
 import { RoadTrip10Component } from './eeuu/road-trip-2020/road-trip10/road-trip10.component';
+import { AvilaComponent } from './castilla/avila/avila.component';
+import { LeonComponent } from './castilla/leon/leon.component';
 
 
 const paginasRoutes: Routes = [
@@ -208,6 +209,8 @@ const paginasRoutes: Routes = [
       { path: 'roadtrip-eeuu-dia-8', component: RoadTrip8Component },
       { path: 'roadtrip-eeuu-dia-9', component: RoadTrip9Component },
       { path: 'roadtrip-eeuu-dia-10', component: RoadTrip10Component },
+    // Ávila
+      { path: 'avila', component: AvilaComponent },
 
       { path: 'conocenos', component: ConocenosComponent },
       { path: 'portada', component: PrincipalComponent },

@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-rumania4',
   templateUrl: './rumania4.component.html',
   styleUrls: ['./rumania4.component.css']
 })
-export class Rumania4Component implements OnInit {
+export class Rumania4Component {
 
   imagen1 = '../../../assets/imagenes/galeriaRumania/rum-4-10.jpg';
   imagen2 = '../../../assets/imagenes/galeriaRumania/rum-4-7.jpg';
@@ -28,9 +28,6 @@ export class Rumania4Component implements OnInit {
   siguienteDonde = '/rumania-dia-4';
   anterior = 'Curtea de Arges, Castillo Vlad Tepes y Transfăgărășan';
   anteriorDonde = '/rumania-dia-2';
+
   constructor() { }
-
-  ngOnInit() {
-  }
-
 }

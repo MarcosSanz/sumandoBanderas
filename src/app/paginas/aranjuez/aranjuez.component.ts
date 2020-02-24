@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-aranjuez',
   templateUrl: './aranjuez.component.html',
   styleUrls: ['./aranjuez.component.css']
 })
-export class AranjuezComponent implements OnInit {
+export class AranjuezComponent {
 
   imagen1 = '../../../assets/imagenes/galeriaAranjuez/IMG_2517.JPG';
   imagen2 = '../../../assets/imagenes/galeriaAranjuez/IMG_2520.JPG';
@@ -21,8 +21,5 @@ export class AranjuezComponent implements OnInit {
   imagenModal6 = '../../../assets/imagenes/galeriaAranjuez/IMG_2535.JPG';
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

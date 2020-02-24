@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-roma2',
   templateUrl: './roma2.component.html',
   styleUrls: ['./roma2.component.css']
 })
-export class Roma2Component implements OnInit {
+export class Roma2Component {
 
   imagen1 = '../../../assets/imagenes/galeriaRoma/IMG_2140.JPG';
   imagen2 = '../../../assets/imagenes/galeriaRoma/IMG_2143.JPG';
@@ -32,8 +32,4 @@ export class Roma2Component implements OnInit {
   anteriorDonde = '/roma-dia-1';
 
   constructor() { }
-
-  ngOnInit() {
-  }
-
 }

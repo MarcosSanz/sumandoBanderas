@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-mazarron',
   templateUrl: './mazarron.component.html',
   styleUrls: ['./mazarron.component.css']
 })
-export class MazarronComponent implements OnInit {
+export class MazarronComponent {
 
   imagen1 = '../../../assets/imagenes/galeriaMazarron/IMG_2545.JPG';
   imagen2 = '../../../assets/imagenes/galeriaMazarron/IMG_2583.JPG';
@@ -27,8 +27,4 @@ export class MazarronComponent implements OnInit {
   titulo6 = 'Ayuntamiento Cartagena';
 
   constructor() { }
-
-  ngOnInit() {
-  }
-
 }

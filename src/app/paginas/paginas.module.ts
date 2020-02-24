@@ -61,7 +61,6 @@ import { Extremadura1Component } from './extremadura/extremadura1/extremadura1.c
 import { Extremadura2Component } from './extremadura/extremadura2/extremadura2.component';
 import { Extremadura3Component } from './extremadura/extremadura3/extremadura3.component';
 import { MazarronComponent } from './mazarron/mazarron.component';
-import { LeonComponent } from './leon/leon.component';
 import { AsturiasComponent } from './asturias/asturias.component';
 import { CantabriaComponent } from './cantabria/cantabria.component';
 import { AranjuezComponent } from './aranjuez/aranjuez.component';
@@ -105,6 +104,8 @@ import { RoadTrip7Component } from './eeuu/road-trip-2020/road-trip7/road-trip7.
 import { RoadTrip8Component } from './eeuu/road-trip-2020/road-trip8/road-trip8.component';
 import { RoadTrip9Component } from './eeuu/road-trip-2020/road-trip9/road-trip9.component';
 import { RoadTrip10Component } from './eeuu/road-trip-2020/road-trip10/road-trip10.component';
+import { AvilaComponent } from './castilla/avila/avila.component';
+import { LeonComponent } from './castilla/leon/leon.component';
 
 
 @NgModule({
@@ -210,7 +211,8 @@ import { RoadTrip10Component } from './eeuu/road-trip-2020/road-trip10/road-trip
     RoadTrip7Component,
     RoadTrip8Component,
     RoadTrip9Component,
-    RoadTrip10Component
+    RoadTrip10Component,
+    AvilaComponent
   ],
   exports: [
     CarruselComponent,

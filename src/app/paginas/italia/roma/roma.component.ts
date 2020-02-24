@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-roma',
   templateUrl: './roma.component.html',
   styleUrls: ['./roma.component.css']
 })
-export class RomaComponent implements OnInit {
+export class RomaComponent {
 
   // Carrusel de la portada
   tituloCarrusel1 = 'Castel Sant´Angelo';
@@ -38,8 +38,4 @@ export class RomaComponent implements OnInit {
   enlaceDia4 = '/roma-dia-4';
 
   constructor() { }
-
-  ngOnInit() {
-  }
-
 }
