@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-estocolmo2',
   templateUrl: './estocolmo2.component.html',
   styleUrls: ['./estocolmo2.component.css']
 })
-export class Estocolmo2Component implements OnInit {
+export class Estocolmo2Component {
 
   imagen1 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7087.JPG';
   imagen2 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7115.JPG';
@@ -32,8 +32,5 @@ export class Estocolmo2Component implements OnInit {
   anteriorDonde = '/estocolmo-dia-1';
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }
