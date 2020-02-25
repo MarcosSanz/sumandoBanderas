@@ -7,18 +7,18 @@ import { Component } from '@angular/core';
 })
 export class RoadTrip10Component {
 
-    imagen1 = '../../../assets/imagenes/galeriaEEUU/dia11-1.jpeg';
-    imagen2 = '../../../assets/imagenes/galeriaEEUU/dia11-2.jpeg';
-    imagen3 = '../../../assets/imagenes/galeriaEEUU/dia11-3.jpeg';
-    imagen4 = '../../../assets/imagenes/galeriaEEUU/dia11-4.jpeg';
-    imagen5 = '../../../assets/imagenes/galeriaEEUU/dia11-5.jpeg';
-    imagen6 = '../../../assets/imagenes/galeriaEEUU/dia11-6.jpeg';
-    imagenModal1 = '../../../assets/imagenes/galeriaEEUU/dia11-1.jpeg';
-    imagenModal2 = '../../../assets/imagenes/galeriaEEUU/dia11-2.jpeg';
-    imagenModal3 = '../../../assets/imagenes/galeriaEEUU/dia11-3.jpeg';
-    imagenModal4 = '../../../assets/imagenes/galeriaEEUU/dia11-4.jpeg';
-    imagenModal5 = '../../../assets/imagenes/galeriaEEUU/dia11-5.jpeg';
-    imagenModal6 = '../../../assets/imagenes/galeriaEEUU/dia11-6.jpeg';
+    imagen1 = '../../../assets/imagenes/galeriaEEUU/dia11-1.jpg';
+    imagen2 = '../../../assets/imagenes/galeriaEEUU/dia11-2.jpg';
+    imagen3 = '../../../assets/imagenes/galeriaEEUU/dia11-3.jpg';
+    imagen4 = '../../../assets/imagenes/galeriaEEUU/dia11-4.jpg';
+    imagen5 = '../../../assets/imagenes/galeriaEEUU/dia11-5.jpg';
+    imagen6 = '../../../assets/imagenes/galeriaEEUU/dia11-6.jpg';
+    imagenModal1 = '../../../assets/imagenes/galeriaEEUU/dia11-1.jpg';
+    imagenModal2 = '../../../assets/imagenes/galeriaEEUU/dia11-2.jpg';
+    imagenModal3 = '../../../assets/imagenes/galeriaEEUU/dia11-3.jpg';
+    imagenModal4 = '../../../assets/imagenes/galeriaEEUU/dia11-4.jpg';
+    imagenModal5 = '../../../assets/imagenes/galeriaEEUU/dia11-5.jpg';
+    imagenModal6 = '../../../assets/imagenes/galeriaEEUU/dia11-6.jpg';
     titulo1 = 'Teatro Apollo, Harlem';
     titulo2 = 'New York';
     titulo3 = 'Harlem';

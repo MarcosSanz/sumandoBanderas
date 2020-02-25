@@ -7,18 +7,18 @@ import { Component } from '@angular/core';
 })
 export class RoadTrip9Component {
 
-    imagen1 = '../../../assets/imagenes/galeriaEEUU/dia10-2.jpeg';
-    imagen2 = '../../../assets/imagenes/galeriaEEUU/dia10-3.jpeg';
-    imagen3 = '../../../assets/imagenes/galeriaEEUU/dia10-4.jpeg';
-    imagen4 = '../../../assets/imagenes/galeriaEEUU/dia10-5.jpeg';
-    imagen5 = '../../../assets/imagenes/galeriaEEUU/dia10-6.jpeg';
-    imagen6 = '../../../assets/imagenes/galeriaEEUU/dia10-7.jpeg';
-    imagenModal1 = '../../../assets/imagenes/galeriaEEUU/dia10-2.jpeg';
-    imagenModal2 = '../../../assets/imagenes/galeriaEEUU/dia10-3.jpeg';
-    imagenModal3 = '../../../assets/imagenes/galeriaEEUU/dia10-4.jpeg';
-    imagenModal4 = '../../../assets/imagenes/galeriaEEUU/dia10-5.jpeg';
-    imagenModal5 = '../../../assets/imagenes/galeriaEEUU/dia10-6.jpeg';
-    imagenModal6 = '../../../assets/imagenes/galeriaEEUU/dia10-7.jpeg';
+    imagen1 = '../../../assets/imagenes/galeriaEEUU/dia10-2.jpg';
+    imagen2 = '../../../assets/imagenes/galeriaEEUU/dia10-3.jpg';
+    imagen3 = '../../../assets/imagenes/galeriaEEUU/dia10-4.jpg';
+    imagen4 = '../../../assets/imagenes/galeriaEEUU/dia10-5.jpg';
+    imagen5 = '../../../assets/imagenes/galeriaEEUU/dia10-6.jpg';
+    imagen6 = '../../../assets/imagenes/galeriaEEUU/dia10-7.jpg';
+    imagenModal1 = '../../../assets/imagenes/galeriaEEUU/dia10-2.jpg';
+    imagenModal2 = '../../../assets/imagenes/galeriaEEUU/dia10-3.jpg';
+    imagenModal3 = '../../../assets/imagenes/galeriaEEUU/dia10-4.jpg';
+    imagenModal4 = '../../../assets/imagenes/galeriaEEUU/dia10-5.jpg';
+    imagenModal5 = '../../../assets/imagenes/galeriaEEUU/dia10-6.jpg';
+    imagenModal6 = '../../../assets/imagenes/galeriaEEUU/dia10-7.jpg';
     titulo1 = 'Charging Bull';
     titulo2 = 'Wall Street';
     titulo3 = 'Wall Street';

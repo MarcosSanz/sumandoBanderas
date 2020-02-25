@@ -7,18 +7,18 @@ import { Component } from '@angular/core';
 })
 export class RoadTrip8Component {
 
-    imagen1 = '../../../assets/imagenes/galeriaEEUU/dia9-1.jpeg';
-    imagen2 = '../../../assets/imagenes/galeriaEEUU/dia9-3.jpeg';
-    imagen3 = '../../../assets/imagenes/galeriaEEUU/dia9-4.jpeg';
-    imagen4 = '../../../assets/imagenes/galeriaEEUU/dia9-5.jpeg';
-    imagen5 = '../../../assets/imagenes/galeriaEEUU/dia9-6.jpeg';
-    imagen6 = '../../../assets/imagenes/galeriaEEUU/dia9-7.jpeg';
-    imagenModal1 = '../../../assets/imagenes/galeriaEEUU/dia9-1.jpeg';
-    imagenModal2 = '../../../assets/imagenes/galeriaEEUU/dia9-3.jpeg';
-    imagenModal3 = '../../../assets/imagenes/galeriaEEUU/dia9-4.jpeg';
-    imagenModal4 = '../../../assets/imagenes/galeriaEEUU/dia9-5.jpeg';
-    imagenModal5 = '../../../assets/imagenes/galeriaEEUU/dia9-6.jpeg';
-    imagenModal6 = '../../../assets/imagenes/galeriaEEUU/dia9-7.jpeg';
+    imagen1 = '../../../assets/imagenes/galeriaEEUU/dia9-1.jpg';
+    imagen2 = '../../../assets/imagenes/galeriaEEUU/dia9-3.jpg';
+    imagen3 = '../../../assets/imagenes/galeriaEEUU/dia9-4.jpg';
+    imagen4 = '../../../assets/imagenes/galeriaEEUU/dia9-5.jpg';
+    imagen5 = '../../../assets/imagenes/galeriaEEUU/dia9-6.jpg';
+    imagen6 = '../../../assets/imagenes/galeriaEEUU/dia9-7.jpg';
+    imagenModal1 = '../../../assets/imagenes/galeriaEEUU/dia9-1.jpg';
+    imagenModal2 = '../../../assets/imagenes/galeriaEEUU/dia9-3.jpg';
+    imagenModal3 = '../../../assets/imagenes/galeriaEEUU/dia9-4.jpg';
+    imagenModal4 = '../../../assets/imagenes/galeriaEEUU/dia9-5.jpg';
+    imagenModal5 = '../../../assets/imagenes/galeriaEEUU/dia9-6.jpg';
+    imagenModal6 = '../../../assets/imagenes/galeriaEEUU/dia9-7.jpg';
     titulo1 = 'Estatua de la Libertad';
     titulo2 = 'Skyline Manhattan';
     titulo3 = 'Isla de Ellis';

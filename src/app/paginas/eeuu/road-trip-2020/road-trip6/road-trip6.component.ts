@@ -7,13 +7,13 @@ import { Component } from '@angular/core';
 })
 export class RoadTrip6Component {
 
-    imagen1 = '../../../assets/imagenes/galeriaEEUU/dia7-1.jpeg';
+    imagen1 = '../../../assets/imagenes/galeriaEEUU/dia7-1.jpg';
     imagen2 = '../../../assets/imagenes/galeriaEEUU/dia7-4.jpg';
     imagen3 = '../../../assets/imagenes/galeriaEEUU/dia7-5.jpg';
     imagen4 = '../../../assets/imagenes/galeriaEEUU/dia7-6.jpg';
     imagen5 = '../../../assets/imagenes/galeriaEEUU/dia7-7.jpg';
     imagen6 = '../../../assets/imagenes/galeriaEEUU/dia7-3.jpg';
-    imagenModal1 = '../../../assets/imagenes/galeriaEEUU/dia7-1.jpeg';
+    imagenModal1 = '../../../assets/imagenes/galeriaEEUU/dia7-1.jpg';
     imagenModal2 = '../../../assets/imagenes/galeriaEEUU/dia7-4.jpg';
     imagenModal3 = '../../../assets/imagenes/galeriaEEUU/dia7-5.jpg';
     imagenModal4 = '../../../assets/imagenes/galeriaEEUU/dia7-6.jpg';
