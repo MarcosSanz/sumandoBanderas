@@ -93,131 +93,134 @@ import { RoadTrip7Component } from './eeuu/road-trip-2020/road-trip7/road-trip7.
 import { RoadTrip8Component } from './eeuu/road-trip-2020/road-trip8/road-trip8.component';
 import { RoadTrip9Component } from './eeuu/road-trip-2020/road-trip9/road-trip9.component';
 import { RoadTrip10Component } from './eeuu/road-trip-2020/road-trip10/road-trip10.component';
+// Ávila
 import { AvilaComponent } from './castilla/avila/avila.component';
+// León
 import { LeonComponent } from './castilla/leon/leon.component';
 
 
 const paginasRoutes: Routes = [
-  {
-    path: '',
-    component: PaginasComponent,
-    children: [
-      // Extremadura
-      { path: 'extremadura', component: ExtremaduraComponent, },
-      { path: 'extremadura-dia-1', component: Extremadura1Component, },
-      { path: 'extremadura-dia-2', component: Extremadura2Component, },
-      { path: 'extremadura-dia-3', component: Extremadura3Component, },
-      // Mazarron y Cartagena
-      { path: 'mazarron', component: MazarronComponent, },
-      // Leon
-      { path: 'leon', component: LeonComponent, },
-      // Asturias
-      { path: 'asturias', component: AsturiasComponent, },
-      // Cantabria
-      { path: 'cantabria', component: CantabriaComponent, },
-      // Aranjuez
-      { path: 'aranjuez', component: AranjuezComponent, },
+    {
+        path: '',
+        component: PaginasComponent,
+        children: [
+            // Extremadura
+            { path: 'extremadura', component: ExtremaduraComponent, },
+            { path: 'extremadura-dia-1', component: Extremadura1Component, },
+            { path: 'extremadura-dia-2', component: Extremadura2Component, },
+            { path: 'extremadura-dia-3', component: Extremadura3Component, },
+            // Mazarron y Cartagena
+            { path: 'mazarron', component: MazarronComponent, },
+            // Leon
+            { path: 'leon', component: LeonComponent, },
+            // Asturias
+            { path: 'asturias', component: AsturiasComponent, },
+            // Cantabria
+            { path: 'cantabria', component: CantabriaComponent, },
+            // Aranjuez
+            { path: 'aranjuez', component: AranjuezComponent, },
 
-      // Berlin
-      { path: 'berlin', component: BerlinComponent, },
-      { path: 'berlin-dia-1', component: Berlin1Component },
-      { path: 'berlin-dia-2', component: Berlin2Component },
-      { path: 'berlin-dia-3', component: Berlin3Component },
-      { path: 'berlin-dia-4', component: Berlin4Component },
-      { path: 'berlin-dia-5', component: Berlin5Component },
+            // Berlin
+            { path: 'berlin', component: BerlinComponent, },
+            { path: 'berlin-dia-1', component: Berlin1Component },
+            { path: 'berlin-dia-2', component: Berlin2Component },
+            { path: 'berlin-dia-3', component: Berlin3Component },
+            { path: 'berlin-dia-4', component: Berlin4Component },
+            { path: 'berlin-dia-5', component: Berlin5Component },
 
-      // Roma
-      { path: 'roma', component: RomaComponent },
-      { path: 'roma-dia-1', component: Roma1Component },
-      { path: 'roma-dia-2', component: Roma2Component },
-      { path: 'roma-dia-3', component: Roma3Component },
-      { path: 'roma-dia-4', component: Roma4Component },
+            // Roma
+            { path: 'roma', component: RomaComponent },
+            { path: 'roma-dia-1', component: Roma1Component },
+            { path: 'roma-dia-2', component: Roma2Component },
+            { path: 'roma-dia-3', component: Roma3Component },
+            { path: 'roma-dia-4', component: Roma4Component },
 
-      // Sicilia
-      { path: 'sicilia', component: SiciliaComponent },
-      { path: 'sicilia-datos-viaje', component: SiciliaDatosViajeComponent },
-      { path: 'sicilia-dia-1y2', component: Sicilia1Component },
-      { path: 'sicilia-dia-3', component: Sicilia3Component },
-      { path: 'sicilia-dia-4', component: Sicilia4Component },
-      { path: 'sicilia-dia-5', component: Sicilia5Component },
-      { path: 'sicilia-dia-6', component: Sicilia6Component },
-      { path: 'sicilia-dia-7', component: Sicilia7Component },
-      { path: 'sicilia-dia-8', component: Sicilia8Component },
-      { path: 'sicilia-dia-9', component: Sicilia9Component },
-      { path: 'sicilia-dia-10', component: Sicilia10Component },
-      { path: 'sicilia-dia-11', component: Sicilia11Component },
+            // Sicilia
+            { path: 'sicilia', component: SiciliaComponent },
+            { path: 'sicilia-datos-viaje', component: SiciliaDatosViajeComponent },
+            { path: 'sicilia-dia-1y2', component: Sicilia1Component },
+            { path: 'sicilia-dia-3', component: Sicilia3Component },
+            { path: 'sicilia-dia-4', component: Sicilia4Component },
+            { path: 'sicilia-dia-5', component: Sicilia5Component },
+            { path: 'sicilia-dia-6', component: Sicilia6Component },
+            { path: 'sicilia-dia-7', component: Sicilia7Component },
+            { path: 'sicilia-dia-8', component: Sicilia8Component },
+            { path: 'sicilia-dia-9', component: Sicilia9Component },
+            { path: 'sicilia-dia-10', component: Sicilia10Component },
+            { path: 'sicilia-dia-11', component: Sicilia11Component },
 
-      // Nueva York y Washington
-      { path: 'nueva-york', component: NuevaYorkComponent },
-      { path: 'ny1', component: Ny1Component },
-      { path: 'ny2', component: Ny2Component },
-      { path: 'ny3', component: Ny3Component },
-      { path: 'ny4', component: Ny4Component },
-      { path: 'ny5', component: Ny5Component },
-      { path: 'was1', component: Washington1Component },
-      { path: 'was2', component: Washington2Component },
+            // Nueva York y Washington
+            { path: 'nueva-york', component: NuevaYorkComponent },
+            { path: 'ny1', component: Ny1Component },
+            { path: 'ny2', component: Ny2Component },
+            { path: 'ny3', component: Ny3Component },
+            { path: 'ny4', component: Ny4Component },
+            { path: 'ny5', component: Ny5Component },
+            { path: 'was1', component: Washington1Component },
+            { path: 'was2', component: Washington2Component },
 
-      // Rumanía
-      { path: 'rumania-y-bulgaria', component: RumaniaComponent },
-      { path: 'rumania-datos-viaje', component: Rumania1Component },
-      { path: 'rumania-dia-1', component: Rumania2Component },
-      { path: 'rumania-dia-2', component: Rumania3Component },
-      { path: 'rumania-dia-3', component: Rumania4Component },
-      { path: 'rumania-dia-4', component: Rumania5Component },
-      { path: 'rumania-dia-5', component: Rumania6Component },
-      { path: 'rumania-dia-6', component: Rumania7Component },
-      { path: 'rumania-dia-7', component: Rumania8Component },
-      { path: 'rumania-dia-8', component: Rumania9Component },
-      { path: 'rumania-dia-9', component: Rumania10Component },
-      { path: 'rumania-dia-10', component: Rumania11Component },
-      // Bulgaria
-      { path: 'bulgaria-dia-1', component: Bulgaria1Component },
-      { path: 'bulgaria-dia-2', component: Bulgaria2Component },
-      { path: 'bulgaria-dia-3', component: Bulgaria3Component },
-      { path: 'bulgaria-dia-4', component: Bulgaria4Component },
-      { path: 'bulgaria-dia-5', component: Bulgaria5Component },
+            // Rumanía
+            { path: 'rumania-y-bulgaria', component: RumaniaComponent },
+            { path: 'rumania-datos-viaje', component: Rumania1Component },
+            { path: 'rumania-dia-1', component: Rumania2Component },
+            { path: 'rumania-dia-2', component: Rumania3Component },
+            { path: 'rumania-dia-3', component: Rumania4Component },
+            { path: 'rumania-dia-4', component: Rumania5Component },
+            { path: 'rumania-dia-5', component: Rumania6Component },
+            { path: 'rumania-dia-6', component: Rumania7Component },
+            { path: 'rumania-dia-7', component: Rumania8Component },
+            { path: 'rumania-dia-8', component: Rumania9Component },
+            { path: 'rumania-dia-9', component: Rumania10Component },
+            { path: 'rumania-dia-10', component: Rumania11Component },
+            // Bulgaria
+            { path: 'bulgaria-dia-1', component: Bulgaria1Component },
+            { path: 'bulgaria-dia-2', component: Bulgaria2Component },
+            { path: 'bulgaria-dia-3', component: Bulgaria3Component },
+            { path: 'bulgaria-dia-4', component: Bulgaria4Component },
+            { path: 'bulgaria-dia-5', component: Bulgaria5Component },
 
-      // Estocolmo
-      { path: 'estocolmo', component: EstocolmoComponent },
-      { path: 'estocolmo-datos-viaje', component: EstocolmoDatosViajeComponent },
-      { path: 'estocolmo-dia-1', component: Estocolmo1Component },
-      { path: 'estocolmo-dia-2', component: Estocolmo2Component },
-      { path: 'estocolmo-dia-3', component: Estocolmo3Component },
-      { path: 'estocolmo-dia-4', component: Estocolmo4Component },
-      { path: 'estocolmo-dia-5', component: Estocolmo5Component },
+            // Estocolmo
+            { path: 'estocolmo', component: EstocolmoComponent },
+            { path: 'estocolmo-datos-viaje', component: EstocolmoDatosViajeComponent },
+            { path: 'estocolmo-dia-1', component: Estocolmo1Component },
+            { path: 'estocolmo-dia-2', component: Estocolmo2Component },
+            { path: 'estocolmo-dia-3', component: Estocolmo3Component },
+            { path: 'estocolmo-dia-4', component: Estocolmo4Component },
+            { path: 'estocolmo-dia-5', component: Estocolmo5Component },
 
-      // Portugal
-      { path: 'portugal', component: PortugalComponent },
-      { path: 'portugal-datos-viaje', component: PortugalDatosViajeComponent },
-      { path: 'portugal-dia-1', component: Portugal1Component },
-      { path: 'portugal-dia-2', component: Portugal2Component },
-      { path: 'portugal-dia-3', component: Portugal3Component },
-      { path: 'portugal-dia-4', component: Portugal4Component },
-      { path: 'portugal-dia-5', component: Portugal5Component },
-      { path: 'portugal-dia-6', component: Portugal6Component },
+            // Portugal
+            { path: 'portugal', component: PortugalComponent },
+            { path: 'portugal-datos-viaje', component: PortugalDatosViajeComponent },
+            { path: 'portugal-dia-1', component: Portugal1Component },
+            { path: 'portugal-dia-2', component: Portugal2Component },
+            { path: 'portugal-dia-3', component: Portugal3Component },
+            { path: 'portugal-dia-4', component: Portugal4Component },
+            { path: 'portugal-dia-5', component: Portugal5Component },
+            { path: 'portugal-dia-6', component: Portugal6Component },
 
-    //   RoadTrip por EEUU
-    { path: 'roadtrip-eeuu', component: RoadTripComponent },
-      { path: 'roadtrip-eeuu-datos-viaje', component: RoadTripDatosComponent },
-      { path: 'roadtrip-eeuu-dia-1', component: RoadTrip1Component },
-      { path: 'roadtrip-eeuu-dia-2', component: RoadTrip2Component },
-      { path: 'roadtrip-eeuu-dia-3', component: RoadTrip3Component },
-      { path: 'roadtrip-eeuu-dia-4', component: RoadTrip4Component },
-      { path: 'roadtrip-eeuu-dia-5', component: RoadTrip5Component },
-      { path: 'roadtrip-eeuu-dia-6', component: RoadTrip6Component },
-      { path: 'roadtrip-eeuu-dia-7', component: RoadTrip7Component },
-      { path: 'roadtrip-eeuu-dia-8', component: RoadTrip8Component },
-      { path: 'roadtrip-eeuu-dia-9', component: RoadTrip9Component },
-      { path: 'roadtrip-eeuu-dia-10', component: RoadTrip10Component },
-    // Ávila
-      { path: 'avila', component: AvilaComponent },
+            //   RoadTrip por EEUU
+            { path: 'roadtrip-eeuu', component: RoadTripComponent },
+            { path: 'roadtrip-eeuu-datos-viaje', component: RoadTripDatosComponent },
+            { path: 'roadtrip-eeuu-dia-1', component: RoadTrip1Component },
+            { path: 'roadtrip-eeuu-dia-2', component: RoadTrip2Component },
+            { path: 'roadtrip-eeuu-dia-3', component: RoadTrip3Component },
+            { path: 'roadtrip-eeuu-dia-4', component: RoadTrip4Component },
+            { path: 'roadtrip-eeuu-dia-5', component: RoadTrip5Component },
+            { path: 'roadtrip-eeuu-dia-6', component: RoadTrip6Component },
+            { path: 'roadtrip-eeuu-dia-7', component: RoadTrip7Component },
+            { path: 'roadtrip-eeuu-dia-8', component: RoadTrip8Component },
+            { path: 'roadtrip-eeuu-dia-9', component: RoadTrip9Component },
+            { path: 'roadtrip-eeuu-dia-10', component: RoadTrip10Component },
 
-      { path: 'conocenos', component: ConocenosComponent },
-      { path: 'portada', component: PrincipalComponent },
+            // Ávila
+            { path: 'avila', component: AvilaComponent },
 
-      { path: '', redirectTo: '/portada', pathMatch: 'full' }
-    ]
-  }
+            { path: 'conocenos', component: ConocenosComponent },
+            { path: 'portada', component: PrincipalComponent },
+
+            { path: '', redirectTo: '/portada', pathMatch: 'full' }
+        ]
+    }
 ];
 
 export const PAGINAS_ROUTES = RouterModule.forChild(paginasRoutes);

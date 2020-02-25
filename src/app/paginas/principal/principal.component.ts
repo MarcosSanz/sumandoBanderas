@@ -45,7 +45,7 @@ export class PrincipalComponent {
   enlaceDia9 = '/portugal';
 
   tituloDia10 = 'EEUU en 10 días';
-  imagenDia10 = '../../../assets/imagenes/galeriaEEUU/dia9-1.jpeg';
+  imagenDia10 = '../../../assets/imagenes/galeriaEEUU/dia9-1.jpg';
   enlaceDia10 = '/roadtrip-eeuu';
 
   constructor() { }
