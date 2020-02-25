@@ -106,6 +106,7 @@ import { RoadTrip9Component } from './eeuu/road-trip-2020/road-trip9/road-trip9.
 import { RoadTrip10Component } from './eeuu/road-trip-2020/road-trip10/road-trip10.component';
 import { AvilaComponent } from './castilla/avila/avila.component';
 import { LeonComponent } from './castilla/leon/leon.component';
+import { CuencaComponent } from './castilla/cuenca/cuenca.component';
 
 
 @NgModule({
@@ -212,7 +213,8 @@ import { LeonComponent } from './castilla/leon/leon.component';
     RoadTrip8Component,
     RoadTrip9Component,
     RoadTrip10Component,
-    AvilaComponent
+    AvilaComponent,
+    CuencaComponent
   ],
   exports: [
     CarruselComponent,

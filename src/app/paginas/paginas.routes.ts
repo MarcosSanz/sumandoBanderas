@@ -97,6 +97,8 @@ import { RoadTrip10Component } from './eeuu/road-trip-2020/road-trip10/road-trip
 import { AvilaComponent } from './castilla/avila/avila.component';
 // León
 import { LeonComponent } from './castilla/leon/leon.component';
+// Cuenca
+import { CuencaComponent } from './castilla/cuenca/cuenca.component';
 
 
 const paginasRoutes: Routes = [
@@ -214,6 +216,8 @@ const paginasRoutes: Routes = [
 
             // Ávila
             { path: 'avila', component: AvilaComponent },
+            // Cuenca
+            { path: 'cuenca', component: CuencaComponent },
 
             { path: 'conocenos', component: ConocenosComponent },
             { path: 'portada', component: PrincipalComponent },
