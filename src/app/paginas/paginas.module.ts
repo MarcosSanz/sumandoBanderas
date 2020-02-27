@@ -84,14 +84,14 @@ import { Estocolmo3Component } from './estocolmo/estocolmo3/estocolmo3.component
 import { Estocolmo4Component } from './estocolmo/estocolmo4/estocolmo4.component';
 import { Estocolmo5Component } from './estocolmo/estocolmo5/estocolmo5.component';
 import { EstocolmoDatosViajeComponent } from './estocolmo/estocolmo-datos-viaje/estocolmo-datos-viaje.component';
-import { PortugalComponent } from './portugal/portugal.component';
-import { Portugal1Component } from './portugal/portugal1/portugal1.component';
-import { Portugal2Component } from './portugal/portugal2/portugal2.component';
-import { Portugal3Component } from './portugal/portugal3/portugal3.component';
-import { Portugal4Component } from './portugal/portugal4/portugal4.component';
-import { Portugal5Component } from './portugal/portugal5/portugal5.component';
-import { Portugal6Component } from './portugal/portugal6/portugal6.component';
-import { PortugalDatosViajeComponent } from './portugal/portugal-datos-viaje/portugal-datos-viaje.component';
+import { PortugalComponent } from './portugal/road-trip/portugal.component';
+import { Portugal1Component } from './portugal/road-trip/portugal1/portugal1.component';
+import { Portugal2Component } from './portugal/road-trip/portugal2/portugal2.component';
+import { Portugal3Component } from './portugal/road-trip/portugal3/portugal3.component';
+import { Portugal4Component } from './portugal/road-trip/portugal4/portugal4.component';
+import { Portugal5Component } from './portugal/road-trip/portugal5/portugal5.component';
+import { Portugal6Component } from './portugal/road-trip/portugal6/portugal6.component';
+import { PortugalDatosViajeComponent } from './portugal/road-trip/portugal-datos-viaje/portugal-datos-viaje.component';
 import { RoadTripComponent } from './eeuu/road-trip-2020/road-trip.component';
 import { RoadTripDatosComponent } from './eeuu/road-trip-2020/road-trip-datos/road-trip-datos.component';
 import { RoadTrip1Component } from './eeuu/road-trip-2020/road-trip1/road-trip1.component';
@@ -107,6 +107,7 @@ import { RoadTrip10Component } from './eeuu/road-trip-2020/road-trip10/road-trip
 import { AvilaComponent } from './castilla/avila/avila.component';
 import { LeonComponent } from './castilla/leon/leon.component';
 import { CuencaComponent } from './castilla/cuenca/cuenca.component';
+import { HamburgoComponent } from './alemania/hamburgo/hamburgo.component';
 
 
 @NgModule({
@@ -214,7 +215,8 @@ import { CuencaComponent } from './castilla/cuenca/cuenca.component';
     RoadTrip9Component,
     RoadTrip10Component,
     AvilaComponent,
-    CuencaComponent
+    CuencaComponent,
+    HamburgoComponent
   ],
   exports: [
     CarruselComponent,
