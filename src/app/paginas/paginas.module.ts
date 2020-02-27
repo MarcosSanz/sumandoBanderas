@@ -108,6 +108,9 @@ import { AvilaComponent } from './castilla/avila/avila.component';
 import { LeonComponent } from './castilla/leon/leon.component';
 import { CuencaComponent } from './castilla/cuenca/cuenca.component';
 import { HamburgoComponent } from './alemania/hamburgo/hamburgo.component';
+import { StadeYNeuengammeComponent } from './alemania/hamburgo/stade-y-neuengamme/stade-y-neuengamme.component';
+import { Hamburgo1Component } from './alemania/hamburgo/hamburgo/hamburgo1.Component';
+import { TaviraComponent } from './portugal/tavira/tavira.component';
 
 
 @NgModule({
@@ -216,7 +219,10 @@ import { HamburgoComponent } from './alemania/hamburgo/hamburgo.component';
     RoadTrip10Component,
     AvilaComponent,
     CuencaComponent,
-    HamburgoComponent
+    HamburgoComponent,
+    Hamburgo1Component,
+    StadeYNeuengammeComponent,
+    TaviraComponent
   ],
   exports: [
     CarruselComponent,

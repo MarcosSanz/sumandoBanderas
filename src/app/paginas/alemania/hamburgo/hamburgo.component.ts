@@ -1,15 +1,39 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-hamburgo',
-  templateUrl: './hamburgo.component.html',
-  styleUrls: ['./hamburgo.component.css']
+    selector: 'app-hamburgo',
+    templateUrl: './hamburgo.component.html',
+    styleUrls: ['./hamburgo.component.css']
 })
-export class HamburgoComponent implements OnInit {
+export class HamburgoComponent {
 
-  constructor() { }
+    // Carrusel de la portada
+    tituloCarrusel1 = 'Boston';
+    imagenCarrusel1 = '../../../assets/imagenes/galeriaEEUU/dia2-17.jpg';
+    descripcion1 = 'Massachusetts State House';
+    tituloCarrusel2 = 'Philadelphia';
+    imagenCarrusel2 = '../../../assets/imagenes/galeriaEEUU/dia3-6.jpg';
+    descripcion2 = 'Parque Love';
+    tituloCarrusel3 = 'Washington D.C.';
+    imagenCarrusel3 = '../../../assets/imagenes/galeriaEEUU/dia6-5.jpg';
+    descripcion3 = 'Capitolio';
+    tituloCarrusel4 = 'Nueva York';
+    imagenCarrusel4 = '../../../assets/imagenes/galeriaEEUU/dia7-3.jpg';
+    tituloCarrusel5 = 'Brooklyn';
+    imagenCarrusel5 = '../../../assets/imagenes/galeriaEEUU/dia9-5.jpg';
 
-  ngOnInit(): void {
-  }
+    // Tarjetas de cada dia
+    tituloDia1 = 'Día 1 - Hamburgo';
+    imagenDia1 = '../../../assets/imagenes/galeriaEEUU/dia6-2.jpg';
+    enlaceDia1 = '/hamburgo';
 
+    tituloDia2 = 'Día 2 - Stade y Neuengamme';
+    imagenDia2 = '../../../assets/imagenes/galeriaEEUU/dia1-1.jpg';
+    enlaceDia2 = '/stade-y-neuengamme';
+
+    //   tituloDia3 = 'Día 3 - Bremen';
+    //   imagenDia3 = '../../../assets/imagenes/galeriaEEUU/dia2-1.jpg';
+    //   enlaceDia3 = '/bremen';
+
+    constructor() { }
 }

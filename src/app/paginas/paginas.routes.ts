@@ -99,6 +99,12 @@ import { AvilaComponent } from './castilla/avila/avila.component';
 import { LeonComponent } from './castilla/leon/leon.component';
 // Cuenca
 import { CuencaComponent } from './castilla/cuenca/cuenca.component';
+// Hamburgo
+import { HamburgoComponent } from './alemania/hamburgo/hamburgo.component';
+import { Hamburgo1Component } from './alemania/hamburgo/hamburgo/hamburgo1.Component';
+import { StadeYNeuengammeComponent } from './alemania/hamburgo/stade-y-neuengamme/stade-y-neuengamme.component';
+// Tavira
+import { TaviraComponent } from './portugal/tavira/tavira.component';
 
 
 const paginasRoutes: Routes = [
@@ -216,8 +222,17 @@ const paginasRoutes: Routes = [
 
             // Ávila
             { path: 'avila', component: AvilaComponent },
+
             // Cuenca
             { path: 'cuenca', component: CuencaComponent },
+
+            // Hamburgo
+            { path: 'norte-alemania-3días', component: HamburgoComponent },
+            { path: 'hamburgo', component: Hamburgo1Component },
+            { path: 'stade-y-neuengamme', component: StadeYNeuengammeComponent },
+
+            // Tavira
+            { path: 'tavira', component: TaviraComponent },
 
             { path: 'conocenos', component: ConocenosComponent },
             { path: 'portada', component: PrincipalComponent },
