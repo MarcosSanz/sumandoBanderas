@@ -19,7 +19,7 @@ export class BerlinComponent implements OnInit {
   descripcionCarrusel4 = 'Memorial a los caídos en el campo de Sachsenhausen';
   imagenCarrusel4 = '../../../assets/imagenes/galeriaBerlin/portada4.JPG';
   tituloCarrusel5 = 'Catedral de Berlín';
-  imagenCarrusel5 = '../../../assets/imagenes/galeriaBerlin/portada5.JPG';
+  imagenCarrusel5 = '../../../assets/imagenes/galeriaBerlin/IMG_2194.JPG';
 
   // Tarjetas de cada dia
   tituloDia1 = 'Datos del viaje';
