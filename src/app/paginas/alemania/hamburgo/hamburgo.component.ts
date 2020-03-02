@@ -28,9 +28,9 @@ export class HamburgoComponent {
     imagenDia2 = '../../../assets/imagenes/galeriaHamburgo/stade.jpg';
     enlaceDia2 = '/stade-y-neuengamme';
 
-    //   tituloDia3 = 'Día 3 - Bremen';
-    //   imagenDia3 = '../../../assets/imagenes/galeriaHamburgo/dia2-1.jpg';
-    //   enlaceDia3 = '/bremen';
+    tituloDia3 = 'Día 3 - Bremen';
+    imagenDia3 = '../../../assets/imagenes/galeriaHamburgo/bremen1.jpg';
+    enlaceDia3 = '/bremen';
 
     constructor() { }
 }

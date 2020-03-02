@@ -37,7 +37,7 @@ export class PrincipalComponent {
   enlaceDia7 = '/sicilia';
 
   tituloDia8 = 'Estocolmo en 5 días';
-  imagenDia8 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7153.JPG';
+  imagenDia8 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7153.jpg';
   enlaceDia8 = '/estocolmo';
 
   tituloDia9 = 'Portugal en 7 días';
@@ -47,6 +47,10 @@ export class PrincipalComponent {
   tituloDia10 = 'EEUU en 10 días';
   imagenDia10 = '../../../assets/imagenes/galeriaEEUU/dia9-1.jpg';
   enlaceDia10 = '/roadtrip-eeuu';
+
+  tituloDia11 = 'Norte Alemania en 3 días';
+  imagenDia11 = '../../../assets/imagenes/galeriaHamburgo/bremen1.jpg';
+  enlaceDia11 = '/norte-alemania-3días';
 
   constructor() { }
 }

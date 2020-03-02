@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class StadeYNeuengammeComponent {
 
-    siguiente = 'Norte Alemania en 3 días';
-    siguienteDonde = '/norte-alemania-3días';
+    siguiente = 'Bremen';
+    siguienteDonde = '/bremen';
     anterior = 'Hamburgo';
     anteriorDonde = '/hamburgo';
 
