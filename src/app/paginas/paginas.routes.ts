@@ -106,6 +106,7 @@ import { StadeYNeuengammeComponent } from './alemania/hamburgo/stade-y-neuengamm
 // Tavira
 import { TaviraComponent } from './portugal/tavira/tavira.component';
 import { BremenComponent } from './alemania/hamburgo/bremen/bremen.component';
+import { CastillaComponent } from './castilla/castilla.component';
 
 
 const paginasRoutes: Routes = [
@@ -220,6 +221,9 @@ const paginasRoutes: Routes = [
             { path: 'roadtrip-eeuu-dia-8', component: RoadTrip8Component },
             { path: 'roadtrip-eeuu-dia-9', component: RoadTrip9Component },
             { path: 'roadtrip-eeuu-dia-10', component: RoadTrip10Component },
+
+            // Castilla
+            { path: 'castilla', component: CastillaComponent },
 
             // Ávila
             { path: 'avila', component: AvilaComponent },

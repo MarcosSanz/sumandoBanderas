@@ -7,18 +7,18 @@ import { Component } from '@angular/core';
 })
 export class Estocolmo1Component {
 
-  imagen1 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6860.JPG';
-  imagen2 = '../../../assets/imagenes/galeriaEstocolmo/estocdia1-3.JPG';
-  imagen3 = '../../../assets/imagenes/galeriaEstocolmo/estocdia1-2.JPG';
-  imagen4 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6929.JPG';
-  imagen5 = '../../../assets/imagenes/galeriaEstocolmo/estocdia1.JPG';
-  imagen6 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6955.JPG';
-  imagenModal1 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6860.JPG';
-  imagenModal2 = '../../../assets/imagenes/galeriaEstocolmo/estocdia1-3.JPG';
-  imagenModal3 = '../../../assets/imagenes/galeriaEstocolmo/estocdia1-2.JPG';
-  imagenModal4 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6929.JPG';
-  imagenModal5 = '../../../assets/imagenes/galeriaEstocolmo/estocdia1.JPG';
-  imagenModal6 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6955.JPG';
+  imagen1 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6860.jpg';
+  imagen2 = '../../../assets/imagenes/galeriaEstocolmo/estocdia1-3.jpg';
+  imagen3 = '../../../assets/imagenes/galeriaEstocolmo/estocdia1-2.jpg';
+  imagen4 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6929.jpg';
+  imagen5 = '../../../assets/imagenes/galeriaEstocolmo/estocdia1.jpg';
+  imagen6 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6955.jpg';
+  imagenModal1 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6860.jpg';
+  imagenModal2 = '../../../assets/imagenes/galeriaEstocolmo/estocdia1-3.jpg';
+  imagenModal3 = '../../../assets/imagenes/galeriaEstocolmo/estocdia1-2.jpg';
+  imagenModal4 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6929.jpg';
+  imagenModal5 = '../../../assets/imagenes/galeriaEstocolmo/estocdia1.jpg';
+  imagenModal6 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6955.jpg';
   titulo1 = 'Mercado de Hötorget';
   titulo2 = 'Palacio Real';
   titulo3 = 'Academia Sueca, casa del Nobel';

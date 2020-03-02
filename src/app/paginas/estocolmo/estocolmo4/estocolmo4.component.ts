@@ -9,16 +9,16 @@ export class Estocolmo4Component {
 
   imagen1 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-1.jpg';
   imagen2 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7589.JPG';
-  imagen3 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-3.JPG';
+  imagen3 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-3.jpg';
   imagen4 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-5.JPG';
-  imagen5 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-6.JPG';
-  imagen6 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-8.JPG';
+  imagen5 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-6.jpg';
+  imagen6 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-8.jpg';
   imagenModal1 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-1.jpg';
   imagenModal2 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7589.JPG';
-  imagenModal3 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-3.JPG';
+  imagenModal3 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-3.jpg';
   imagenModal4 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-5.JPG';
-  imagenModal5 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-6.JPG';
-  imagenModal6 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-8.JPG';
+  imagenModal5 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-6.jpg';
+  imagenModal6 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-8.jpg';
   titulo1 = 'Palacio de Drottningholm';
   titulo2 = 'Palacio de Drottningholm';
   titulo3 = 'Puente de las Coronas';

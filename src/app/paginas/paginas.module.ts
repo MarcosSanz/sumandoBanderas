@@ -112,6 +112,7 @@ import { StadeYNeuengammeComponent } from './alemania/hamburgo/stade-y-neuengamm
 import { Hamburgo1Component } from './alemania/hamburgo/hamburgo/hamburgo1.Component';
 import { TaviraComponent } from './portugal/tavira/tavira.component';
 import { BremenComponent } from './alemania/hamburgo/bremen/bremen.component';
+import { CastillaComponent } from './castilla/castilla.component';
 
 
 @NgModule({
@@ -224,7 +225,8 @@ import { BremenComponent } from './alemania/hamburgo/bremen/bremen.component';
     Hamburgo1Component,
     StadeYNeuengammeComponent,
     TaviraComponent,
-    BremenComponent
+    BremenComponent,
+    CastillaComponent
   ],
   exports: [
     CarruselComponent,

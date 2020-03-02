@@ -14,9 +14,9 @@ export class EstocolmoComponent implements OnInit {
   imagenCarrusel2 = '../../../assets/imagenes/galeriaEstocolmo/Snapseed.JPG';
   descripcion2 = 'Solna Centrum';
   tituloCarrusel3 = 'Ayuntamiento de Estocolmo';
-  imagenCarrusel3 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7153.JPG';
+  imagenCarrusel3 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7153.jpg';
   tituloCarrusel4 = 'Gamla Stan';
-  imagenCarrusel4 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6938.JPG';
+  imagenCarrusel4 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6938.jpg';
   tituloCarrusel5 = 'Stortorget';
   imagenCarrusel5 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7817.JPG';
   descripcion5 = 'Gamla Stan';
@@ -31,7 +31,7 @@ export class EstocolmoComponent implements OnInit {
   enlaceDia2 = '/estocolmo-dia-1';
 
   tituloDia3 = 'Día 2 - Birka';
-  imagenDia3 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7119.JPG';
+  imagenDia3 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7119.jpg';
   enlaceDia3 = '/estocolmo-dia-2';
 
   tituloDia4 = 'Día 3 - Isla de los Museos';

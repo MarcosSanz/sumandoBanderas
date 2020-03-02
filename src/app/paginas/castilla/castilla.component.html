@@ -1,0 +1,36 @@
+<h1 class="text-center mt-7 animated fadeIn slower">Ruta por la Vieja Castilla</h1>
+
+<app-carrusel 
+  [imagen1]="imagenCarrusel1"
+  [titulo1]="tituloCarrusel1"
+  [imagen2]="imagenCarrusel2"
+  [titulo2]="tituloCarrusel2"
+  [imagen3]="imagenCarrusel3"
+  [titulo3]="tituloCarrusel3"
+  [imagen4]="imagenCarrusel4"
+  [titulo4]="tituloCarrusel4"
+  [imagen5]="imagenCarrusel5"
+  [titulo5]="tituloCarrusel5">
+</app-carrusel>
+
+<div class="container mt-2 animated fadeIn slower">
+  <div class="row">
+      <app-cards class="col-sm-4"
+      [tituloCard]="tituloDia1"
+      [imagenCard]="imagenDia1"
+      [enlaceCard]="enlaceDia1">
+    </app-cards>
+    <app-cards class="col-sm-4"
+      [tituloCard]="tituloDia2"
+      [imagenCard]="imagenDia2"
+      [enlaceCard]="enlaceDia2">
+    </app-cards>
+    <app-cards class="col-sm-4"
+      [tituloCard]="tituloDia3"
+      [imagenCard]="imagenDia3"
+      [enlaceCard]="enlaceDia3">
+    </app-cards>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
