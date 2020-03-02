@@ -105,6 +105,7 @@ import { Hamburgo1Component } from './alemania/hamburgo/hamburgo/hamburgo1.Compo
 import { StadeYNeuengammeComponent } from './alemania/hamburgo/stade-y-neuengamme/stade-y-neuengamme.component';
 // Tavira
 import { TaviraComponent } from './portugal/tavira/tavira.component';
+import { BremenComponent } from './alemania/hamburgo/bremen/bremen.component';
 
 
 const paginasRoutes: Routes = [
@@ -230,6 +231,7 @@ const paginasRoutes: Routes = [
             { path: 'norte-alemania-3días', component: HamburgoComponent },
             { path: 'hamburgo', component: Hamburgo1Component },
             { path: 'stade-y-neuengamme', component: StadeYNeuengammeComponent },
+            { path: 'bremen', component: BremenComponent },
 
             // Tavira
             { path: 'tavira', component: TaviraComponent },
