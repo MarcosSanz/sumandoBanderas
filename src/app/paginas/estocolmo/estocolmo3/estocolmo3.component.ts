@@ -7,18 +7,18 @@ import { Component } from '@angular/core';
 })
 export class Estocolmo3Component {
 
-  imagen1 = '../../../assets/imagenes/galeriaEstocolmo/estocolmodia3-1.jpg';
+  imagen1 = '../../../assets/imagenes/galeriaEstocolmo/estocolmodia3-1.JPG';
   imagen2 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7267.JPG';
   imagen3 = '../../../assets/imagenes/galeriaEstocolmo/marcosElVikingo.JPG';
-  imagen4 = '../../../assets/imagenes/galeriaEstocolmo/estocolmodia3-5.jpg';
+  imagen4 = '../../../assets/imagenes/galeriaEstocolmo/estocolmodia3-5.JPG';
   imagen5 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7443.JPG';
-  imagen6 = '../../../assets/imagenes/galeriaEstocolmo/estocolmodia3-7.jpg';
-  imagenModal1 = '../../../assets/imagenes/galeriaEstocolmo/estocolmodia3-1.jpg';
+  imagen6 = '../../../assets/imagenes/galeriaEstocolmo/estocolmodia3-7.JPG';
+  imagenModal1 = '../../../assets/imagenes/galeriaEstocolmo/estocolmodia3-1.JPG';
   imagenModal2 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7267.JPG';
   imagenModal3 = '../../../assets/imagenes/galeriaEstocolmo/marcosElVikingo.JPG';
-  imagenModal4 = '../../../assets/imagenes/galeriaEstocolmo/estocolmodia3-5.jpg';
+  imagenModal4 = '../../../assets/imagenes/galeriaEstocolmo/estocolmodia3-5.JPG';
   imagenModal5 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7443.JPG';
-  imagenModal6 = '../../../assets/imagenes/galeriaEstocolmo/estocolmodia3-7.jpg';
+  imagenModal6 = '../../../assets/imagenes/galeriaEstocolmo/estocolmodia3-7.JPG';
   titulo1 = 'Oscarskyrkan';
   titulo2 = 'Nodisk Museet';
   titulo3 = 'Marcos Disfrazado de vikingo';

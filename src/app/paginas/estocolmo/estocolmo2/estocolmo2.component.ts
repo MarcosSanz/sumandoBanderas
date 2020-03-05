@@ -8,13 +8,13 @@ import { Component } from '@angular/core';
 export class Estocolmo2Component {
 
   imagen1 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7087.JPG';
-  imagen2 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7115.jpg';
+  imagen2 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7115.JPG';
   imagen3 = '../../../assets/imagenes/galeriaEstocolmo/pueblovikingo.JPG';
   imagen4 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7173.JPG';
   imagen5 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7223.JPG';
   imagen6 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7242.JPG';
   imagenModal1 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7087.JPG';
-  imagenModal2 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7115.jpg';
+  imagenModal2 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7115.JPG';
   imagenModal3 = '../../../assets/imagenes/galeriaEstocolmo/pueblovikingo.JPG';
   imagenModal4 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7173.JPG';
   imagenModal5 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7223.JPG';
