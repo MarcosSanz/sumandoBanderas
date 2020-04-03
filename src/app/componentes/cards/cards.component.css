@@ -35,3 +35,58 @@
 .fondoImagen {
   background: #f5e2e2;
 }
+
+.card-body {
+  box-shadow: 4px 4px 13px -4px #780101;
+  transition: all 300ms;
+}
+
+.card-body:hover {
+  background: #780101;
+  box-shadow: none;
+  color: #fff;
+  border: 2px solid #ccc;
+  overflow: hidden;
+  transform: scale(1.0.5);
+}
+
+.card-body:hover .btn-sumando {
+  background: #fff;
+  color: #780101;
+  animation: botonTarjeta 300ms linear;
+}
+
+@keyframes botonTarjeta {
+  from {
+    transform: translateX(-300%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.card-body:hover .card-title {
+  animation: card 700ms linear;
+}
+
+.card-body:hover .card-img-top {
+  animation: cardFoto 500ms linear;
+}
+
+@keyframes card {
+  from {
+    transform: translateY(-300%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes cardFoto {
+  from {
+    transform: translateX(-300%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}

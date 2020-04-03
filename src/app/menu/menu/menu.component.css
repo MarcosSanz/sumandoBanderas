@@ -2,6 +2,19 @@
   max-height: 150px;
   position: absolute;
   margin-top: -20px;
+  animation-name: logo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes logo {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }
 
 @media (max-width: 768px) {

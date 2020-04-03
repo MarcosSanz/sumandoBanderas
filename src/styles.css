@@ -52,6 +52,19 @@
 
 .imagenPortada {
   max-height: 450px;
+  animation: imgPortada 10s ease-out;
+}
+
+@keyframes imgPortada {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 .imagen6 {
@@ -76,15 +89,57 @@
 
 .btn-outline-dark:hover {
   background-color: #780101;
+  transform: scale(1.1);
 }
+
+.btn-outline-dark:hover .fa-chevron-right {
+  animation-name: botonPagDcha;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.btn-outline-dark:hover .fa-chevron-left {
+  animation-name: botonPagIzq;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes botonPagDcha {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes botonPagIzq {
+  0% {
+    transform: translateX(-50%);
+  }
+  50% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 
 .btn-sumando {
   background: #780101;
 }
 .btn-sumando:hover {
-  background: #4E0101;
+  background: #fff;
+  color: #780101;
+  border: 2px solid #fff;
+  transform: scale(1.1);
 }
-
 .conclusiones {
   border-color: #780101;
   border-width: 5px;
