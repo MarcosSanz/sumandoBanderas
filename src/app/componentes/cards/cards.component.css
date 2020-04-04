@@ -41,6 +41,10 @@
   transition: all 300ms;
 }
 
+.card-title {
+  text-shadow: 2px 2px 1px #5d5d5d29;
+}
+
 @media (min-width: 769px) {
   .card-body:hover {
     background: #780101;
@@ -55,10 +59,12 @@
     background: #fff;
     color: #780101;
     animation: botonTarjeta 300ms linear;
+    text-shadow: 2px 2px 1px #fff2f208;
   }
 
   .card-body:hover .card-title {
     animation: card 700ms linear;
+    text-shadow: 2px 2px 1px #fff2f208;
   }
   
   .card-body:hover .card-img-top {

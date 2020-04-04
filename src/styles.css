@@ -52,7 +52,30 @@
 
 .imagenPortada {
   max-height: 450px;
-  animation: imgPortada 10s ease-out;
+}
+
+@media (max-width: 400px) {
+  .imagenPortada {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .imagenPortada {
+    animation: imgPortada 10s ease-out;
+  }
+}
+
+@media (min-width: 1230px) {
+  .imagenPortada {
+    max-height: 600px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .imagenPortada {
+    max-height: 700px;
+  }
 }
 
 @keyframes imgPortada {
@@ -130,16 +153,19 @@
   }
 }
 
-
 .btn-sumando {
   background: #780101;
+  text-shadow: 2px 2px 1px #fff2f208;
 }
+
 .btn-sumando:hover {
   background: #fff;
   color: #780101;
   border: 2px solid #fff;
+  text-shadow: 2px 2px 1px #5800004d;
   transform: scale(1.1);
 }
+
 .conclusiones {
   border-color: #780101;
   border-width: 5px;
@@ -159,17 +185,18 @@
 .rounded-circle {
     width: 150px;
     height: 150px;
-}
-
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
     .rounded-circle{
-        width: 125px;
-        height: 125px;
+      width: 125px;
+      height: 125px;
     }
-}
-
-.rounded-circle:hover {
+  }
+  
+  .rounded-circle:hover {
     filter: saturate(180%);
+    transform: scale(1.2);
 }
 
 .imgmodal {
