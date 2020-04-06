@@ -52,7 +52,6 @@
     color: #fff;
     border: 2px solid #ccc;
     overflow: hidden;
-    transform: scale(1.0.5);
   }
   
   .card-body:hover .btn-sumando {
