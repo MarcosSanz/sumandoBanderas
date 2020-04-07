@@ -41,7 +41,7 @@ export class Rumania5Component {
   titulo7 = 'Castillo de Bran';
   titulo8 = 'Castillo de Bran';
   titulo9 = 'Castillo de Bran';
-  titulo10 = 'Iglesia fortificada de Prejmer';
+  titulo10 = 'Castillo de Bran';
   titulo11 = 'Iglesia fortificada de Hărman';
   titulo12 = 'Iglesia fortificada de Prejmer';
 
