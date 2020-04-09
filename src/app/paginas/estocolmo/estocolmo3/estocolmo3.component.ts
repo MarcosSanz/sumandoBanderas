@@ -21,7 +21,7 @@ export class Estocolmo3Component {
   imagenModal6 = '../../../assets/imagenes/galeriaEstocolmo/estocolmodia3-7.JPG';
   titulo1 = 'Oscarskyrkan';
   titulo2 = 'Nodisk Museet';
-  titulo3 = 'Marcos Disfrazado de vikingo';
+  titulo3 = 'Marcos Lodbrock';
   titulo4 = 'San Jorge matando al dragón';
   titulo5 = 'Vistas al Museo Nacional';
   titulo6 = 'Atardecer en Estocolmo';

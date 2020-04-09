@@ -11,14 +11,14 @@ export class EstocolmoComponent implements OnInit {
   tituloCarrusel1 = 'Palacio Real de Estocolmo';
   imagenCarrusel1 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7437.JPG';
   tituloCarrusel2 = 'Metro de Estocolmo';
-  imagenCarrusel2 = '../../../assets/imagenes/galeriaEstocolmo/Snapseed.JPG';
+  imagenCarrusel2 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-11.jpg';
   descripcion2 = 'Solna Centrum';
   tituloCarrusel3 = 'Ayuntamiento de Estocolmo';
   imagenCarrusel3 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7153.JPG';
   tituloCarrusel4 = 'Gamla Stan';
   imagenCarrusel4 = '../../../assets/imagenes/galeriaEstocolmo/IMG-6938.JPG';
   tituloCarrusel5 = 'Stortorget';
-  imagenCarrusel5 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7817.JPG';
+  imagenCarrusel5 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-8.JPG';
   descripcion5 = 'Gamla Stan';
 
   // Tarjetas de cada dia
@@ -43,7 +43,7 @@ export class EstocolmoComponent implements OnInit {
   enlaceDia5 = '/estocolmo-dia-4';
 
   tituloDia6 = 'Día 5 - Stadsbibliotek y Skeppsholmsbron';
-  imagenDia6 = '../../../assets/imagenes/galeriaEstocolmo/IMG-7817.JPG';
+  imagenDia6 = '../../../assets/imagenes/galeriaEstocolmo/estdia4-8.JPG';
   enlaceDia6 = '/estocolmo-dia-5';
 
    // Cuentas
