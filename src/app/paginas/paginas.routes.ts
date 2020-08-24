@@ -51,7 +51,12 @@ import { Extremadura1Component } from './extremadura/extremadura1/extremadura1.c
 import { Extremadura2Component } from './extremadura/extremadura2/extremadura2.component';
 import { Extremadura3Component } from './extremadura/extremadura3/extremadura3.component';
 import { MazarronComponent } from './mazarron/mazarron.component';
+// Asturias
 import { AsturiasComponent } from './asturias/asturias.component';
+import { OviedoComponent } from './asturias/oviedo/oviedo.component';
+import { GijonComponent } from './asturias/gijon/gijon.component';
+import { AvilesComponent } from './asturias/aviles/aviles.component';
+// Cantabria
 import { CantabriaComponent } from './cantabria/cantabria.component';
 import { AranjuezComponent } from './aranjuez/aranjuez.component';
 import { SiciliaDatosViajeComponent } from './italia/sicilia/sicilia-datos-viaje/sicilia-datos-viaje.component';
@@ -66,6 +71,7 @@ import { Sicilia8Component } from './italia/sicilia/sicilia8/sicilia8.component'
 import { Sicilia9Component } from './italia/sicilia/sicilia9/sicilia9.component';
 import { Sicilia10Component } from './italia/sicilia/sicilia10/sicilia10.component';
 import { Sicilia11Component } from './italia/sicilia/sicilia11/sicilia11.component';
+// Estocolmo
 import { EstocolmoComponent } from './estocolmo/estocolmo.component';
 import { Estocolmo1Component } from './estocolmo/estocolmo1/estocolmo1.component';
 import { EstocolmoDatosViajeComponent } from './estocolmo/estocolmo-datos-viaje/estocolmo-datos-viaje.component';
@@ -73,6 +79,7 @@ import { Estocolmo2Component } from './estocolmo/estocolmo2/estocolmo2.component
 import { Estocolmo3Component } from './estocolmo/estocolmo3/estocolmo3.component';
 import { Estocolmo4Component } from './estocolmo/estocolmo4/estocolmo4.component';
 import { Estocolmo5Component } from './estocolmo/estocolmo5/estocolmo5.component';
+// Portugal
 import { PortugalComponent } from './portugal/road-trip/portugal.component';
 import { Portugal1Component } from './portugal/road-trip/portugal1/portugal1.component';
 import { Portugal2Component } from './portugal/road-trip/portugal2/portugal2.component';
@@ -81,6 +88,9 @@ import { Portugal4Component } from './portugal/road-trip/portugal4/portugal4.com
 import { Portugal5Component } from './portugal/road-trip/portugal5/portugal5.component';
 import { Portugal6Component } from './portugal/road-trip/portugal6/portugal6.component';
 import { PortugalDatosViajeComponent } from './portugal/road-trip/portugal-datos-viaje/portugal-datos-viaje.component';
+// Tavira
+import { TaviraComponent } from './portugal/tavira/tavira.component';
+// EEUU
 import { RoadTripComponent } from './eeuu/road-trip-2020/road-trip.component';
 import { RoadTripDatosComponent } from './eeuu/road-trip-2020/road-trip-datos/road-trip-datos.component';
 import { RoadTrip1Component } from './eeuu/road-trip-2020/road-trip1/road-trip1.component';
@@ -102,11 +112,11 @@ import { CuencaComponent } from './castilla/cuenca/cuenca.component';
 // Hamburgo
 import { HamburgoComponent } from './alemania/hamburgo/hamburgo.component';
 import { Hamburgo1Component } from './alemania/hamburgo/hamburgo/hamburgo1.Component';
-import { StadeYNeuengammeComponent } from './alemania/hamburgo/stade-y-neuengamme/stade-y-neuengamme.component';
-// Tavira
-import { TaviraComponent } from './portugal/tavira/tavira.component';
 import { BremenComponent } from './alemania/hamburgo/bremen/bremen.component';
+import { StadeYNeuengammeComponent } from './alemania/hamburgo/stade-y-neuengamme/stade-y-neuengamme.component';
+// Castilla
 import { CastillaComponent } from './castilla/castilla.component';
+
 
 
 const paginasRoutes: Routes = [
@@ -125,6 +135,9 @@ const paginasRoutes: Routes = [
             { path: 'leon', component: LeonComponent, },
             // Asturias
             { path: 'asturias', component: AsturiasComponent, },
+            { path: 'oviedo', component: OviedoComponent, },
+            { path: 'gijon', component: GijonComponent, },
+            { path: 'aviles', component: AvilesComponent, },
             // Cantabria
             { path: 'cantabria', component: CantabriaComponent, },
             // Aranjuez
