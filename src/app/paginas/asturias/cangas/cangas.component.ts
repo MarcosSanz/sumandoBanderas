@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-aviles',
-  templateUrl: './aviles.component.html',
-  styleUrls: ['./aviles.component.css']
+    selector: 'app-cangas',
+    templateUrl: './cangas.component.html',
+    styleUrls: ['./cangas.component.css']
 })
-export class AvilesComponent {
-
+export class CangasComponent {
     imagen1 = '../../../assets/imagenes/galeriaBerlin/IMG_2134.JPG';
     imagen2 = '../../../assets/imagenes/galeriaBerlin/IMG_2171.JPG';
     imagen3 = '../../../assets/imagenes/galeriaBerlin/IMG_2138.JPG';
@@ -26,11 +25,11 @@ export class AvilesComponent {
     titulo5 = 'Catedral de Berlín';
     titulo6 = 'KulturBrauerei';
 
-    siguiente = 'Cangas, Covadonga, Bufones de Pría, playa de Guadamía, Cué';
-    siguienteDonde = '/cangas';
-    anterior = 'Gijón';
-    anteriorDonde = '/gijon';
+    siguiente = 'Llanes, playa del Cobijero, playa de Gulpiyuri, Mirador del Fitu';
+    siguienteDonde = '/';
+    anterior = 'Avilés';
+    anteriorDonde = '/aviles';
 
-  constructor() { }
+    constructor() { }
 
 }

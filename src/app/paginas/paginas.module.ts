@@ -117,6 +117,8 @@ import { OviedoComponent } from './asturias/oviedo/oviedo.component';
 import { LlanesComponent } from './asturias/llanes/llanes.component';
 import { GijonComponent } from './asturias/gijon/gijon.component';
 import { AvilesComponent } from './asturias/aviles/aviles.component';
+import { Asturias2016Component } from './asturias/asturias2016/asturias2016.component';
+import { CangasComponent } from './asturias/cangas/cangas.component';
 
 
 @NgModule({
@@ -234,7 +236,9 @@ import { AvilesComponent } from './asturias/aviles/aviles.component';
     OviedoComponent,
     LlanesComponent,
     GijonComponent,
-    AvilesComponent
+    AvilesComponent,
+    Asturias2016Component,
+    CangasComponent
   ],
   exports: [
     CarruselComponent,

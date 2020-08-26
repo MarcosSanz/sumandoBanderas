@@ -56,6 +56,9 @@ import { AsturiasComponent } from './asturias/asturias.component';
 import { OviedoComponent } from './asturias/oviedo/oviedo.component';
 import { GijonComponent } from './asturias/gijon/gijon.component';
 import { AvilesComponent } from './asturias/aviles/aviles.component';
+import { Asturias2016Component } from './asturias/asturias2016/asturias2016.component';
+import { CangasComponent } from './asturias/cangas/cangas.component';
+import { LlanesComponent } from './asturias/llanes/llanes.component';
 // Cantabria
 import { CantabriaComponent } from './cantabria/cantabria.component';
 import { AranjuezComponent } from './aranjuez/aranjuez.component';
@@ -119,6 +122,7 @@ import { CastillaComponent } from './castilla/castilla.component';
 
 
 
+
 const paginasRoutes: Routes = [
     {
         path: '',
@@ -135,9 +139,12 @@ const paginasRoutes: Routes = [
             { path: 'leon', component: LeonComponent, },
             // Asturias
             { path: 'asturias', component: AsturiasComponent, },
+            { path: 'asturias2016', component: Asturias2016Component, },
             { path: 'oviedo', component: OviedoComponent, },
             { path: 'gijon', component: GijonComponent, },
             { path: 'aviles', component: AvilesComponent, },
+            { path: 'cangas', component: CangasComponent, },
+            { path: 'llanes', component: LlanesComponent, },
             // Cantabria
             { path: 'cantabria', component: CantabriaComponent, },
             // Aranjuez

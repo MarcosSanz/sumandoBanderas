@@ -1,78 +1,25 @@
-<div class="container animated fadeIn slower">
+<h1 class="text-center mt-7 animated fadeIn slower">Ruta por Asturias</h1>
+
+<app-carrusel [imagen1]="imagenCarrusel1" [titulo1]="tituloCarrusel1" [imagen2]="imagenCarrusel2"
+    [titulo2]="tituloCarrusel2" [imagen3]="imagenCarrusel3" [titulo3]="tituloCarrusel3" [imagen4]="imagenCarrusel4"
+    [titulo4]="tituloCarrusel4" [imagen5]="imagenCarrusel5" [titulo5]="tituloCarrusel5">
+</app-carrusel>
+
+<div class="container mt-2 animated fadeIn slower">
     <div class="row">
-        <div class="col-sm-12">
-            <h1 class="tituloViaje text-center mt-7">Asturias</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 text-center">
-            <img class="panoramica mt-5 mb-5 slower" src="../../../assets/imagenes/galeriaLeon/IMG_4185.JPG">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12">
-            <h1 class="tituloDiario text-center mb-3">Cudillero, Cué, Llanes y Ribadesella</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 text-justify">
-            Aunque el día comenzaba en la etapa anterior viendo la catedral de León tempranito nos poníamos rumbo a
-            Asturias donde íbamos a pasar este fin de semana de mediados de Septiembre, que decir de este paraíso, para
-            nosotros es la tierra de nuestros amores. En poco más de una hora por carretera estábamos en Cudillero.
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 text-justify">
-            Habíamos decidido pasar la mañana en este idílico pueblo de pescadores que parece de cuento con sus
-            empinadas rampas, el acceso al pueblo por el interior es desde lo alto de la ladera y es un descenso hasta
-            el mar con gran inclinación (espero no vayáis en bici), el pueblo esta abarrotado de turistas y es difícil
-            aparcar, así que os recomiendo llegar pronto más si cabe en fechas veraniegas. Después de aparcar en el
-            parking del puerto recorrimos toda la costa hasta el faro desde donde aprecias tanto las vistas del mar como
-            del pueblo, luego callejeamos por las inclinadas calles del pueblecito y elegimos un restaurante para comer
-            (restaurante El patrón, 14€ el menú, bastante bueno y con gran cantidad, con uno habríamos comido los dos),
-            con la tripa llena nos fuimos hacia nuestra casa rural, Cué.
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 text-center">
-            <img class="panoramica mt-5 mb-5 slower" src="../../../assets/imagenes/galeriaLeon/IMG_4298.JPG">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 text-justify">
-            Cué se sitúa a solo 1,5 km de Llanes y es un pequeño pueblo de 187 casas (286 habitantes) que destaca por su
-            campo de golf en lo alto de la colina desde donde puedes ver toda la comarca mientras le das a las bolas y
-            por su playa entre los acantilados que es verdaderamente espectacular, un sitio precioso. Como el evento era
-            en este pueblecito, por la tarde-noche fuimos a Llanes a cenar, necesitábamos saciar nuestra ansia de
-            cabrales y chorizo a la sidra.
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 text-justify">
-            Al día siguiente fuimos a ver otro de los pueblos pescadores más bonitos de Asturias como es Ribadesella que
-            bordea la desembocadura del rio Sella al mar Cantábrico, las vistas desde el faro son preciosas y el paseo
-            que lleva de regreso al pueblo con una exposición de la historia del pueblo, muy interesante, en dicho paseo
-            conocido como el Panel de la Prehistoria.
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 text-justify">
-            El resto de la mañana y parte de la tarde se lo dedicamos a Llanes ya que la noche anterior solo habíamos
-            cenado y tomado algo por la zona de los bares. Es uno de los principales concejos de la comunidad autónoma
-            de Asturias y uno de los sitios turísticos, sino el que más, lo que le ha hecho crecer a este pueblo
-            costero. La concentración turística como es habitual tiene bastante sentido, es un pueblo muy bonito y con
-            varios puntos de interés. De los que se puede destacar el casco histórico compuesto por callejueas con
-            encanto (llenas de bares), la Basílica de Santa María (s. XIII), el paseo de San Pedro (precioso mirador) y
-            los Cubos de la Memoria (obra de arte que sirve como rompeolas, los cubos de hormigón fueron pintados por
-            Ibarrola)
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6 col-sm-12 mt-3 mb-1 text-center">
-            <img src="../../../assets/imagenes/galeriaLeon/IMG_4246.JPG" class="imgcronica slower">
-        </div>
-        <div class="col-md-6 col-sm-12 mt-3 mb-1 text-center">
-            <img src="../../../assets/imagenes/galeriaLeon/IMG_2501.JPG" class="imgcronica slower">
-        </div>
+        <app-cards class="col-sm-4" [tituloCard]="tituloDia4" [imagenCard]="imagenDia4" [enlaceCard]="enlaceDia4">
+        </app-cards>
+        <app-cards class="col-sm-4" [tituloCard]="tituloDia1" [imagenCard]="imagenDia1" [enlaceCard]="enlaceDia1">
+        </app-cards>
+        <app-cards class="col-sm-4" [tituloCard]="tituloDia2" [imagenCard]="imagenDia2" [enlaceCard]="enlaceDia2">
+        </app-cards>
+        <app-cards class="col-sm-4" [tituloCard]="tituloDia3" [imagenCard]="imagenDia3" [enlaceCard]="enlaceDia3">
+        </app-cards>
+        <app-cards class="col-sm-4" [tituloCard]="tituloDia5" [imagenCard]="imagenDia5" [enlaceCard]="enlaceDia5">
+        </app-cards>
+        <app-cards class="col-sm-4" [tituloCard]="tituloDia6" [imagenCard]="imagenDia6" [enlaceCard]="enlaceDia6">
+        </app-cards>
     </div>
 </div>
+
+<router-outlet></router-outlet>
