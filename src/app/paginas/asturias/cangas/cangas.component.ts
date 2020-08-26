@@ -6,24 +6,24 @@ import { Component } from '@angular/core';
     styleUrls: ['./cangas.component.css']
 })
 export class CangasComponent {
-    imagen1 = '../../../assets/imagenes/galeriaBerlin/IMG_2134.JPG';
-    imagen2 = '../../../assets/imagenes/galeriaBerlin/IMG_2171.JPG';
-    imagen3 = '../../../assets/imagenes/galeriaBerlin/IMG_2138.JPG';
-    imagen4 = '../../../assets/imagenes/galeriaBerlin/IMG_2186.JPG';
-    imagen5 = '../../../assets/imagenes/galeriaBerlin/IMG_2194.JPG';
-    imagen6 = '../../../assets/imagenes/galeriaBerlin/IMG_2164.JPG';
-    imagenModal1 = '../../../assets/imagenes/galeriaBerlin/IMG_2134.JPG';
-    imagenModal2 = '../../../assets/imagenes/galeriaBerlin/IMG_2171.JPG';
-    imagenModal3 = '../../../assets/imagenes/galeriaBerlin/IMG_2138.JPG';
-    imagenModal4 = '../../../assets/imagenes/galeriaBerlin/IMG_2186.JPG';
-    imagenModal5 = '../../../assets/imagenes/galeriaBerlin/IMG_2194.JPG';
-    imagenModal6 = '../../../assets/imagenes/galeriaBerlin/IMG_2164.JPG';
-    titulo1 = 'Ayuntamiento';
-    titulo2 = 'Vistas de Berlín desde la Catedral';
-    titulo3 = 'Zona alternativa';
-    titulo4 = 'Monumento a Marx y Engels';
-    titulo5 = 'Catedral de Berlín';
-    titulo6 = 'KulturBrauerei';
+    imagen1 = '../../../assets/imagenes/galeriaAsturias/cangas1.jpg';
+    imagen2 = '../../../assets/imagenes/galeriaAsturias/cangas2.jpg';
+    imagen3 = '../../../assets/imagenes/galeriaAsturias/cangas3.jpg';
+    imagen4 = '../../../assets/imagenes/galeriaAsturias/covadonga.jpg';
+    imagen5 = '../../../assets/imagenes/galeriaAsturias/cangas5.jpg';
+    imagen6 = '../../../assets/imagenes/galeriaAsturias/cangas6.jpg';
+    imagenModal1 = '../../../assets/imagenes/galeriaAsturias/cangas1.jpg';
+    imagenModal2 = '../../../assets/imagenes/galeriaAsturias/cangas2.jpg';
+    imagenModal3 = '../../../assets/imagenes/galeriaAsturias/cangas3.jpg';
+    imagenModal4 = '../../../assets/imagenes/galeriaAsturias/covadonga.jpg';
+    imagenModal5 = '../../../assets/imagenes/galeriaAsturias/cangas5.jpg';
+    imagenModal6 = '../../../assets/imagenes/galeriaAsturias/cangas6.jpg';
+    titulo1 = 'Playa de Guadamía';
+    titulo2 = 'Covadonga';
+    titulo3 = 'Bufones de Pría';
+    titulo4 = 'Covadonga';
+    titulo5 = 'Playa de Cué';
+    titulo6 = 'Atardecer desde la playa de Cué';
 
     siguiente = 'Llanes, playa del Cobijero, playa de Gulpiyuri, Mirador del Fitu';
     siguienteDonde = '/llanes';

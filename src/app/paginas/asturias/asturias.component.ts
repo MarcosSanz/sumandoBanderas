@@ -30,11 +30,11 @@ export class AsturiasComponent {
     enlaceDia2 = '/gijon';
 
     tituloDia3 = 'Avilés';
-    imagenDia3 = '../../../assets/imagenes/galeriaAsturias/aviles.jpg';
+    imagenDia3 = '../../../assets/imagenes/galeriaAsturias/aviles2.jpg';
     enlaceDia3 = '/aviles';
 
     tituloDia5 = 'Cangas de Onis, Covadonga, Bufones de Pría, playa de Guadamía, playa de Cué';
-    imagenDia5 = '../../../assets/imagenes/galeriaAsturias/covadonga.jpg';
+    imagenDia5 = '../../../assets/imagenes/galeriaAsturias/cangas5.jpg';
     enlaceDia5 = '/cangas';
 
     tituloDia6 = 'Llanes, playa del Cobijero, playa de Gulpiyuri, mirador del Fitu';
