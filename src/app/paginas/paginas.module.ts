@@ -113,6 +113,12 @@ import { Hamburgo1Component } from './alemania/hamburgo/hamburgo/hamburgo1.Compo
 import { TaviraComponent } from './portugal/tavira/tavira.component';
 import { BremenComponent } from './alemania/hamburgo/bremen/bremen.component';
 import { CastillaComponent } from './castilla/castilla.component';
+import { OviedoComponent } from './asturias/oviedo/oviedo.component';
+import { LlanesComponent } from './asturias/llanes/llanes.component';
+import { GijonComponent } from './asturias/gijon/gijon.component';
+import { AvilesComponent } from './asturias/aviles/aviles.component';
+import { Asturias2016Component } from './asturias/asturias2016/asturias2016.component';
+import { CangasComponent } from './asturias/cangas/cangas.component';
 
 
 @NgModule({
@@ -226,7 +232,13 @@ import { CastillaComponent } from './castilla/castilla.component';
     StadeYNeuengammeComponent,
     TaviraComponent,
     BremenComponent,
-    CastillaComponent
+    CastillaComponent,
+    OviedoComponent,
+    LlanesComponent,
+    GijonComponent,
+    AvilesComponent,
+    Asturias2016Component,
+    CangasComponent
   ],
   exports: [
     CarruselComponent,
