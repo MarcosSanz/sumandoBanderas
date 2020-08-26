@@ -7,24 +7,24 @@ import { Component } from '@angular/core';
 })
 export class GijonComponent {
 
-    imagen1 = '../../../assets/imagenes/galeriaBerlin/IMG_2134.JPG';
-    imagen2 = '../../../assets/imagenes/galeriaBerlin/IMG_2171.JPG';
-    imagen3 = '../../../assets/imagenes/galeriaBerlin/IMG_2138.JPG';
-    imagen4 = '../../../assets/imagenes/galeriaBerlin/IMG_2186.JPG';
-    imagen5 = '../../../assets/imagenes/galeriaBerlin/IMG_2194.JPG';
-    imagen6 = '../../../assets/imagenes/galeriaBerlin/IMG_2164.JPG';
-    imagenModal1 = '../../../assets/imagenes/galeriaBerlin/IMG_2134.JPG';
-    imagenModal2 = '../../../assets/imagenes/galeriaBerlin/IMG_2171.JPG';
-    imagenModal3 = '../../../assets/imagenes/galeriaBerlin/IMG_2138.JPG';
-    imagenModal4 = '../../../assets/imagenes/galeriaBerlin/IMG_2186.JPG';
-    imagenModal5 = '../../../assets/imagenes/galeriaBerlin/IMG_2194.JPG';
-    imagenModal6 = '../../../assets/imagenes/galeriaBerlin/IMG_2164.JPG';
-    titulo1 = 'Ayuntamiento';
-    titulo2 = 'Vistas de Berlín desde la Catedral';
-    titulo3 = 'Zona alternativa';
-    titulo4 = 'Monumento a Marx y Engels';
-    titulo5 = 'Catedral de Berlín';
-    titulo6 = 'KulturBrauerei';
+    imagen1 = '../../../assets/imagenes/galeriaAsturias/gijon4.jpg';
+    imagen2 = '../../../assets/imagenes/galeriaAsturias/gijon3.jpg';
+    imagen3 = '../../../assets/imagenes/galeriaAsturias/gijon5.jpg';
+    imagen4 = '../../../assets/imagenes/galeriaAsturias/gijon6.jpg';
+    imagen5 = '../../../assets/imagenes/galeriaAsturias/gijon7.jpg';
+    imagen6 = '../../../assets/imagenes/galeriaAsturias/gijon8.jpg';
+    imagenModal1 = '../../../assets/imagenes/galeriaAsturias/gijon4.jpg';
+    imagenModal2 = '../../../assets/imagenes/galeriaAsturias/gijon3.jpg';
+    imagenModal3 = '../../../assets/imagenes/galeriaAsturias/gijon5.jpg';
+    imagenModal4 = '../../../assets/imagenes/galeriaAsturias/gijon6.jpg';
+    imagenModal5 = '../../../assets/imagenes/galeriaAsturias/gijon7.jpg';
+    imagenModal6 = '../../../assets/imagenes/galeriaAsturias/gijon8.jpg';
+    titulo1 = 'Plaza Mayor';
+    titulo2 = 'Iglesia de San Pedro Apóstol';
+    titulo3 = 'Vistas desde Santa Catalina';
+    titulo4 = 'Museo del Pueblo Asturiano';
+    titulo5 = 'Casa de Jovellanos';
+    titulo6 = 'Escaleras del Rock';
 
     siguiente = 'Avilés';
     siguienteDonde = '/aviles';

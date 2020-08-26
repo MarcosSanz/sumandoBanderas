@@ -7,24 +7,24 @@ import { Component } from '@angular/core';
 })
 export class OviedoComponent {
 
-    imagen1 = '../../../assets/imagenes/galeriaBerlin/IMG_2134.JPG';
-    imagen2 = '../../../assets/imagenes/galeriaBerlin/IMG_2171.JPG';
-    imagen3 = '../../../assets/imagenes/galeriaBerlin/IMG_2138.JPG';
-    imagen4 = '../../../assets/imagenes/galeriaBerlin/IMG_2186.JPG';
-    imagen5 = '../../../assets/imagenes/galeriaBerlin/IMG_2194.JPG';
-    imagen6 = '../../../assets/imagenes/galeriaBerlin/IMG_2164.JPG';
-    imagenModal1 = '../../../assets/imagenes/galeriaBerlin/IMG_2134.JPG';
-    imagenModal2 = '../../../assets/imagenes/galeriaBerlin/IMG_2171.JPG';
-    imagenModal3 = '../../../assets/imagenes/galeriaBerlin/IMG_2138.JPG';
-    imagenModal4 = '../../../assets/imagenes/galeriaBerlin/IMG_2186.JPG';
-    imagenModal5 = '../../../assets/imagenes/galeriaBerlin/IMG_2194.JPG';
-    imagenModal6 = '../../../assets/imagenes/galeriaBerlin/IMG_2164.JPG';
-    titulo1 = 'Ayuntamiento';
-    titulo2 = 'Vistas de Berlín desde la Catedral';
-    titulo3 = 'Zona alternativa';
-    titulo4 = 'Monumento a Marx y Engels';
-    titulo5 = 'Catedral de Berlín';
-    titulo6 = 'KulturBrauerei';
+    imagen1 = '../../../assets/imagenes/galeriaAsturias/oviedo3.jpg';
+    imagen2 = '../../../assets/imagenes/galeriaAsturias/oviedo6.jpg';
+    imagen3 = '../../../assets/imagenes/galeriaAsturias/oviedo5.jpg';
+    imagen4 = '../../../assets/imagenes/galeriaAsturias/oviedo4.jpg';
+    imagen5 = '../../../assets/imagenes/galeriaAsturias/oviedo7.jpg';
+    imagen6 = '../../../assets/imagenes/galeriaAsturias/oviedo8.jpg';
+    imagenModal1 = '../../../assets/imagenes/galeriaAsturias/oviedo3.jpg';
+    imagenModal2 = '../../../assets/imagenes/galeriaAsturias/oviedo6.jpg';
+    imagenModal3 = '../../../assets/imagenes/galeriaAsturias/oviedo5.jpg';
+    imagenModal4 = '../../../assets/imagenes/galeriaAsturias/oviedo4.jpg';
+    imagenModal5 = '../../../assets/imagenes/galeriaAsturias/oviedo7.jpg';
+    imagenModal6 = '../../../assets/imagenes/galeriaAsturias/oviedo8.jpg';
+    titulo1 = 'Santa María del Naranco';
+    titulo2 = 'San Miguel de Lillo';
+    titulo3 = 'Mafalda';
+    titulo4 = 'Catedral de Oviedo';
+    titulo5 = 'El viajero';
+    titulo6 = 'Plaza del Ayuntamiento';
 
     siguiente = 'Gijón';
     siguienteDonde = '/gijon';

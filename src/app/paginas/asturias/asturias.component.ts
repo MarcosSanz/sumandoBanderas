@@ -8,41 +8,41 @@ import { Component } from '@angular/core';
 export class AsturiasComponent {
 
     // Carrusel de la portada
-    tituloCarrusel1 = 'Ávila';
-    imagenCarrusel1 = '../../../assets/imagenes/galeriaAvila/avila12.jpg';
-    tituloCarrusel2 = 'Ávila';
-    imagenCarrusel2 = '../../../assets/imagenes/galeriaAvila/avila16.jpg';
-    tituloCarrusel3 = 'León';
-    imagenCarrusel3 = '../../../assets/imagenes/galeriaLeon/IMG_4191.JPG';
-    tituloCarrusel4 = 'Cuenca';
-    imagenCarrusel4 = '../../../assets/imagenes/galeriaCastilla/cuenca2.jpg';
-    tituloCarrusel5 = 'Segóbriga';
-    imagenCarrusel5 = '../../../assets/imagenes/galeriaCastilla/segobriga.jpg';
+    tituloCarrusel1 = 'Santa Cueva de Covadonga';
+    imagenCarrusel1 = '../../../assets/imagenes/galeriaAsturias/covadonga.jpg';
+    tituloCarrusel2 = 'Santa María del Naranco, Oviedo';
+    imagenCarrusel2 = '../../../assets/imagenes/galeriaAsturias/naranco.jpg';
+    tituloCarrusel3 = 'Gijón';
+    imagenCarrusel3 = '../../../assets/imagenes/galeriaAsturias/gijon.jpg';
+    tituloCarrusel4 = 'Avilés';
+    imagenCarrusel4 = '../../../assets/imagenes/galeriaAsturias/aviles.jpg';
+    tituloCarrusel5 = 'Playa de Cobijero';
+    imagenCarrusel5 = '../../../assets/imagenes/galeriaAsturias/cobijero.jpg';
 
     // Tarjetas de cada dia
 
     tituloDia1 = 'Oviedo';
-    imagenDia1 = '../../../assets/imagenes/galeriaAvila/avila14.jpg';
+    imagenDia1 = '../../../assets/imagenes/galeriaAsturias/oviedo1.jpg';
     enlaceDia1 = '/oviedo';
 
     tituloDia2 = 'Gijón';
-    imagenDia2 = '../../../assets/imagenes/galeriaLeon/IMG_4176.JPG';
+    imagenDia2 = '../../../assets/imagenes/galeriaAsturias/gijon2.jpg';
     enlaceDia2 = '/gijon';
 
     tituloDia3 = 'Avilés';
-    imagenDia3 = '../../../assets/imagenes/galeriaCastilla/cuenca5.jpg';
+    imagenDia3 = '../../../assets/imagenes/galeriaAsturias/aviles.jpg';
     enlaceDia3 = '/aviles';
 
-    tituloDia5 = 'Cangas, Covadonga, Bufones de Pría, playa de Guadamía, playa de Cué';
-    imagenDia5 = '../../../assets/imagenes/galeriaAvila/avila14.jpg';
+    tituloDia5 = 'Cangas de Onis, Covadonga, Bufones de Pría, playa de Guadamía, playa de Cué';
+    imagenDia5 = '../../../assets/imagenes/galeriaAsturias/covadonga.jpg';
     enlaceDia5 = '/cangas';
 
-    tituloDia6 = 'Llanes, playa del Cobijero, playa de Gulpiyuri, Mirador del Fitu';
-    imagenDia6 = '../../../assets/imagenes/galeriaAvila/avila14.jpg';
+    tituloDia6 = 'Llanes, playa del Cobijero, playa de Gulpiyuri, mirador del Fitu';
+    imagenDia6 = '../../../assets/imagenes/galeriaAsturias/cobijero.jpg';
     enlaceDia6 = '/llanes';
 
     tituloDia4 = 'Llanes, Cué, Ribadesella y Cudillero (2016)';
-    imagenDia4 = '../../../assets/imagenes/galeriaAvila/avila14.jpg';
+    imagenDia4 = '../../../assets/imagenes/galeriaLeon/IMG_2501.JPG';
     enlaceDia4 = '/asturias2016';
 
     constructor() { }
