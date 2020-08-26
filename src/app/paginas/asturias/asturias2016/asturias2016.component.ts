@@ -9,8 +9,8 @@ export class Asturias2016Component {
 
     siguiente = 'Asturias';
     siguienteDonde = '/asturias';
-    anterior = 'Gijón';
-    anteriorDonde = '/gijon';
+    anterior = 'Llanes, playa del Cobijero, playa de Gulpiyuri, Mirador del Fitu';
+    anteriorDonde = '/llanes';
 
   constructor() { }
 

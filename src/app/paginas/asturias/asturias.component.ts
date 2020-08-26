@@ -20,19 +20,16 @@ export class AsturiasComponent {
     imagenCarrusel5 = '../../../assets/imagenes/galeriaCastilla/segobriga.jpg';
 
     // Tarjetas de cada dia
-    tituloDia4 = '2 Días en Llanes, Cué, Ribadesella y Cudillero (2016)';
-    imagenDia4 = '../../../assets/imagenes/galeriaAvila/avila14.jpg';
-    enlaceDia4 = '/asturias2016';
 
-    tituloDia1 = '1 Día en Oviedo';
+    tituloDia1 = 'Oviedo';
     imagenDia1 = '../../../assets/imagenes/galeriaAvila/avila14.jpg';
     enlaceDia1 = '/oviedo';
 
-    tituloDia2 = '1 Día en Gijón';
+    tituloDia2 = 'Gijón';
     imagenDia2 = '../../../assets/imagenes/galeriaLeon/IMG_4176.JPG';
     enlaceDia2 = '/gijon';
 
-    tituloDia3 = '1 Día en Avilés';
+    tituloDia3 = 'Avilés';
     imagenDia3 = '../../../assets/imagenes/galeriaCastilla/cuenca5.jpg';
     enlaceDia3 = '/aviles';
 
@@ -43,6 +40,10 @@ export class AsturiasComponent {
     tituloDia6 = 'Llanes, playa del Cobijero, playa de Gulpiyuri, Mirador del Fitu';
     imagenDia6 = '../../../assets/imagenes/galeriaAvila/avila14.jpg';
     enlaceDia6 = '/llanes';
+
+    tituloDia4 = 'Llanes, Cué, Ribadesella y Cudillero (2016)';
+    imagenDia4 = '../../../assets/imagenes/galeriaAvila/avila14.jpg';
+    enlaceDia4 = '/asturias2016';
 
     constructor() { }
 }

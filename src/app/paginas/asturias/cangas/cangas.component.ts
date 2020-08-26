@@ -26,7 +26,7 @@ export class CangasComponent {
     titulo6 = 'KulturBrauerei';
 
     siguiente = 'Llanes, playa del Cobijero, playa de Gulpiyuri, Mirador del Fitu';
-    siguienteDonde = '/';
+    siguienteDonde = '/llanes';
     anterior = 'Avilés';
     anteriorDonde = '/aviles';
 
