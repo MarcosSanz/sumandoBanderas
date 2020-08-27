@@ -7,24 +7,24 @@ import { Component } from '@angular/core';
 })
 export class SantanderComponent {
 
-    imagen1 = '../../../assets/imagenes/galeriaBerlin/IMG_2134.JPG';
-    imagen2 = '../../../assets/imagenes/galeriaBerlin/IMG_2171.JPG';
-    imagen3 = '../../../assets/imagenes/galeriaBerlin/IMG_2138.JPG';
-    imagen4 = '../../../assets/imagenes/galeriaBerlin/IMG_2186.JPG';
-    imagen5 = '../../../assets/imagenes/galeriaBerlin/IMG_2194.JPG';
-    imagen6 = '../../../assets/imagenes/galeriaBerlin/IMG_2164.JPG';
-    imagenModal1 = '../../../assets/imagenes/galeriaBerlin/IMG_2134.JPG';
-    imagenModal2 = '../../../assets/imagenes/galeriaBerlin/IMG_2171.JPG';
-    imagenModal3 = '../../../assets/imagenes/galeriaBerlin/IMG_2138.JPG';
-    imagenModal4 = '../../../assets/imagenes/galeriaBerlin/IMG_2186.JPG';
-    imagenModal5 = '../../../assets/imagenes/galeriaBerlin/IMG_2194.JPG';
-    imagenModal6 = '../../../assets/imagenes/galeriaBerlin/IMG_2164.JPG';
-    titulo1 = 'Ayuntamiento';
-    titulo2 = 'Vistas de Berlín desde la Catedral';
-    titulo3 = 'Zona alternativa';
-    titulo4 = 'Monumento a Marx y Engels';
-    titulo5 = 'Catedral de Berlín';
-    titulo6 = 'KulturBrauerei';
+    imagen1 = '../../../assets/imagenes/galeriaCantabria/santander1.jpg';
+    imagen2 = '../../../assets/imagenes/galeriaCantabria/santander2.jpg';
+    imagen3 = '../../../assets/imagenes/galeriaCantabria/santander3.jpg';
+    imagen4 = '../../../assets/imagenes/galeriaCantabria/santander4.jpg';
+    imagen5 = '../../../assets/imagenes/galeriaCantabria/santander5.jpg';
+    imagen6 = '../../../assets/imagenes/galeriaCantabria/santander6.jpg';
+    imagenModal1 = '../../../assets/imagenes/galeriaCantabria/santander1.jpg';
+    imagenModal2 = '../../../assets/imagenes/galeriaCantabria/santander2.jpg';
+    imagenModal3 = '../../../assets/imagenes/galeriaCantabria/santander3.jpg';
+    imagenModal4 = '../../../assets/imagenes/galeriaCantabria/santander4.jpg';
+    imagenModal5 = '../../../assets/imagenes/galeriaCantabria/santander5.jpg';
+    imagenModal6 = '../../../assets/imagenes/galeriaCantabria/santander6.jpg';
+    titulo1 = 'Los raqueros';
+    titulo2 = 'Catedral de Santander';
+    titulo3 = '';
+    titulo4 = '';
+    titulo5 = 'Centro Botín';
+    titulo6 = '';
 
     siguiente = 'Valle del Liébana con Potes';
     siguienteDonde = '/potes';

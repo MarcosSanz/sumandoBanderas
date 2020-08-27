@@ -7,24 +7,24 @@ import { Component } from '@angular/core';
 })
 export class PotesComponent {
 
-    imagen1 = '../../../assets/imagenes/galeriaBerlin/IMG_2134.JPG';
-    imagen2 = '../../../assets/imagenes/galeriaBerlin/IMG_2171.JPG';
-    imagen3 = '../../../assets/imagenes/galeriaBerlin/IMG_2138.JPG';
-    imagen4 = '../../../assets/imagenes/galeriaBerlin/IMG_2186.JPG';
-    imagen5 = '../../../assets/imagenes/galeriaBerlin/IMG_2194.JPG';
-    imagen6 = '../../../assets/imagenes/galeriaBerlin/IMG_2164.JPG';
-    imagenModal1 = '../../../assets/imagenes/galeriaBerlin/IMG_2134.JPG';
-    imagenModal2 = '../../../assets/imagenes/galeriaBerlin/IMG_2171.JPG';
-    imagenModal3 = '../../../assets/imagenes/galeriaBerlin/IMG_2138.JPG';
-    imagenModal4 = '../../../assets/imagenes/galeriaBerlin/IMG_2186.JPG';
-    imagenModal5 = '../../../assets/imagenes/galeriaBerlin/IMG_2194.JPG';
-    imagenModal6 = '../../../assets/imagenes/galeriaBerlin/IMG_2164.JPG';
-    titulo1 = 'Ayuntamiento';
-    titulo2 = 'Vistas de Berlín desde la Catedral';
-    titulo3 = 'Zona alternativa';
-    titulo4 = 'Monumento a Marx y Engels';
-    titulo5 = 'Catedral de Berlín';
-    titulo6 = 'KulturBrauerei';
+    imagen1 = '../../../assets/imagenes/galeriaCantabria/potes3.jpg';
+    imagen2 = '../../../assets/imagenes/galeriaCantabria/potes4.jpg';
+    imagen3 = '../../../assets/imagenes/galeriaCantabria/potes7.jpg';
+    imagen4 = '../../../assets/imagenes/galeriaCantabria/potes8.jpg';
+    imagen5 = '../../../assets/imagenes/galeriaCantabria/potes10.jpg';
+    imagen6 = '../../../assets/imagenes/galeriaCantabria/potes5.jpg';
+    imagenModal1 = '../../../assets/imagenes/galeriaCantabria/potes3.jpg';
+    imagenModal2 = '../../../assets/imagenes/galeriaCantabria/potes4.jpg';
+    imagenModal3 = '../../../assets/imagenes/galeriaCantabria/potes7.jpg';
+    imagenModal4 = '../../../assets/imagenes/galeriaCantabria/potes8.jpg';
+    imagenModal5 = '../../../assets/imagenes/galeriaCantabria/potes10.jpg';
+    imagenModal6 = '../../../assets/imagenes/galeriaCantabria/potes5.jpg';
+    titulo1 = 'Vistas desde la Ermita de San Miguel';
+    titulo2 = 'Monasterio de Santo Toribio';
+    titulo3 = 'Potes';
+    titulo4 = 'Románico en la ruta del Liébana';
+    titulo5 = 'Ermita de San Miguel';
+    titulo6 = 'Modrovejo';
 
     siguiente = 'Comillas, Santillana del Mar y Altamira';
     siguienteDonde = '/santillana';
