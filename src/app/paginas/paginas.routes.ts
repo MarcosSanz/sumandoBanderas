@@ -2,6 +2,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { PaginasComponent } from './paginas.component';
 import { PrincipalComponent } from './principal/principal.component';
+import { ConocenosComponent } from './conocenos/conocenos.component';
 
 // Berlin
 import { BerlinComponent } from './alemania/berlin/berlin.component';
@@ -16,9 +17,7 @@ import { Roma1Component } from './italia/roma/roma1/roma1.component';
 import { Roma2Component } from './italia/roma/roma2/roma2.component';
 import { Roma3Component } from './italia/roma/roma3/roma3.component';
 import { Roma4Component } from './italia/roma/roma4/roma4.component';
-// Sicilia
-import { SiciliaComponent } from './italia/sicilia/sicilia.component';
-// Nueva York y Washington
+// Nueva York y Washington 2016
 import { NuevaYorkComponent } from './eeuu/nueva-york/nueva-york.component';
 import { Ny1Component } from './eeuu/nueva-york/ny1/ny1.component';
 import { Ny2Component } from './eeuu/nueva-york/ny2/ny2.component';
@@ -61,10 +60,14 @@ import { CangasComponent } from './asturias/cangas/cangas.component';
 import { LlanesComponent } from './asturias/llanes/llanes.component';
 // Cantabria
 import { CantabriaComponent } from './cantabria/cantabria.component';
-import { AranjuezComponent } from './aranjuez/aranjuez.component';
+import { SantanderComponent } from './cantabria/santander/santander.component';
+import { PotesComponent } from './cantabria/potes/potes.component';
+import { SantillanaComponent } from './cantabria/santillana/santillana.component';
+import { Cantabria2016Component } from './cantabria/cantabria2016/cantabria2016.component';
+// Sicilia
 import { SiciliaDatosViajeComponent } from './italia/sicilia/sicilia-datos-viaje/sicilia-datos-viaje.component';
+import { SiciliaComponent } from './italia/sicilia/sicilia.component';
 import { Sicilia1Component } from './italia/sicilia/sicilia1/sicilia1.component';
-import { ConocenosComponent } from './conocenos/conocenos.component';
 import { Sicilia3Component } from './italia/sicilia/sicilia3/sicilia3.component';
 import { Sicilia4Component } from './italia/sicilia/sicilia4/sicilia4.component';
 import { Sicilia5Component } from './italia/sicilia/sicilia5/sicilia5.component';
@@ -91,7 +94,6 @@ import { Portugal4Component } from './portugal/road-trip/portugal4/portugal4.com
 import { Portugal5Component } from './portugal/road-trip/portugal5/portugal5.component';
 import { Portugal6Component } from './portugal/road-trip/portugal6/portugal6.component';
 import { PortugalDatosViajeComponent } from './portugal/road-trip/portugal-datos-viaje/portugal-datos-viaje.component';
-// Tavira
 import { TaviraComponent } from './portugal/tavira/tavira.component';
 // EEUU
 import { RoadTripComponent } from './eeuu/road-trip-2020/road-trip.component';
@@ -106,21 +108,17 @@ import { RoadTrip7Component } from './eeuu/road-trip-2020/road-trip7/road-trip7.
 import { RoadTrip8Component } from './eeuu/road-trip-2020/road-trip8/road-trip8.component';
 import { RoadTrip9Component } from './eeuu/road-trip-2020/road-trip9/road-trip9.component';
 import { RoadTrip10Component } from './eeuu/road-trip-2020/road-trip10/road-trip10.component';
-// Ávila
-import { AvilaComponent } from './castilla/avila/avila.component';
-// León
-import { LeonComponent } from './castilla/leon/leon.component';
-// Cuenca
-import { CuencaComponent } from './castilla/cuenca/cuenca.component';
 // Hamburgo
 import { HamburgoComponent } from './alemania/hamburgo/hamburgo.component';
 import { Hamburgo1Component } from './alemania/hamburgo/hamburgo/hamburgo1.Component';
 import { BremenComponent } from './alemania/hamburgo/bremen/bremen.component';
 import { StadeYNeuengammeComponent } from './alemania/hamburgo/stade-y-neuengamme/stade-y-neuengamme.component';
 // Castilla
+import { CuencaComponent } from './castilla/cuenca/cuenca.component';
 import { CastillaComponent } from './castilla/castilla.component';
-
-
+import { LeonComponent } from './castilla/leon/leon.component';
+import { AranjuezComponent } from './aranjuez/aranjuez.component';
+import { AvilaComponent } from './castilla/avila/avila.component';
 
 
 const paginasRoutes: Routes = [
@@ -147,9 +145,10 @@ const paginasRoutes: Routes = [
             { path: 'llanes', component: LlanesComponent, },
             // Cantabria
             { path: 'cantabria', component: CantabriaComponent, },
-            // Aranjuez
-            { path: 'aranjuez', component: AranjuezComponent, },
-
+            { path: 'santander', component: SantanderComponent, },
+            { path: 'potes', component: PotesComponent, },
+            { path: 'santillana', component: SantillanaComponent, },
+            { path: 'cantabria2016', component: Cantabria2016Component, },
             // Berlin
             { path: 'berlin', component: BerlinComponent, },
             { path: 'berlin-dia-1', component: Berlin1Component },
@@ -157,14 +156,12 @@ const paginasRoutes: Routes = [
             { path: 'berlin-dia-3', component: Berlin3Component },
             { path: 'berlin-dia-4', component: Berlin4Component },
             { path: 'berlin-dia-5', component: Berlin5Component },
-
             // Roma
             { path: 'roma', component: RomaComponent },
             { path: 'roma-dia-1', component: Roma1Component },
             { path: 'roma-dia-2', component: Roma2Component },
             { path: 'roma-dia-3', component: Roma3Component },
             { path: 'roma-dia-4', component: Roma4Component },
-
             // Sicilia
             { path: 'sicilia', component: SiciliaComponent },
             { path: 'sicilia-datos-viaje', component: SiciliaDatosViajeComponent },
@@ -178,7 +175,6 @@ const paginasRoutes: Routes = [
             { path: 'sicilia-dia-9', component: Sicilia9Component },
             { path: 'sicilia-dia-10', component: Sicilia10Component },
             { path: 'sicilia-dia-11', component: Sicilia11Component },
-
             // Nueva York y Washington
             { path: 'nueva-york', component: NuevaYorkComponent },
             { path: 'ny1', component: Ny1Component },
@@ -188,7 +184,6 @@ const paginasRoutes: Routes = [
             { path: 'ny5', component: Ny5Component },
             { path: 'was1', component: Washington1Component },
             { path: 'was2', component: Washington2Component },
-
             // Rumanía
             { path: 'rumania-y-bulgaria', component: RumaniaComponent },
             { path: 'rumania-datos-viaje', component: Rumania1Component },
@@ -208,7 +203,6 @@ const paginasRoutes: Routes = [
             { path: 'bulgaria-dia-3', component: Bulgaria3Component },
             { path: 'bulgaria-dia-4', component: Bulgaria4Component },
             { path: 'bulgaria-dia-5', component: Bulgaria5Component },
-
             // Estocolmo
             { path: 'estocolmo', component: EstocolmoComponent },
             { path: 'estocolmo-datos-viaje', component: EstocolmoDatosViajeComponent },
@@ -217,7 +211,6 @@ const paginasRoutes: Routes = [
             { path: 'estocolmo-dia-3', component: Estocolmo3Component },
             { path: 'estocolmo-dia-4', component: Estocolmo4Component },
             { path: 'estocolmo-dia-5', component: Estocolmo5Component },
-
             // Portugal
             { path: 'portugal', component: PortugalComponent },
             { path: 'portugal-datos-viaje', component: PortugalDatosViajeComponent },
@@ -227,7 +220,6 @@ const paginasRoutes: Routes = [
             { path: 'portugal-dia-4', component: Portugal4Component },
             { path: 'portugal-dia-5', component: Portugal5Component },
             { path: 'portugal-dia-6', component: Portugal6Component },
-
             //   RoadTrip por EEUU
             { path: 'roadtrip-eeuu', component: RoadTripComponent },
             { path: 'roadtrip-eeuu-datos-viaje', component: RoadTripDatosComponent },
@@ -244,13 +236,9 @@ const paginasRoutes: Routes = [
 
             // Castilla
             { path: 'castilla', component: CastillaComponent },
-
-            // Ávila
+            { path: 'aranjuez', component: AranjuezComponent, },
             { path: 'avila', component: AvilaComponent },
-
-            // Cuenca
             { path: 'cuenca', component: CuencaComponent },
-
             // Hamburgo
             { path: 'norte-alemania-3días', component: HamburgoComponent },
             { path: 'hamburgo', component: Hamburgo1Component },

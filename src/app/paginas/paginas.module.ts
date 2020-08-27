@@ -119,6 +119,10 @@ import { GijonComponent } from './asturias/gijon/gijon.component';
 import { AvilesComponent } from './asturias/aviles/aviles.component';
 import { Asturias2016Component } from './asturias/asturias2016/asturias2016.component';
 import { CangasComponent } from './asturias/cangas/cangas.component';
+import { Cantabria2016Component } from './cantabria/cantabria2016/cantabria2016.component';
+import { SantanderComponent } from './cantabria/santander/santander.component';
+import { PotesComponent } from './cantabria/potes/potes.component';
+import { SantillanaComponent } from './cantabria/santillana/santillana.component';
 
 
 @NgModule({
@@ -238,7 +242,11 @@ import { CangasComponent } from './asturias/cangas/cangas.component';
     GijonComponent,
     AvilesComponent,
     Asturias2016Component,
-    CangasComponent
+    CangasComponent,
+    Cantabria2016Component,
+    SantanderComponent,
+    PotesComponent,
+    SantillanaComponent
   ],
   exports: [
     CarruselComponent,
