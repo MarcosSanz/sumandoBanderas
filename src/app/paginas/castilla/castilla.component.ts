@@ -32,5 +32,9 @@ export class CastillaComponent {
     imagenDia3 = '../../../assets/imagenes/galeriaCastilla/cuenca5.jpg';
     enlaceDia3 = '/cuenca';
 
+    tituloDia4 = '2 Días por el románico palentino y Aguilar de Campoo';
+    imagenDia4 = '../../../assets/imagenes/galeriaCastilla/cuenca5.jpg';
+    enlaceDia4 = '/aguilar';
+
     constructor() { }
 }

@@ -123,6 +123,7 @@ import { Cantabria2016Component } from './cantabria/cantabria2016/cantabria2016.
 import { SantanderComponent } from './cantabria/santander/santander.component';
 import { PotesComponent } from './cantabria/potes/potes.component';
 import { SantillanaComponent } from './cantabria/santillana/santillana.component';
+import { AguilarComponent } from './castilla/aguilar/aguilar.component';
 
 
 @NgModule({
@@ -246,7 +247,8 @@ import { SantillanaComponent } from './cantabria/santillana/santillana.component
     Cantabria2016Component,
     SantanderComponent,
     PotesComponent,
-    SantillanaComponent
+    SantillanaComponent,
+    AguilarComponent
   ],
   exports: [
     CarruselComponent,

@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
 })
 export class LeonComponent {
 
-  constructor() { }
+    siguiente = 'Cuenca';
+    siguienteDonde = '/cuenca';
+    anterior = 'Ávila';
+    anteriorDonde = '/avila';
 }

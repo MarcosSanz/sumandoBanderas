@@ -119,6 +119,7 @@ import { CastillaComponent } from './castilla/castilla.component';
 import { LeonComponent } from './castilla/leon/leon.component';
 import { AranjuezComponent } from './aranjuez/aranjuez.component';
 import { AvilaComponent } from './castilla/avila/avila.component';
+import { AguilarComponent } from './castilla/aguilar/aguilar.component';
 
 
 const paginasRoutes: Routes = [
@@ -239,6 +240,7 @@ const paginasRoutes: Routes = [
             { path: 'aranjuez', component: AranjuezComponent, },
             { path: 'avila', component: AvilaComponent },
             { path: 'cuenca', component: CuencaComponent },
+            { path: 'aguilar', component: AguilarComponent },
             // Hamburgo
             { path: 'norte-alemania-3días', component: HamburgoComponent },
             { path: 'hamburgo', component: Hamburgo1Component },
